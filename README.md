@@ -11,4 +11,4 @@ find() : <a href="https://yongwan98.github.io/dothome1/jquery/jquery04_find2.htm
 
 <br>
 <br>
-addClass() : <a href="https://yongwan98.github.io/dothome1/jquery/jquery06_addClass2.html>바로가기</a>
+addClass() : <a href="https://yongwan98.github.io/dothome1/jquery/jquery06_addClass2.html">바로가기</a>
