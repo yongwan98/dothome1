@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery</title>
+</head>
+
+<body>
+
+    <div class="img">
+        <img src="img/img03.png" alt="이미지1" width="300px">
+        <p class="desc"></p>
+        <button class="btn1">200</button>
+        <button class="btn2">400</button>
+        <button class="btn3">600</button>
+    </div>
+
+    <!-- script -->
+    <script src="jquery.min_1.12.4.js"></script>
+    <script>
+        //이미지를 클릭하면 이미지를 사라지게
+        $("img").click(function(){
+            //$(this).css({display : "none"});
+            let txt = $(this).attr("src");
+
+            $(".desc").text(txt);
+        });
+
+        $(".desc").css({"background-Color":"red","color":"white"});
+
+        //첫번째 버튼을 클릭하면 이미지 크기를 200으로
+        $(".btn1").click(function(){
+            $("img").attr({width : "200px"});
+        });
+        $(".btn2").click(function(){
+            $("img").attr({width : "400px"});
+        });
+        $(".btn3").click(function(){
+            $("img").attr({width : "600px"});
+        });
+
+        //desc를 선택해서 패딩을 20xp;
+        //$("p").css({padding : "20px"});
+        //$("p:first").css({padding : "20px"});
+        //$("p:last").css({padding : "20px"});
+        //$("p:eq(0)").css({padding : "20px"});
+        //$("p:lt(1)").css({padding : "20px"});
+        //$("p:contains('d')").css({padding : "20px"});
+        //$("p:even").css({padding : "20px"});
+        //$("p:parent").css({padding : "20px"});
+        //$("div p").css({padding : "20px"});
+        //$("div > p").css({padding : "20px"});
+    </script>
+
+</body>
+
+</html>
