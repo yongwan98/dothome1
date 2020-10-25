@@ -5,40 +5,176 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        * {margin: 0; padding: 0;}
+        ul {list-style: none;}
+        a {text-decoration: none; color: #ccc;}
         #wrap {}
-        #header {}
-        #banner {}
-        #contents {}
-        #footer {}
+        #header {width: 100%; height: 72px;}
+        #banner {width: 100%; height: 403px; background-image: url(../test/img/kakao/top-visual-retailfinance.jpg);}
+        #contents {width: 100%;}
+        #footer {width: 100%; height: 331px; background-color: #222; font-size: 14px;}
+
+        #cont1 {width: 100%; height: 371px;}
+        #cont2 {width: 100%; height: 395px;}
+        #cont2 {width: 100%; height: 537px;}
+
+        .container {width: 1140px; height: inherit; margin: 0 auto;}
+
+        .cont1 {position: relative; padding: 80px 0;}
+        .cont1 h1 {width: 70%; padding-top: 20px; font-size: 38px;}
+        .cont1 p {width: 50%; padding-top: 40px; font-size: 18px; line-height: 1.7;}
+        .cont1 .img {position: absolute; right: 20px; bottom: 70px;}
+
+        .cont2 {overflow: hidden; padding: 80px 0;}
+        .cont2 .left {width: 50%; float: left;}
+        .cont2 .left img {width: 100%; padding-bottom: 20px;}
+        .cont2 .right {width: 40%; padding: 5%; float: left;}
+        .cont2 .right h1 {font-size: 28px; padding-bottom: 10px;}
+        .cont2 .right p {font-size: 18px; line-height: 1.7;}
+
+        .cont3 {overflow: hidden;}
+        .cont3 .left {width: 40%; padding: 5%; float: left; padding-left: 20px;}
+        .cont3 .left h1 {font-size: 28px; padding-bottom: 10px;}
+        .cont3 .left p {font-size: 18px; line-height: 1.7;}
+        .cont3 .right {float: right; width: 50%;}
+        .cont3 .right img {padding-left: 40px;}
+
+        .header {overflow: hidden;}
+        .header a {float: left; padding-top: 20px;}
+        .header ul {float: right;  padding-top: 30px;}
+        .header ul li {display: inline-block; padding-left: 20px;}
+
+        .banner h1 {color: #fff; font-size: 35px; padding-top: 300px;}
+
+        .footop ul {padding-top: 50px;}
+        .footop li {position: relative; display: inline-block; padding: 0 7px 0 10px;}
+        .footop li::before {
+            content: "";
+            width: 1px; height: 12px; background-color: #ccc;
+            position: absolute; left: 0; top: 5px;
+        }
+        .footop li:first-child::before {
+            width: 0; height: 0;
+        }
+
+        .fooimg {}
+        .fooimg .img {padding: 100px 0 20px 10px;}
+
+        .foobot {overflow: hidden; color: #ccc; position: relative;}
+        .foobot span {
+            position: relative; 
+            display: inline-block;
+            padding: 0 7px 0 10px;
+        }
+        .foobot span::before {
+            content: "";
+            width: 1px; height: 45px; background-color: #ccc;
+            position: absolute; left: 0; top: 5px;
+        }
+        .foobot span:first-child::before {
+            width: 0; height: 0;
+        }
+        .foobot span.a {}
+        .foobot span.b {position: absolute; top: 0;}
+        .foobot address {float: right; padding-top: 60px;}
+
     </style>
 </head>
 <body>
     <div id="wrap">
         <div id="header">
-            <div class="container"></div>
+            <div class="container">
+                <div class="header">
+                    <a href="#"><img src="../test/img/kakao/bi.png" alt="카카오"></a>
+                    <ul>
+                        <li>회사소개</li>
+                        <li>비즈니스</li>
+                        <li>경영정보</li>
+                        <li>고객센터</li>
+                        <li>채용정보</li>
+                    </ul>
+                </div>
+            </div>
         </div>
         <!-- //header -->
 
         <div id="banner">
-            <div class="container"></div>
+            <div class="container">
+                <div class="banner">
+                    <h1>개인금융 서비스</h1>
+                </div>
+            </div>
         </div>
         <!-- //banner -->
 
         <div id="contents">
             <div id="cont1">
-                <div class="container"></div>
+                <div class="container">
+                    <div class="cont1">
+                        <h1>카카오 플랫폼을 활용한 생활금융 투자 서비스</h1>
+                        <p>오직 카카오 플랫폼을 통해서만 투자서비스를 제공합니다.
+                        사용자의 생활에 필요한 모든 금융 영역을 하나로 연결하고 라이프스타일
+                        특성을 반영해 가장 적합한 맞춤형 종합자산관리를 추구합니다.</p>
+                        <img class="img" src="../test/img/kakao/kakao-bi-black.png" alt="pay증권">
+                    </div>
+                </div>
             </div>
             <div id="cont2">
-                <div class="container"></div>
+                <div class="container">
+                    <div class="cont2">
+                        <div class="left">
+                            <img src="../test/img/kakao/pic-retailfinance1.jpg" alt="이미지1">
+                        </div>
+                        <div class="right">
+                            <h1>쉽고 재미있는 투자</h1>
+                            <p>소비 생활속에서도 다양한 투자 기회를 발굴합니다.
+                                복잡한 가입과정이나 큰돈 없이도 투자할 수 있습니다.
+                                상품선택의 수고로움을 덜기 위해 소수의 좋은 상품만을 제안합니다.
+                                카카오톡만 있다면 투자실행부터 투자상품 관리까지 한번에 해결됩니다.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div id="cont3">
-                <div class="container"></div>
+                <div class="container">
+                    <div class="cont3">
+                        <div class="left">
+                            <h1>믿을 수 있는 상품</h1>
+                            <p>어떤 시장 환경에서도, 언제든지, 얼마의 금액을 투자하더라도
+                                많은 곳에 나눠져 안정적이고 전문가에 의해 운용되어 오랫동안
+                                믿고 맡길 수 있는 상품만을 엄선해 제공합니다.</p>
+                        </div>
+                        <div class="right">
+                            <img src="../test/img/kakao/pic-retailfinance2.png" alt="이미지2">
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <!-- //contents -->
 
         <div id="footer">
-            <div class="container"></div>
+            <div class="container">
+                <div class="footop">
+                    <ul>
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">보호금융상품등록부</a></li>
+                        <li><a href="#">개인정보취급처리방침</a></li>
+                        <li><a href="#">고객권리안내문</a></li>
+                        <li><a href="#">신용정보 활용체제 공시</a></li>
+                    </ul>
+                </div>
+                <div class="fooimg">
+                    <img class="img" src="../test/img/kakao/bi-footer.png" alt="푸터">
+                </div>
+                <div class="foobot">
+                        <span class="a">경기도 성남시 분당구 판교역로 146번길 20 Office H 12층<br>
+                            강남오피스: 서울시 강남구 테헤란로 512 신안빌딩 3층<br>
+                            여의도오피스: 서울시 영등포구 의사당대로1길 34</span>
+                        <span class="b">고객센터: 1600-8515</span>
+                    <address>© 2020 Copyright kakaopay securities corp.</address>
+                </div>
+            </div>
         </div>
         <!-- //footer -->
 
