@@ -7,102 +7,102 @@
 </head>
 <body>
     <script>
-        //선언적 함수
+        //함수1이 실행되었습니다. (선언적 함수) (func1)
         function func1(){
-            document.write("function1이 실행되었습니다.<br>");
+            document.write("함수1이 실행되었습니다.<br>");
         }
         func1();
 
-        //익명 함수
-        const func2 = function(){
-            document.write("function2이 실행되었습니다.<br>");
+        //함수2이 실행되었습니다. (익명 함수) (func2)
+        let func2 = function(){
+            document.write("함수2이 실행되었습니다.<br>");
         }
         func2();
 
-        //매개변수가 있는 함수
-        const func3 = function(name){
-            document.write(name + "이 실행되었습니다.<br>");
+        //함수3이 실행되었습니다. (매개변수 함수) (func3) (name=함수3)
+        function func3(name){
+            document.write(`${name}이 실행되었습니다.<br>`);
         }
-        func3("function3");
+        func3("함수3");
 
-        //리턴값(종료)이 있는 함수
+        //함수3이 실행되었습니다. (리턴값 함수) (func4) (let str)
         function func4(){
-            const str = "function4이 실행되었습니다.<br>";
+            let str = "함수4이 실행되었습니다.<br>";
             return str;
         }
         document.write(func4());
 
-        //즉시 실행 함수
-        (function(){
-            document.write("function5이 실행되었습니다.<br>");
-        }());
-
-        //화살표 함수(선언적함수)
-        func6 = () => {
-            document.write("function6이 실행되었습니다.<br>");
-        }
-        func6();
-
-        //화살표 함수(익명 함수)
-        const func7 = () => {
-            document.write("function7이 실행되었습니다.<br>");
-        }
-        func7();
-
-        //화살표 함수(매개변수가 있는 함수)
-        const func8 = (str) => {
-            document.write(str + "이 실행되었습니다.<br>");
-        }
-        func8("function8");
-
-        //화살표 함수(리턴값이 있는 함수)
-        const func9 = () => {
-            const str = "function9이 실행되었습니다.<br>";
-            return str;
-        }
-        document.write(func9());
-
-        //객체 생성자 함수
-        function Func10(name, action){
-            this.name = name;
-            this.action = action;
-            this.study = function(){
-                document.write(this.name+"이 "+this.action+"되었습니다.<br>");
+        //객체 + 메서드
+        const info = {
+            name : "함수5",
+            active : "실행",
+            study : function(){
+                document.write(`${this.name}가 ${this.active}되었습니다.<br>`);
             }
-        } 
-        const obj1 = new Func10("function10","실행");
-        obj1.study();
+        }
+        info.study();
 
-        //프로토타입 메서드=함수
-        function Func11(name, action){
+        //객체 생성자
+        function Info1(name,active){
+            this.name = name,
+            this.active = active,
+            this.study = function(){
+                document.write(`${this.name}가 ${this.active}되었습니다.<br>`);
+            }
+        }
+        const result = new Info1("함수6","실행");
+        result.study();
+
+        //프로토타입 메서드
+        function Info2(name,active){
             this.name = name;
-            this.action = action;
+            this.active = active;
         }
-        Func11.prototype.study = function(){
-            document.write(this.name+"이 "+this.action+"되었습니다.<br>");
+        Info2.prototype.study = function(){
+            document.write(`${this.name}가 ${this.active}되었습니다.<br>`);
         }
-        const obj2 = new Func11("function11","실행");
-        obj2.study();
+        const result2 = new Info2("함수7","실행");
+        result2.study();
 
-        //클래스(es6)
-        class Func12 {
-            constructor(name, job){
+        //클래스
+        class Info3 {
+            constructor(name, active){
                 this.name = name;
-                this.job = job;
+                this.active = active;
             }
             study(){
-                document.write(this.name+"이 "+this.job+"되었습니다.<br>");
+                document.write(`${this.name}가 ${this.active}되었습니다.<br>`);
             }
         }
-        const obj3 = new Func12("function12","실행");
-        obj3.study();
+        const result3 = new Info3("함수8","실행");
+        result3.study();
 
-        //템플릿 리터럴
-        function func100(name, action){
-            //document.write(name + "이 실행되었습니다.<br>");
-            document.write(`${name}이 ${action}되었습니다.<br>`);
+        //클래스 상속
+        class Box1 {
+            constructor(name,active){
+                this.name = name;
+                this.active = active;
+            }
+            study(){
+                document.write(`${this.name}가 ${this.active}되었습니다.<br>`);
+            }
         }
-        func100("function100", "실행");
+        class Box2 extends Box1 {
+            constructor(name,active,today){
+                super(name,active)
+                this.today = today;
+            }
+            study2(){
+                document.write(`${this.today} ${this.name}가 ${this.active}되었습니다.<br>`);
+            }
+        }
+        const result4 = new Box1("함수9","실행");
+        const result5 = new Box2("함수10","실행","오늘도");
+
+        result4.study();
+        result5.study2();
+
+
     </script>
     
 </body>
