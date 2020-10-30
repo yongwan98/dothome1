@@ -6,7 +6,6 @@
     <title>반응형 레이아웃3</title>
     <style>
         * {margin: 0; padding: 0;}
-        #wrap {}
         .container {width: 1200px; margin: 0 auto;}
         header {width: 100%; height: 100px; background-color: #bbdefb;}
         aside {width: 30%; height: 900px; float: left; background-color: #90caf9;}
@@ -15,6 +14,7 @@
         article.article3 {width: 70%; height: 300px; float: left; background-color: #2196f3;}
         footer {width: 100%; height: 100px; clear: both; background-color: #1e88e5;}
 
+        /* media */
         @media(max-width: 1280px){
             .container {width: 100%;}
             header {height: 200px;}
@@ -41,12 +41,21 @@
     <div id="wrap">
         <div class="container">
             <header></header>
+            <!-- //header -->
+
             <aside></aside>
+            <!-- //aside -->
+
             <article class="article1"></article>
             <article class="article2"></article>
             <article class="article3"></article>
             <footer></footer>
+            <!-- //footer -->
+
         </div>
+        <!-- //container -->
+
     </div>
+    <!-- //wrap -->
 </body>
 </html>

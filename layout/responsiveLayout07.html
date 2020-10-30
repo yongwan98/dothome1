@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI 디자인 문제5</title>
+    <style>
+        * {margin: 0; padding: 0;}
+        #header {width: 100%; height: 100px; background-color: #e3f2fd;}
+        #banner {width: 100%; height: 400px; background-color: #bbdefb;}
+        /* cont1 */
+        #cont1 {overflow: hidden;}
+        .cont1_article1 {width: 33.333%; height: 400px; float: left; background-color: #90caf9;}
+        #cont1_cont {overflow: hidden; width: 66.667%; height: 200px; float: left; background-color: #64b5f6;}
+        .cont1_cont_article1 {width: 46%; margin: 2%; height: 169px; float: left; background-color: #42a5f5; border-radius: 20px;}
+        .cont1_cont_article2 {width: 46%; margin: 2%; height: 169px; float: left; background-color: #42a5f5; border-radius: 20px;}
+        .cont1_article2 {width: 66.667%; height: 200px; float: left; background-color: #2196f3;}
+        /* cont2 */
+        #cont2 {overflow: hidden;}
+        .cont2_article1 {width: 33.333%; height: 300px; float: left; background-color: #1e88e5;}
+        .cont2_article2 {width: 33.333%; height: 300px; float: left; background-color: #1976d2;}
+        .cont2_article3 {width: 33.333%; height: 300px; float: left; background-color: #1565c0;}
+        /* cont3 */
+        #cont3 {overflow: hidden; padding: 5%; background-color: #0d47a1;}
+        .cont3_article1 {width: 23%; margin: 1%; height: 200px; float: left; border-radius: 20px; background-color: #82b1ff;}
+        .cont3_article2 {width: 23%; margin: 1%; height: 200px; float: left; border-radius: 20px; background-color: #82b1ff;}
+        .cont3_article3 {width: 23%; margin: 1%; height: 200px; float: left; border-radius: 20px; background-color: #82b1ff;}
+        .cont3_article4 {width: 23%; margin: 1%; height: 200px; float: left; border-radius: 20px; background-color: #82b1ff;}
+        
+        #footer {width: 100%; height: 100px; background-color: #448aff;}
+
+        /* container */
+        .container {width: 1200px; margin: 0 auto;}
+
+        /* media */
+        @media(max-width: 1210px){
+            .container {width: 100%;}
+            .cont1_cont_article1 {width: 96%;}
+            .cont1_cont_article2 {display: none;}
+            .cont2_article1 {width: 50%;}
+            .cont2_article2 {width: 50%;}
+            .cont2_article3 {display: none;}
+            .cont3_article1 {width: 31.333%;}
+            .cont3_article2 {width: 31.333%;}
+            .cont3_article3 {width: 31.333%;}
+            .cont3_article4 {display: none;}
+        }
+
+        @media(max-width: 900px){
+            #banner {height: 300px;}
+            .cont1_article1 {height: 300px;}
+            #cont1_cont {height: 150px;}
+            .cont1_cont_article1 {display: none;}
+            .cont1_article2 {height: 150px;}
+            .cont2_article1 {width: 100%; height: 200px;}
+            .cont2_article2 {width: 100%; height: 200px;}
+            .cont3_article1 {height: 150px;}
+            .cont3_article2 {height: 150px;}
+            .cont3_article3 {height: 150px;}
+        }
+
+        @media(max-width: 460px){
+            .cont1_article1 {width: 100%; height: 100px;}
+            #cont1_cont {width: 100%; height: 100px;}
+            .cont1_article2 {width: 100%; height: 100px;}
+            .cont3_article1 {width: 100%;}
+            .cont3_article2 {width: 100%;}
+            .cont3_article3 {width: 100%;}
+        }
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <div class="container">
+            <header id="header"></header>
+            <!-- //header -->
+
+            <nav id="banner"></nav>
+            <!-- //banner -->
+
+            <section id="cont1">
+                <article class="cont1_article1"></article>
+                <section id="cont1_cont">
+                    <article class="cont1_cont_article1"></article>
+                    <article class="cont1_cont_article2"></article>
+                </section>
+                <article class="cont1_article2"></article>
+            </section>
+            <!-- //cont1 -->
+
+            <section id="cont2">
+                <article class="cont2_article1"></article>
+                <article class="cont2_article2"></article>
+                <article class="cont2_article3"></article>
+            </section>
+            <!-- //cont2 -->
+
+            <section id="cont3">
+                <article class="cont3_article1"></article>
+                <article class="cont3_article2"></article>
+                <article class="cont3_article3"></article>
+                <article class="cont3_article4"></article>
+            </section>
+            <!-- //cont3 -->
+
+            <footer id="footer"></footer>
+            <!-- //footer -->
+
+        </div>
+        <!-- //container -->
+
+    </div>
+    <!-- //wrap -->
+</body>
+</html>

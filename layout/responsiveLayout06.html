@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI 디자인 문제4</title>
+    <style>
+        /* style */
+        * {margin: 0; padding: 0;}
+        #header {width: 100%; height: 100px; background-color: #f3e5f5;}
+        #banner {width: 100%; height: 400px; background-color: #ce93d8;}
+        #cont {overflow: hidden; background-color: #ab47bc; padding: 5%;}
+        .cont_article1 {width: 18%; height: 200px; margin: 1%; float: left; border-radius: 20px; background-color: #8e24aa;}
+        .cont_article2 {width: 18%; height: 200px; margin: 1%; float: left; border-radius: 20px; background-color: #8e24aa;}
+        .cont_article3 {width: 18%; height: 200px; margin: 1%; float: left; border-radius: 20px; background-color: #8e24aa;}
+        .cont_article4 {width: 18%; height: 200px; margin: 1%; float: left; border-radius: 20px; background-color: #8e24aa;}
+        .cont_article5 {width: 18%; height: 200px; margin: 1%; float: left; border-radius: 20px; background-color: #8e24aa;}
+        .cont_article6 {width: 18%; height: 200px; margin: 1%; float: left; border-radius: 20px; background-color: #8e24aa;}
+        .cont_article7 {width: 18%; height: 200px; margin: 1%; float: left; border-radius: 20px; background-color: #8e24aa;}
+        .cont_article8 {width: 18%; height: 200px; margin: 1%; float: left; border-radius: 20px; background-color: #8e24aa;}
+        .cont_article9 {width: 18%; height: 200px; margin: 1%; float: left; border-radius: 20px; background-color: #8e24aa;}
+        .cont_article10 {width: 18%; height: 200px; margin: 1%; float: left; border-radius: 20px; background-color: #8e24aa;}
+        #footer {width: 100%; height: 100px; background-color: #6a1b9a;}
+
+        /* container */
+        .container {width: 1200px; margin: 0 auto;}
+
+        /* media */
+        @media(max-width: 1210px){
+            .container {width: 100%;}
+            #cont article {width: 23%;}
+            #cont article:nth-child(5n) {display: none;}
+        }
+
+        @media(max-width: 900px){
+            #cont article {width: 31.333%;}
+            #cont article:nth-child(5) {display: block;}
+        }
+
+        @media(max-width: 480px){
+            #banner {height: 200px;}
+            #cont article {width: 48%;}
+            #cont article:nth-child(10) {display: block;}
+        }
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <div class="container">
+            <header id="header"></header>
+            <!-- //header -->
+
+            <nav id="banner"></nav>
+            <!-- //banner -->
+
+            <section id="cont">
+                <article class="cont_article1"></article>
+                <article class="cont_article2"></article>
+                <article class="cont_article3"></article>
+                <article class="cont_article4"></article>
+                <article class="cont_article5"></article>
+                <article class="cont_article6"></article>
+                <article class="cont_article7"></article>
+                <article class="cont_article8"></article>
+                <article class="cont_article9"></article>
+                <article class="cont_article10"></article>
+            </section>
+            <!-- //cont -->
+
+            <footer id="footer"></footer>
+            <!-- //footer -->
+
+        </div>
+        <!-- //container -->
+
+    </div>
+    <!-- //wrap -->
+</body>
+</html>
