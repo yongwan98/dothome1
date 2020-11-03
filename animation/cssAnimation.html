@@ -374,12 +374,125 @@
                     </div>
                 </div>
                 <!-- //Intro2 -->
-
+                <style>
+                    .timing.bg3 > div {background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);}
+                    .timing12.show {animation: move 3s 2 cubic-bezier(.17,.67,.73,1.33);}
+                    .timing13.show {animation: move 3s 2 cubic-bezier(.14,.55,.44,1.02);}
+                    .timing14.show {animation: move 3s 2 cubic-bezier(.14,.55,1,.5);}
+                    .timing15.show {animation: move 3s 2 cubic-bezier(.55,.31,1,.5);}
+                    .timing16.show {animation: move 3s 2 cubic-bezier(.55,.31,0,.49);}
+                </style>
                 <!-- Intro3 -->
                 <div class="bs-docs-section">
-                    <h2 id="intro3" class="page-header">timing-function</h2>
+                    <h2 id="intro3" class="page-header">cubic-bezier <button type="button" class="btn btn-warning start3">Start</button></h2>
+                    <div class="sample">
+                        <h3><span></span><em class="sr-only">border-radius</em></h3>
+                        <div class="timing bg3">
+                            <div class="timing12"><span>timing12</span></div>
+                            <div class="timing13"><span>timing13</span></div>
+                            <div class="timing14"><span>timing14</span></div>
+                            <div class="timing15"><span>timing15</span></div>
+                            <div class="timing16"><span>timing16</span></div>
+                        </div>
+                    </div>
+<pre class="line-numbers language-css"><code>.timing12.show {animation: move 3s 2 cubic-bezier(.17,.67,.73,1.33);}
+.timing13.show {animation: move 3s 2 cubic-bezier(.14,.55,.44,1.02);}
+.timing14.show {animation: move 3s 2 cubic-bezier(.14,.55,1,.5);}
+.timing15.show {animation: move 3s 2 cubic-bezier(.55,.31,1,.5);}
+.timing16.show {animation: move 3s 2 cubic-bezier(.55,.31,0,.49);}
+</code></pre>
                 </div>
                 <!-- //Intro3 -->
+                <style>
+                    .timing.bg4 > div {background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);}
+                    .timing17.show {animation: move 3s 0.1s 2 ease;}
+                    .timing18.show {animation: move 3s 0.2s 2 ease;}
+                    .timing19.show {animation: move 3s 0.3s 2 ease;}
+                    .timing20.show {animation: move 3s 0.4s 2 ease;}
+                </style>
+                <!-- Intro4 -->
+                <div class="bs-docs-section">
+                    <h2 id="intro4" class="page-header">animation-delay <button type="button" class="btn btn-warning start4">Start</button></h2>
+                    <div class="sample">
+                        <h3><span></span><em class="sr-only">border-radius</em></h3>
+                        <div class="timing bg4">
+                            <div class="timing17"><span>timing17</span></div>
+                            <div class="timing18"><span>timing18</span></div>
+                            <div class="timing19"><span>timing19</span></div>
+                            <div class="timing20"><span>timing20</span></div>
+                        </div>
+                    </div>
+<pre class="line-numbers language-css"><code>.timing17.show {animation: move 3s 0.1s 2 ease;}
+.timing18.show {animation: move 3s 0.2s 2 ease;}
+.timing19.show {animation: move 3s 0.3s 2 ease;}
+.timing20.show {animation: move 3s 0.4s 2 ease;}
+</code></pre>
+                </div>
+                <!-- //Intro4 -->
+                <style>
+                    .timing.bg5 > div {background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);}
+                    .timing21.show {animation: move 1s 1 ease;}
+                    .timing22.show {animation: move 1s 2 ease;}
+                    .timing23.show {animation: move 1s 3 ease;}
+                    .timing24.show {animation: move 1s infinite ease;}
+                </style>
+                <!-- Intro5 -->
+                <div class="bs-docs-section">
+                    <h2 id="intro5" class="page-header">animation-interation-count <button type="button" class="btn btn-warning start5">Start</button></h2>
+                    <div class="sample">
+                        <h3><span></span><em class="sr-only">animation-interation-count</em></h3>
+                        <div class="timing bg5">
+                            <div class="timing21"><span>timing21</span></div>
+                            <div class="timing22"><span>timing22</span></div>
+                            <div class="timing23"><span>timing23</span></div>
+                            <div class="timing24"><span>timing24</span></div>
+                        </div>
+                    </div>
+<pre class="line-numbers language-css"><code>.timing21.show {animation: move 1s 1 ease;}
+.timing22.show {animation: move 1s 2 ease;}
+.timing23.show {animation: move 1s 3 ease;}
+.timing24.show {animation: move 1s infinite ease;}
+</code></pre>
+                </div>
+                <!-- //Intro5 -->
+                <style>
+                    .timing.bg6 {height: 600px;}
+                    .timing.bg6 > div {background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+ background-blend-mode: multiply,multiply;}
+                    .timing25.normal {animation: move2 4s 5 ease normal;}
+                    .timing25.reverse {animation: move2 4s 5 ease reverse;}
+                    .timing25.alternate {animation: move2 4s 5 ease alternate;}
+                    .timing25.alternate-reverse {animation: move2 4s 5 ease alternate-reverse;}
+
+                    @keyframes move2 {
+                        0% {left: 0; top: 0;}
+                        25% {left: calc(100% - 120px); top: 0;}
+                        50% {left: calc(100% - 120px); top: calc(100% - 120px);}
+                        75% {left: 0; top: calc(100% - 120px);}
+                        100% {left: 0; top: 0;}
+                    }
+                </style>
+                <!-- Intro6 -->
+                <div class="bs-docs-section">
+                    <h2 id="intro6" class="page-header">animation-direction 
+                        <button type="button" class="btn btn-warning start6-1">normal</button>
+                        <button type="button" class="btn btn-warning start6-2">reverse</button>
+                        <button type="button" class="btn btn-warning start6-3">alternate</button>
+                        <button type="button" class="btn btn-warning start6-4">alternate-reverse</button>
+                    </h2>
+                    <div class="sample">
+                        <h3><span></span><em class="sr-only">animation-direction</em></h3>
+                        <div class="timing bg6">
+                            <div class="timing25"><span>timing25</span></div>
+                        </div>
+                    </div>
+<pre class="line-numbers language-css"><code>.timing25.normal {animation: move2 4s 5 ease normal;}
+.timing25.reverse {animation: move2 4s 5 ease reverse;}
+.timing25.alternate {animation: move2 4s 5 ease alternate;}
+.timing25.alternate-reverse {animation: move2 4s 5 ease alternate-reverse;}
+</code></pre>
+                </div>
+                <!-- //Intro6 -->
 
             </div>
             <!-- //col-md-12 -->
@@ -429,6 +542,29 @@
         $(".stepBtnStop").click(function(e){
             e.preventDefault();
             $(".stepbox").removeClass("start").addClass("stop");
+        });
+
+        $(".start3").click(function(){
+            $(".timing.bg3 > div").addClass("show");
+            setTimeout(function(){
+                $(".timing.bg3 > div").removeClass("show");
+            },3000);
+        });
+
+        $(".start4").click(function(){
+            $(".timing.bg4 > div").addClass("show");
+            setTimeout(function(){
+                $(".timing.bg4 > div").removeClass("show");
+            },3000);
+        });
+
+        $(".start5").click(function(){
+            $(".timing.bg5 > div").addClass("show");
+        });
+
+        $("#intro6 > button").click(function(){
+            const txt = $(this).text();
+            $(".timing25").removeClass("normal reverse alternate alternate-reverse").addClass(txt);
         });
     </script>
 </body>
