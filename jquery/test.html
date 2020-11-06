@@ -6,44 +6,16 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>탐색 선택자</h1>
-    <ul id="menu1">
-        <li>내용1-1</li>
-        <li>내용1-2</li>
-        <li>내용1-3</li>
-    </ul>
-    <ul id="menu2">
-        <li>내용2-1</li>
-        <li>내용2-2</li>
-        <li>내용2-3</li>
-    </ul>
-    <!-- script -->
-    <script src="jquery.min_1.12.4.js"></script>
-
     <script>
-        $(function(){
-            var obj = [{
-                "area" : "서울"
-            }, {
-                "area" : "부산"
-            }, {
-                "area" : "전주"
-            }]
+        const arr8 = [100,200,300,400,500];
 
-            $(obj).each(function(i,o){
-                console.log(i + ":",o);
-            });
-            console.log("====The End1====");
+        let searchNum = 300;
 
-            $.each($("#menu2 li"),function(i,o){
-                console.log(i + ":",o);
-            });
-            console.log("====The End2====");
-
-            $.each($("#menu2 li"),function(i){
-                console.log(i + ":",$(this));
-            });
-        });
+        for(let i=0; i<arr8.length; i++){
+            if( searchNum == arr8[i]){
+                document.write( searchNum + "을 찾았습니다.");
+            }
+        }
     </script>
 </body>
 </html>
