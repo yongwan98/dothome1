@@ -134,54 +134,7 @@
 .ban ul li.ban_img2 {text-align: center;}
 .ban ul li.ban_img3 {text-align: right;} */
 
-#cont_ban {display: block;}
-.ban {position: relative; box-sizing: border-box; margin-bottom: 30px; padding: 24px 0 40px; display: block;}
-.ban img {}
-.ban .slick-prev {
-    position: absolute;
-    left: -70px;
-    top: 80px;
-    width: 43px;
-    height: 43px;
-    background: url(../img/icon.png) -150px 0;
-    text-indent: -9999px;
-}
-#cont_ban .slick-prev::before {
-    background-position: -193px 0;
-    text-indent: 0;
-    position: absolute; left: 6px; bottom: 2px;
-    font-size: 18px;
-    font-weight: 500;
-}
-.ban .slick-next {
-    position: absolute; right: 0; bottom: 0;
-    width: 30px; height: 30px;
-    display: inline-block;
-    text-indent: -9999px;
-    border-color: #5dbfeb;
-}
-.ban .slick-next::before {
-    content: '>';
-    color: #5dbfeb;
-    text-indent: 0;
-    position: absolute; left: 8px; bottom: 2px;
-    font-size: 18px;
-    font-weight: 500;
-}
-.ban .slick-dots li {
-    display: inline-block;
-    width: 15px; height: 15px; margin: 5px;
-}
-.ban .slick-dots li button {
-    width: 15px; height: 15px;
-    background: #5dbfeb;
-    border-radius: 50%;
-    text-indent: -9999px;
-    border-width: 0;
-}
-.ban .slick-dots li.slick-active button {
-    background: #2b91c8;
-}
+
 
 /* 컨텐츠 */
 .cont {overflow: hidden; padding-top: 30px;}
