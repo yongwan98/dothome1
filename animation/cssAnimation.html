@@ -13,6 +13,7 @@
     <link href="../assets/css/bootstrap.css" rel="stylesheet">
     <link href="../assets/css/docs.min.css" rel="stylesheet">
     <link href="../assets/css/prism.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
     <!-- 파비콘 -->
     <link rel="shortcut icon" href="../assets/ico/favicon.ico">
     <link rel="apple-touch-icon-precomposed" href="../assets/ico/favicon_114.png">
@@ -227,6 +228,9 @@
                 <!-- //Intro0 -->
                 <style>
                     .timing.bg1 > div {background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);}
+                    .timing.bg7 > div {background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);}
+                    .timing.bg8 > div {background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);}
+                    .timing.bg9 > div {background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);}
                     .timing {padding: 20px;}
                     .timing > div {
                         width: 100px; height: 100px;
@@ -493,6 +497,106 @@
 </code></pre>
                 </div>
                 <!-- //Intro6 -->
+                <style>
+                    .timing26.show {animation: move3 3s 1 ease; animation-fill-mode: none;}
+                    .timing27.show {animation: move3 3s 1 ease; animation-fill-mode: forwards;}
+                    .timing28.show {animation: move3 3s 1 ease; animation-fill-mode: backwards;}
+                    .timing29.show {animation: move3 3s 1 ease; animation-fill-mode: both;}
+                    @keyframes move3 {
+                        0% {left: 0%;}
+                        100% {left: calc(100% - 120px)}
+                    }
+                </style>
+                <!-- Intro7 -->
+                <div class="bs-docs-section">
+                    <h2 id="intro7" class="page-header">animation-fill-mode
+                        <button type="button" class="btn btn-warning start7">Start</button>
+                    </h2>
+                    <div class="sample">
+                        <h3><span></span><em class="sr-only">animation-direction</em></h3>
+                        <div class="timing bg7">
+                            <div class="timing26"><span>timing26</span></div>
+                            <div class="timing27"><span>timing27</span></div>
+                            <div class="timing28"><span>timing28</span></div>
+                            <div class="timing29"><span>timing29</span></div>
+                        </div>
+                    </div>
+<pre class="line-numbers language-css"><code>.timing26.show {animation: move3 3s 1 ease; animation-fill-mode: none;}
+.timing27.show {animation: move3 3s 1 ease; animation-fill-mode: forwards;}
+.timing28.show {animation: move3 3s 1 ease; animation-fill-mode: backwards;}
+.timing29.show {animation: move3 3s 1 ease; animation-fill-mode: both;}
+@keyframes move3 {
+    0% {left: 0%;}
+    100% {left: calc(100% - 120px)}
+}
+</code></pre>
+                </div>
+                <!-- //Intro7 -->
+                <style>
+                    .timing.bg8 {height: 600px;}
+                    .timing30.running {animation: move2 4s 100 ease; animation-play-state: running;}
+                    .timing30.paused {animation: move2 4s 100 ease; animation-play-state: paused;}
+                </style>
+                <!-- Intro8 -->
+                <div class="bs-docs-section">
+                    <h2 id="intro8" class="page-header">animation-play-state
+                        <button type="button" class="btn btn-warning start8-1">running</button>
+                        <button type="button" class="btn btn-warning start8-2">paused</button>
+                    </h2>
+                    <div class="sample">
+                        <h3><span></span><em class="sr-only">animation-direction</em></h3>
+                        <div class="timing bg8">
+                            <div class="timing30"><span>timing30</span></div>
+                        </div>
+                    </div>
+<pre class="line-numbers language-css"><code>.timing30.running {animation: move2 4s 100 ease; animation-play-state: running;}
+.timing30.paused {animation: move2 4s 100 ease; animation-play-state: paused;}
+</code></pre>
+                </div>
+                <!-- //Intro8 -->
+                <style>
+                    .timing.bg9 {display: flex; justify-content: space-between; min-height: 400px;}
+                    .timing.bg9 > div.ani1 {animation: wobble 1s 10 ease;}
+                    .timing.bg9 > div.ani2 {animation: bounce 1s 10 ease;}
+                    .timing.bg9 > div.ani3 {animation: bounceInLeft 1s 10 ease;}
+                    .timing.bg9 > div.ani4 {animation: rubberBand 1s 10 ease;}
+                    .timing.bg9 > div.ani5 {animation: flipInY 1s 10 ease;}
+                    .timing.bg9 > div.ani6 {animation: lightSpeedInRight 1s 10 ease;}
+                    .timing.bg9 > div.ani7 {animation: hinge 1s 10 ease;}
+                </style>
+                <!-- Intro9 -->
+                <div class="bs-docs-section">
+                    <h2 id="intro9" class="page-header">Animatine.css
+                        <button type="button" class="btn btn-warning">ani1</button>
+                        <button type="button" class="btn btn-warning">ani2</button>
+                        <button type="button" class="btn btn-warning">ani3</button>
+                        <button type="button" class="btn btn-warning">ani4</button>
+                        <button type="button" class="btn btn-warning">ani5</button>
+                        <button type="button" class="btn btn-warning">ani6</button>
+                        <button type="button" class="btn btn-warning">ani7</button>
+                    </h2>
+                    <div class="sample">
+                        <h3><span></span><em class="sr-only">animation-direction</em></h3>
+                        <div class="timing bg9">
+                            <div class="timing31"><span>timing31</span></div>
+                            <div class="timing32"><span>timing32</span></div>
+                            <div class="timing33"><span>timing33</span></div>
+                            <div class="timing34"><span>timing34</span></div>
+                            <div class="timing35"><span>timing35</span></div>
+                            <div class="timing36"><span>timing36</span></div>
+                            <div class="timing37"><span>timing37</span></div>
+                        </div>
+                    </div>
+<pre class="line-numbers language-css"><code>.timing.bg9 > div.ani1 {animation: wobble 1s 10 ease;}
+.timing.bg9 > div.ani2 {animation: bounce 1s 10 ease;}
+.timing.bg9 > div.ani3 {animation: bounceInLeft 1s 10 ease;}
+.timing.bg9 > div.ani4 {animation: rubberBand 1s 10 ease;}
+.timing.bg9 > div.ani5 {animation: flipInY 1s 10 ease;}
+.timing.bg9 > div.ani6 {animation: lightSpeedInRight 1s 10 ease;}
+.timing.bg9 > div.ani7 {animation: hinge 1s 10 ease;}
+</code></pre>
+                </div>
+                <!-- //Intro9 -->
 
             </div>
             <!-- //col-md-12 -->
@@ -565,6 +669,20 @@
         $("#intro6 > button").click(function(){
             const txt = $(this).text();
             $(".timing25").removeClass("normal reverse alternate alternate-reverse").addClass(txt);
+        });
+
+        $(".start7").click(function(){
+            $(".timing.bg7 > div").addClass("show");
+        });
+
+        $("#intro8 > button").click(function(){
+            const txt = $(this).text();
+            $(".timing30").removeClass("running paused").addClass(txt);
+        });
+
+        $("#intro9 > button").click(function(){
+            const txt = $(this).text();
+            $(".timing.bg9 > div").removeClass("ani1 ani2 ani3 ani4 ani5 ani6 ani7").addClass(txt);
         });
     </script>
 </body>
