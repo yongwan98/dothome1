@@ -1,11 +1,160 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CLOVA</title>
+    <style>
+        * {margin: 0; padding: 0;}
+        a {text-decoration: none; color: #000;}
+        li {list-style: none;}
+        #wrap {}
+        #header {width: 100%; height: 80px; background: #111;}
+        #banner {
+            width: 100%; height: 500px; background: url(https://static-clova.pstatic.net/static/70fd2ea/img/main/main_lamp.jpg);
+            background-size: cover; margin: 0;
+        }
+        #contents {width: 100%; height: 2000px; background: #333;}
+        #footer {width: 100%; height: 100px; background: #444;}
+        
+        .container {position: relative; width: 1300px; margin: 0 auto;}
+
+        /* header */
+        .header {color: #fff; text-align: center;}
+        .header .logo {
+            background: url(https://static-clova.pstatic.net/static/70fd2ea/img/sprite/sp_svg_icon.svg);
+            width: 155px; height: 30px;
+            margin-top: 10px;
+            position: absolute; left: 0px; top: 15px;
+        }
+        .header .nav {padding: 30px;}
+        .header .nav li {display: inline; padding: 0 40px; color: #888;}
+        .header .quick {color: #fff; position: absolute; right: 0; top: 5px;}
+        .header .quick li {border: 1px solid #fff; border-radius: 5px; margin-left: 10px; margin-top: 14px; display: inline-block; padding: 10px 20px;}
+
+        /* banner */
+        .banner {text-align: center; padding-top: 250px;}
+        .banner h2 {font-size: 44px; color: #fff;}
+        .banner a {
+            border: 1px solid #fff;
+            display: inline-block;
+            padding: 10px 30px;
+            margin-top: 30px;
+            color: #fff;
+            font-size: 18px; border-radius: 30px;
+        }
+
+        /* cont1 */
+        .cont1 {text-align: center; padding: 200px 0;}
+        .cont1 h3 {font-size: 39px; padding-bottom: 10px;}
+        .cont1 p {font-size: 23px; padding: 0 300px;}
+        .cont1 .cont1-box {overflow: hidden; margin-top: 40px;}
+        .cont1 .cont1-box > div {float: left; width: 19%; padding: 3%;}
+        .cont1 .cont1-box > div h4 {font-size: 30px;}
+        .cont1 .cont1-box > div p {font-size: 18px; margin-top: 20px;}
+        .cont1 .cont1-box > div .img {
+            width: 100px; height: 100px;
+            margin: 50px auto;
+        }
+
+        /* cont2 */
+
+    </style>
 </head>
 <body>
-    
+    <div id="wrap">
+        <div id="header">
+            <div class="container">
+                <div class="header">
+                    <h1 class="logo">logo</h1>
+                    <nav class="nav">
+                        <ul>
+                            <li>기술 솔루션</li>
+                            <li>제품</li>
+                            <li>플랫폼</li>
+                            <li>파트너</li>
+                            <li>리서치</li>
+                        </ul>
+                    </nav>
+                    <div class="quick">
+                        <ul>
+                            <li>Biz Start</li>
+                            <li>비즈니스 문의</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="banner">
+            <div class="container">
+                <div class="banner">
+                    <h2>내가 만난 첫 번째 스마트 홈</h2>
+                    <a href="#">자세히 보기</a>
+                </div>
+            </div>
+        </div>
+        <div id="contents">
+            <div id="cont1">
+                <div class="container">
+                    <div class="cont1">
+                        <h3>CLOVA AI</h3>
+                        <P class=""></P>
+                        <div class="cont1-box">
+                            <div>
+                                <div class="img" aria-hidden="true">d</div>
+                                <h4>Device & Service</h4>
+                                <p>스마트 디바이스, 서비스로
+                                    더욱 편리한 일상을 만나보세요</p>
+                            </div>
+                            <div>
+                                <h4></h4>
+                                <p></p>
+                            </div>
+                            <div>
+                                <h4></h4>
+                                <p></p>
+                            </div>
+                            <div>
+                                <h4></h4>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="cont2">
+                <div class="container">
+                    <div class="cont2">
+                        <div class="cont2-box">
+                            <div>
+                                <h3>casdas</h3>
+                                <p>asdsadsad</p>
+                            </div>
+                            <div>
+                                <div class="img">d</div>
+                                <h4>asffa</h4>
+                                <p>asdasdasdasddsa</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="cont3">
+                <div class="container">cont3</div>
+            </div>
+            <div id="cont4">
+                <div class="container">cont4</div>
+            </div>
+            <div id="cont5">
+                <div class="container">cont5</div>
+            </div>
+            <div id="cont6">
+                <div class="container">cont6</div>
+            </div>
+        </div>
+        <div id="footer">
+            <div class="container">footer</div>
+        </div>
+    </div>
 </body>
 </html>
