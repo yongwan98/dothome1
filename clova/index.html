@@ -1,72 +1,73 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CLOVA</title>
+    <title>Document</title>
     <style>
         * {margin: 0; padding: 0;}
         a {text-decoration: none; color: #000;}
         li {list-style: none;}
         #wrap {}
         #header {width: 100%; height: 80px; background: #111;}
-        #banner {
-            width: 100%; height: 500px; background: url(https://static-clova.pstatic.net/static/70fd2ea/img/main/main_lamp.jpg);
-            background-size: cover; margin: 0;
-        }
-        #contents {width: 100%; height: 2000px; background: #333;}
-        #footer {width: 100%; height: 100px; background: #444;}
-        
+        #banner {width: 100%; height: 600px;background: url(); background-size: cover;}
+        #contents {}
+        #footer {width: 100%;;background: #000;}
         .container {position: relative; width: 1300px; margin: 0 auto;}
-
-        /* header */
         .header {color: #fff; text-align: center;}
-        .header .logo {
-            background: url(https://static-clova.pstatic.net/static/70fd2ea/img/sprite/sp_svg_icon.svg);
-            width: 155px; height: 30px;
-            margin-top: 10px;
-            position: absolute; left: 0px; top: 15px;
-        }
         .header .nav {padding: 30px;}
-        .header .nav li {display: inline; padding: 0 40px; color: #888;}
-        .header .quick {color: #fff; position: absolute; right: 0; top: 5px;}
-        .header .quick li {border: 1px solid #fff; border-radius: 5px; margin-left: 10px; margin-top: 14px; display: inline-block; padding: 10px 20px;}
-
-        /* banner */
+        .header .nav li{display: inline; padding: 0 20px; color: #888;}
+        .header .logo {position: absolute; left: 0; top: 5px; background: url(); width: 155px; height: 30px; margin-top: 10px;}
+        .header .quick {position: relative; right: 0; top: 15px;}
+        .header .quick li {display: inline-block; border: 1px solid #fff; margin-top: 14px; border-radius: 5px; margin-left: 10px;}
         .banner {text-align: center; padding-top: 250px;}
         .banner h2 {font-size: 44px; color: #fff;}
-        .banner a {
-            border: 1px solid #fff;
-            display: inline-block;
-            padding: 10px 30px;
-            margin-top: 30px;
-            color: #fff;
-            font-size: 18px; border-radius: 30px;
-        }
-
-        /* cont1 */
+        .banner a {font-size: 18px; border-radius: 30px; border: 1px solid #fff; display: inline-block; padding: 10px 30px;margin-top: 30px;}
         .cont1 {text-align: center; padding: 200px 0;}
         .cont1 h3 {font-size: 39px; padding-bottom: 10px;}
-        .cont1 p {font-size: 23px; padding: 0 300px;}
-        .cont1 .cont1-box {overflow: hidden; margin-top: 40px;}
-        .cont1 .cont1-box > div {float: left; width: 19%; padding: 3%;}
-        .cont1 .cont1-box > div h4 {font-size: 30px;}
-        .cont1 .cont1-box > div p {font-size: 18px; margin-top: 20px;}
-        .cont1 .cont1-box > div .img {
-            width: 100px; height: 100px;
-            margin: 50px auto;
-        }
-
-        /* cont2 */
-
-    </style>
+        .cont1 p.desc{font-size: 23px; padding: 0 300px; line-height: 1.6;}
+        .cont1 .cont_box > div {float: left; width: 19%; padding: 3%;}
+        .cont1 .cont_box{overflow: hidden; margin-top: 40px;}
+        .cont1 .cont_box > div h4 {font-size: 30px;}
+        .cont1 .cont_box > div p {font-size: 18px; margin-top: 20px;}
+        .cont1 .cont_box > div img {width: 100px; height: 100px; background: url(); margin: 50px auto;}
+        #cont2 {background: #;}
+        .cont2 {padding: 200px 0;}
+        .cont2_box {overflow: hidden;}
+        .cont2_box > div {float: left; width: 20%; margin-left: 6% 3%; padding: 3%; border: 1px solid #ccc;}
+        .cont2_box > div:first-child {width: 29%; margin-right: 1%; background: ;}
+        .cont2_box > div h3 {font-size: 39px; margin-bottom: 20px;}
+        .cont2_box > div h4 {font-size: 30px; margin-bottom: 20px;}
+        .cont2_box > div p {}
+        .cont2_box > div .img {width: 100px; height: 100px; background: rul(); margin-bottom: 30px;}
+        #cont3 {background: green; }
+        .cont3 {text-align: center; color: #fff; padding: 200px 0;}
+        .cont3 h3 {}
+        .cont3 p {}
+        .cont3 a {}
+        .cont4 {padding: 150px 0; text-align: center;}
+        .cont4 h3 {font-size: 40px; margin-bottom: 20px;}
+        .cont4 p {font-size: 20px; margin-bottom: 50px;}
+        .cont4 .cont4_box {overflow: hidden;}
+        .cont4 .cont4_box > div {border: 1px solid #ccc; box-sizing: border-box; border-radius: 5px; width: 31.3333%; float: left; height: 400px; background: #ccc; margin-right: 3%;}
+        .cont4 .cont4_box > div:last-child {margin-right: 0;}
+        .cont4 .cont4_box > div img {width: 100%; border-radius: 5px 5px 0 0;}
+        .footer {padding: 50px 0;}
+        .footer-top {height: 30px; overflow: hidden;}
+        .footer-bottom {height: 30px;}
+        .footer-top .footer-logo {float: left;width: 100px; background: #fff; height: 50px;}
+        .footer-top .footer-icon {float: right; width: 200px; background: #fff;}
+        .footer-top .fb1{float: left; width: 30%; height: 50px; background: #333;}
+        .footer-top .fb2{float: left; width: 40%; height: 50px; background: #444;}
+        .footer-top .fb3{float: left; width: 30%; height: 50px; background: #555;}
+   </style>
 </head>
 <body>
     <div id="wrap">
         <div id="header">
             <div class="container">
                 <div class="header">
-                    <h1 class="logo">logo</h1>
+                    <h1 class="logo"></h1>
                     <nav class="nav">
                         <ul>
                             <li>기술 솔루션</li>
@@ -78,8 +79,8 @@
                     </nav>
                     <div class="quick">
                         <ul>
-                            <li>Biz Start</li>
-                            <li>비즈니스 문의</li>
+                            <li>ㅇ</li>
+                            <li>ㅇ</li>
                         </ul>
                     </div>
                 </div>
@@ -97,26 +98,28 @@
             <div id="cont1">
                 <div class="container">
                     <div class="cont1">
-                        <h3>CLOVA AI</h3>
-                        <P class=""></P>
-                        <div class="cont1-box">
+                        <h3>sdlf</h3>
+                        <p class="desc">sdf</p>
+                        <div class="cont1_box">
                             <div>
                                 <div class="img" aria-hidden="true">d</div>
-                                <h4>Device & Service</h4>
-                                <p>스마트 디바이스, 서비스로
-                                    더욱 편리한 일상을 만나보세요</p>
+                                <h4>dfsdf</h4>
+                                <p>sdfsdfdsf</p>
                             </div>
                             <div>
-                                <h4></h4>
-                                <p></p>
+                                <div class="img" aria-hidden="true">d</div>
+                                <h4>dfsdf</h4>
+                                <p>sdfsdfdsf</p>
                             </div>
                             <div>
-                                <h4></h4>
-                                <p></p>
+                                <div class="img" aria-hidden="true">d</div>
+                                <h4>dfsdf</h4>
+                                <p>sdfsdfdsf</p>
                             </div>
                             <div>
-                                <h4></h4>
-                                <p></p>
+                                <div class="img" aria-hidden="true">d</div>
+                                <h4>dfsdf</h4>
+                                <p>sdfsdfdsf</p>
                             </div>
                         </div>
                     </div>
@@ -125,35 +128,94 @@
             <div id="cont2">
                 <div class="container">
                     <div class="cont2">
-                        <div class="cont2-box">
+                        <div class="cont2_box">
                             <div>
-                                <h3>casdas</h3>
-                                <p>asdsadsad</p>
+                                <h3>dfsdf</h3>
+                                <p>sdfsdf</p>
                             </div>
                             <div>
-                                <div class="img">d</div>
-                                <h4>asffa</h4>
-                                <p>asdasdasdasddsa</p>
+                                <div class="img">df</div>
+                                <h4>sdfsd</h4>
+                                <p>sdfsdfsd</p>
+                            </div>
+                            <div>
+                                <div class="img">df</div>
+                                <h4>sdfsd</h4>
+                                <p>sdfsdfsd</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div id="cont3">
-                <div class="container">cont3</div>
+                <div class="container">
+                    <div class="cont3">
+                        <h3>dsf</h3>
+                        <p>sdfsdf</p>
+                        <a href="#">자세히 보기</a>
+                    </div>
+                </div>
             </div>
             <div id="cont4">
-                <div class="container">cont4</div>
+                <div class="container">
+                    <div class="cont4">
+                        <h3>sdf</h3>
+                        <p>sdfsdf</p>
+                        <div class="cont4_box">
+                            <div>
+                                <img src="" alt="">
+                                <h4>sdf</h4>
+                                <p>sdf</p>
+                            </div>
+                            <div>
+                                <img src="" alt="">
+                                <h4>sdf</h4>
+                                <p>sdf</p>
+                            </div>
+                            <div>
+                                <img src="" alt="">
+                                <h4>sdf</h4>
+                                <p>sdf</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div id="cont5">
-                <div class="container">cont5</div>
+                <div class="container"></div>
             </div>
             <div id="cont6">
-                <div class="container">cont6</div>
+                <div class="container"></div>
             </div>
         </div>
         <div id="footer">
-            <div class="container">footer</div>
+            <div class="container">
+                <div class="footer">
+                    <div class="footer-top">
+                        <h5 class="footer-logo">logo</h5>
+                        <div class="footer-icon">
+                            <ul>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-bottom">
+                        <ul class="fb1">
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        <p class="fb2">sdf</p>
+                        <ul class="fb3">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>
