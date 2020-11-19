@@ -15,13 +15,12 @@
         /* rayout */
         #header {width: 100%; height: 86px; position: fixed; left: 0; top: 0; right: 0; z-index: 100; background: #000; background-repeat: no-repeat;}
         #banner {
-            width: 100%; height: 767px; 
+            width: 100%; height: 567px; 
             background-image: url(https://static-clova.pstatic.net/static/c9c16b3/img/main/main_lamp.jpg);
             background-size: cover;
-            margin-top: -10px;
         }
-        #cont1 {width: 100%;}
-        #cont2 {width: 100%;}
+        #cont1 {width: 100%; height: 733px;}
+        #cont2 {width: 100%; height: 757px; background: #F8FAFC;}
         #cont3 {width: 100%;}
         #cont4 {width: 100%;}
         #cont5 {width: 100%;}
@@ -54,10 +53,40 @@
         .header_btn01 {margin-right: 7px;}
 
         /* banner */
-        .banner {}
-        .banner h2 {color: #fff; font-size: 60px; display: inline-block;}
-        .banner_btn {}
+        .banner h2 {
+            color: #fff; font-size: 43px; 
+            text-align: center; font-weight: 800; 
+            line-height: 1.2; letter-spacing: -1.45px; 
+            display: inline-block; margin-top: 20%;
+             margin-left: 30%;
+        }
+        .banner_btn {
+            display: inline-block; color: #fff; 
+            font-size: 18px; font-weight: 800; 
+            margin-top: 40px; margin-left: 43%;
+            border: 1px solid #fff;
+            border-radius: 50px;
+            padding: 15px 30px;
+        }
         
+        /* cont1 */
+        .cont1 {padding: 147px 20px 150px; text-align: center;}
+        .cont1_title {}
+        .cont1_title h2 {font-size: 38px; font-weight: 900; letter-spacing: -.8px; line-height: 48px;}
+        .cont1_title p {margin-top: 14px; font-size: 19px; line-height: 34px; letter-spacing: -.5px;}
+        .cont1_list {display: inline-block; margin-top: 80px;}
+        .cont1_list li {float: left; margin-left: 90px;}
+        .cont1_list li:first-child {margin-left: 0;}
+        .cont1_list a {
+            background-image: url(https://static-clova.pstatic.net/static/c9c16b3/img/sprite/sp_svg_icon.svg);
+            width: 90px; height: 90px;
+        }
+        .cont1_list .item01 {background-position: -4px -120px; margin-left: 50px;}
+        .cont1_list .item02 {background-position: -102px -120px;}
+        .cont1_list .item03 {background-position: -241px -4px;}
+        .cont1_list .item04 {background-position: -241px -102px;}
+        .cont1_list strong {display: inline-block; margin-top: 130px; font-size: 24px; font-weight: 700;}
+        .cont1_list p {font-size: 16px; margin-top: 15px; color: #222; line-height: 1.7; font-weight: 500;}
 
 
         /* 텍스트 숨김 */
@@ -102,7 +131,39 @@
 
     <section id="cont1">
         <div class="container">
-            <div class="cont1"></div>
+            <div class="cont1">
+                <div class="cont1_title">
+                    <h2>CLOVA AI</h2>
+                    <p>네이버 클로바는 독자적으로 개발한 AI 기술을 통해<br>
+                        세상에 없던 새로운 기술, 서비스, 제품을 만들어가고 있습니다.</p>
+                </div>
+                <ul class="cont1_list">
+                    <li>
+                        <a class="item01 ir_so" href="#">icon1</a>
+                        <strong>Device & Service</strong>
+                        <p>스마트 디바이스, 서비스로<br>
+                            더욱 편리한 일상을 만나보세요.</p>
+                    </li>
+                    <li>
+                        <a class="item02 ir_so" href="#">icon2</a>
+                        <strong>Solution</strong>
+                        <p>비즈니스 맞춤형 AI 솔루션으로<br>
+                            혁신을 경험하세요.</p>
+                    </li>
+                    <li>
+                        <a class="item03 ir_so" href="#">icon3</a>
+                        <strong>Product</strong>
+                        <p>세계 최고 수준의 AI가 적용된<br>
+                            놀라운 서비스, 제품을 제공해보세요.</p>
+                    </li>
+                    <li>
+                        <a class="item04 ir_so" href="#">icon4</a>
+                        <strong>Research</strong>
+                        <p>CLOVA AI의 독자적인 기술과<br>
+                            세계적인 연구 성과를 확인하세요.</p>
+                    </li>
+                </ul>
+            </div>
         </div>
     </section>
     <!-- //cont1 -->
