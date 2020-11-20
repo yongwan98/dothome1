@@ -6,26 +6,32 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css">
     <title>Clova02</title>
     <style>
+        @font-face {
+            font-family: 'NanumSquareRound';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
         /* reset */
         * {margin: 0; padding: 0;}
         ul {list-style: none;}
         a {text-decoration: none;}
-        body {font-family: 'NanumSquare', sans-serif !important;}
+        body {font-family: 'NanumSquareRound', sans-serif !important;}
 
         /* rayout */
         #header {width: 100%; height: 86px; position: fixed; left: 0; top: 0; right: 0; z-index: 100; background: #000; background-repeat: no-repeat;}
         #banner {
-            width: 100%; height: 567px; 
+            width: 100%; height: 700px; 
             background-image: url(https://static-clova.pstatic.net/static/c9c16b3/img/main/main_lamp.jpg);
             background-size: cover;
         }
         #cont1 {width: 100%; height: 733px;}
         #cont2 {width: 100%; height: 757px; background: #F8FAFC;}
-        #cont3 {width: 100%;}
-        #cont4 {width: 100%;}
-        #cont5 {width: 100%;}
-        #cont6 {width: 100%;}
-        #footer {width: 100%;}
+        #cont3 {width: 100%; height: 292px; background: linear-gradient(to right, #43D2CD, #59B5DF)}
+        #cont4 {width: 100%; height: 921px; }
+        #cont5 {width: 100%; height: 292px; background-image: url(https://static-clova.pstatic.net/static/70fd2ea/img/main/bg_cloud.png);}
+        #cont6 {width: 100%; height: 292px; background: #0EB0AC;}
+        #footer {width: 100%; height: 132px; background: #000;}
         .container {width: 1240px; height: inherit; margin: 0 auto;}
 
         /* header */
@@ -88,6 +94,282 @@
         .cont1_list strong {display: inline-block; margin-top: 130px; font-size: 24px; font-weight: 700;}
         .cont1_list p {font-size: 16px; margin-top: 15px; color: #222; line-height: 1.7; font-weight: 500;}
 
+        /* cont2 */
+        .cont2 {padding: 150px 20px; background-color: #f8fafc; overflow: hidden; position: relative;}
+        .cont2 div {}
+        .cont2_main {
+            display: inline-block;
+            vertical-align: middle;
+            width: 290px;
+            text-align: left;
+            margin-left: 30px;
+        }
+        .cont2_main h2 {
+            font-size: 36px; font-weight: 800; line-height: 48px; letter-spacing: -.8px;
+        }
+        .cont2_main p {
+            font-size: 19px; line-height: 34px; letter-spacing: -.5px; margin-top: 22px;
+        }
+        .cont2 ul {
+            display: inline-block;
+            vertical-align: middle;
+            text-align: left;
+            margin-left: 100px;
+        }
+        .cont2 li .cont2_icon1 {
+            background-image: url(https://static-clova.pstatic.net/static/c9c16b3/img/sprite/sp_svg_icon.svg);
+            width: 76px; height: 90px;
+            background-position: -157px -4px;
+        }
+        .cont2_item1 {
+            float: left;
+            width: 370px;
+            height: 457px;
+            padding: 62px 52px 60px 56px;
+            border: 1px solid #eff3f7;
+            border-radius: 10px;
+            background-color: #fff;
+            box-sizing: border-box;
+        }
+        .cont2_item1 strong {
+            font-size: 24px;
+            line-height: 33px;
+            font-weight: 700;
+            letter-spacing: -.3px;
+            display: block;
+            margin-top: 130px;
+        }
+        .cont2_item1 p {
+            font-size: 17px;
+            letter-spacing: -1.8px;
+            line-height: 32px;
+            margin-top: 14px;
+            font-weight: 100;
+        }
+
+        .cont2_item2 {
+            float: left;
+            width: 370px;
+            height: 457px;
+            padding: 62px 52px 60px 56px;
+            border: 1px solid #eff3f7;
+            border-radius: 10px;
+            background-color: #fff;
+            box-sizing: border-box;
+            margin-left: 30px;
+        }
+        .cont2 li .cont2_icon2 {
+            background-image: url(https://static-clova.pstatic.net/static/c9c16b3/img/sprite/sp_svg_icon.svg);
+            width: 76px; height: 90px;
+            background-position: -4px -218px;
+        }
+        .cont2_item2 strong {
+            font-size: 24px;
+            line-height: 33px;
+            font-weight: 700;
+            letter-spacing: -.3px;
+            display: block;
+            margin-top: 130px;
+        }
+        .cont2_item2 p {
+            font-size: 17px;
+            letter-spacing: -1.8px;
+            line-height: 32px;
+            margin-top: 14px;
+            font-weight: 100;
+        }
+
+        /* cont3 */
+        .cont3 {text-align: center;}
+        .cont3 strong {
+            padding-top: 66px; font-size: 38px; 
+            line-height: 47px; letter-spacing: -.89px;
+            color: #fff; font-weight: 800;
+            display: block;
+        }
+        .cont3 p {
+            padding-top: 11px;
+            display: block;
+            font-size: 20px;
+            font-weight: 100;
+        }
+        .cont3 a {
+            margin-top: 34px;
+            display: inline-block;
+            vertical-align: top;
+            color: #fff;
+            border: 1px solid #fff;
+            border-radius: 28px;
+            font-weight: 700;
+            font-size: 12px;
+            padding: 13px 28px;
+        }
+        
+        /* cont4 */
+        .cont4 {overflow: hidden;}
+        .cont4_text {text-align: center; margin-top: 150px;}
+        .cont4_text h2 {font-size: 38px; letter-spacing: -.8px;}
+        .cont4_text p {margin-top: 14px; font-size: 18px;}
+        .cont4_news {margin: 80px auto 0px; text-align: left; display: block;}
+        .cont4_news li {}
+        .cont4_news1 {}
+        .cont4_news1 .news1_box {float: left; margin-left: 30px; border: 1px solid #ccc; border-radius: 10px;}
+        .news1_box .news1_img {overflow: hidden; border-radius: 10px;}
+        .news1_box .news1_img img {width: 372; height: 210px;}
+        .news1_box .news1_text {padding: 30px;}
+        .news1_box .news1_text strong {
+            font-size: 19px;
+            font-weight: 600;
+            line-height: 26px;
+        }
+        .news1_box .news1_text p {
+            margin-top: 10px;
+            line-height: 30px;
+            font-size: 17px;
+            letter-spacing: -.5px;
+        }
+        
+        .cont4_news2 {}
+        .cont4_news2 .news2_box {float: left; margin-left: 30px; border: 1px solid #ccc; border-radius: 10px;}
+        .news2_box .news2_img {overflow: hidden; border-radius: 10px;}
+        .news2_box .news2_img img {width: 372; height: 210px;}
+        .news2_box .news2_text {padding: 30px;}
+        .news2_box .news2_text strong {
+            font-size: 19px;
+            font-weight: 600;
+            line-height: 26px;
+        }
+        .news2_box .news2_text p {
+            margin-top: 10px;
+            line-height: 30px;
+            font-size: 17px;
+            letter-spacing: -.5px;
+        }
+
+        .cont4_news3 {}
+        .cont4_news3 .news3_box {float: left; margin-left: 30px; border: 1px solid #ccc; border-radius: 10px;}
+        .news3_box .news3_img {overflow: hidden; border-radius: 10px;}
+        .news3_box .news3_img img {width: 372; height: 210px; }
+        .news3_box .news3_text {padding: 30px;}
+        .news3_box .news3_text strong {
+            font-size: 19px;
+            font-weight: 600;
+            line-height: 26px;
+        }
+        .news3_box .news3_text p {
+            margin-top: 10px;
+            line-height: 30px;
+            font-size: 17px;
+            letter-spacing: -.5px;
+        }
+        
+        /* cont5 */
+        .cont5 {text-align: center;}
+        .cont5 strong {
+            padding-top: 66px; font-size: 38px; 
+            line-height: 47px; letter-spacing: -.89px;
+            color: #000; font-weight: 800;
+            display: block;
+        }
+        .cont5 p {
+            padding-top: 11px;
+            display: block;
+            font-size: 18px;
+            font-weight: 100;
+            color: #000;
+        }
+        .cont5 a {
+            margin-top: 34px;
+            display: inline-block;
+            vertical-align: top;
+            color: #000;
+            border: 1px solid #ccc;
+            border-radius: 28px;
+            font-weight: 700;
+            font-size: 14px;
+            padding: 13px 40px;
+        }
+
+        /* cont6 */
+        .cont6 {text-align: center;}
+        .cont6 strong {
+            padding-top: 66px; font-size: 38px; 
+            line-height: 47px; letter-spacing: -.89px;
+            color: #fff; font-weight: 800;
+            display: block;
+        }
+        .cont6 p {
+            padding-top: 11px;
+            display: block;
+            font-size: 18px;
+            font-weight: 100;
+            color: #fff;
+        }
+        .cont6 a {
+            margin-top: 34px;
+            display: inline-block;
+            vertical-align: top;
+            color: #fff;
+            border: 1px solid #fff;
+            border-radius: 28px;
+            font-weight: 700;
+            font-size: 14px;
+            padding: 15px 36px;
+        }
+
+        /* footer */
+        .footer { padding: 30px 20px;}
+        .footer_info {display: block; margin-top: 18px; overflow: hidden;}
+        .footer_info .clova {
+            background-image: url(https://static-clova.pstatic.net/static/c9c16b3/img/sprite/sp_svg_icon.svg);
+            width: 145px; height: 20px;
+            background-position: -4px -34px;
+            float: left;
+        }
+        .footer_icon {display: block; float: right; overflow: hidden; margin-right: 200px;}
+        .footer_icon .blog {
+            background-image: url(https://static-clova.pstatic.net/static/c9c16b3/img/sprite/sp_svg_icon.svg);
+            background-position: -128px -92px;
+            width: 21px; height: 18px;
+        }
+        .footer_icon .facebook {
+            background-image: url(https://static-clova.pstatic.net/static/c9c16b3/img/sprite/sp_svg_icon.svg);
+            background-position: -164px -218px;
+            width: 18px; height: 18px;
+            margin-left: 50px;
+        }
+        .footer_icon .instargram {
+            background-image: url(https://static-clova.pstatic.net/static/c9c16b3/img/sprite/sp_svg_icon.svg);
+            background-position: -138px -218px;
+            width: 18px; height: 18px;
+            margin-left: 100px;
+        }
+        .footer_icon .youtube {
+            background-image: url(https://static-clova.pstatic.net/static/c9c16b3/img/sprite/sp_svg_icon.svg);
+            background-position: -200px -172px;
+            width: 20px; height: 14px;
+            margin-left: 150px;
+            margin-top: 3px;
+        }
+        .footer_box {color: #565656; overflow: hidden; font-size: 13px; margin-top: 40px; font-weight: 800;}
+        .footer_box .left {float: left;}
+        .footer_box .left span {position: relative; margin-left: 20px;}
+        .footer_box .left span:nth-child(2)::before{
+            content: '';
+            width: 1px; height: 13px;
+            background: #565656;
+            position: absolute; left: -13px; top: 2px;
+        }
+        .footer_box .left span:nth-child(3) {margin-left: 198px;}
+
+        .footer_box .right {float: right; padding-right: 25px;}
+        .footer_box .right span {position: relative; padding-left: 15px;}
+        .footer_box .right span::before {
+            content: '';
+            width: 1px; height: 13px;
+            color: #565656;
+            position: absolute; right: 0px; top: 2px;
+        }
 
         /* 텍스트 숨김 */
         .ir_so {overflow: hidden; position: absolute; width: 0; height: 0; line-height: 0; text-indent: -9999px;}
@@ -170,42 +452,154 @@
 
     <section id="cont2">
         <div class="container">
-            <div class="cont2"></div>
+            <div class="cont2">
+                <div class="cont2_main">
+                    <h2>CLOVA AI<br>
+                        Special Feature</h2>
+                    <p>네이버, 라인의 풍부한 데이터와<br>
+                        세계 최고 수준의 AI 기술이 만나<br>
+                        전에 없던 시너지를 창출합니다.</p>
+                </div>
+                <ul>
+                    <li class="cont2_item1">
+                        <a class= "cont2_icon1 ir_so" href="#">icon1</a>
+                        <strong>Customized Solution</strong>
+                        <p>네이버, 라인의 서비스를 통해 축적된<br>
+                        데이터와 클로바의 자체 기술로 제작한<br>
+                        AI엔진을 활용하여, 개별 비즈니스의<br>
+                        니즈에 부합하는 Customized Solution을 제공합니다.</p>
+                    </li>
+                    <li class="cont2_item2">
+                        <a class= "cont2_icon2 ir_so" href="#">icon2</a>
+                        <strong>Integrated AI Engine</strong>
+                        <p>네이버 클로바에서 자체적으로 보유한 AI<br>
+                            기술을 복합적으로 활용한 솔루션을 개발<br>
+                            할 수 있습니다. 이를 통해 단일 기술을<br>
+                            활용한 경우보다 월등한 시너지를 만들어냅니다.</p>
+                    </li>
+                </ul>
+            </div>
         </div>
     </section>
     <!-- //cont2 -->
 
     <section id="cont3">
         <div class="container">
-            <div class="cont3"></div>
+            <div class="cont3">
+                <strong>CLOVA Official Blog</strong>
+                <p>클로바 공식 블로그에서 다양한 소식을 확인해보세요</p>
+                <a href="#">자세히 보기</a>
+            </div>
         </div>
     </section>
     <!-- //cont3 -->
 
     <section id="cont4">
         <div class="container">
-            <div class="cont4"></div>
+            <div class="cont4">
+                <div class="cont4_text">
+                    <h2>Latest News</h2>
+                    <p>좀더 편리하고 스마트한 삶을 위한 클로바의 다양한 AI 적용사례 및 소식들을 확인해보세요.</p>
+                </div>
+                <ul class="cont4_news">
+                    <li class="cont4_news1">
+                        <div class="news1_box">
+                            <div class="news1_img">
+                                <img src="https://ssl.pstatic.net/static/clova/service/clova_ai/image/main/news/20200925_napp_smarthome_pc.png" alt="이미지1">
+                            </div>
+                            <div class="news1_text">
+                                <strong>클로바 스마트홈, 네이버앱에 적용</strong>
+                                <p>클로바 스마트홈을 네이버앱에서도 이용할<br>
+                                    수 있습니다. 네이버앱의 그린닷 음성 검색<br>
+                                    으로 집안의 IoT 가전을 제어하고 편리한<br>
+                                    리모컨 기능도 활용해보세요.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="cont4_news2">
+                        <div class="news2_box">
+                            <div class="news2_img">
+                                <img src="https://ssl.pstatic.net/static/clova/service/clova_ai/image/main/news/20201015_clova_pc.png" alt="이미지2">
+                            </div>
+                            <div class="news2_text">
+                                <strong>네이버 B2B, '네이버클라우드'로 강화</strong>
+                                <p>대한민국 대표 클라우드 기업으로 성장한<br>
+                                    NBP가 그동안의 기술과 경험을 바탕으로<br>
+                                    ‘네이버클라우드’라는 새로운 이름 아래<br>
+                                    더 큰 도전을 시작합니다.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="cont4_news3">
+                        <div class="news3_box">
+                            <div class="news3_img">
+                                <img src="https://ssl.pstatic.net/static/clova/service/clova_ai/image/main/news/20200925_navermusic_pc.png" alt="이미지3">
+                            </div>
+                            <div class="news3_text">
+                                <strong>네이버 뮤직 연동 서비스 종료</strong>
+                                <p>2020년 11월, 네이버 뮤직 서비스 종료에 <br>
+                                    따라, 네이버 클로바에서의 네이버 뮤직<br>
+                                    연동 기능이 종료됩니다. 12월1일부터<br>
+                                    네이버 뮤직 서비스는 VIBE로 전환됩니다.  
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </div>
     </section>
     <!-- //cont4 -->
 
     <section id="cont5">
         <div class="container">
-            <div class="cont5"></div>
+            <div class="cont5">
+                <strong>With NAVER Cloud</strong>
+                <p>네이버 클라우드 플랫폼에서 네이버 클로바의 기술 제품을 이용하세요.</p>
+                <a href="#">Biz Start</a>
+            </div>
         </div>
     </section>
     <!-- //cont5 -->
 
     <section id="cont6">
         <div class="container">
-            <div class="cont6"></div>
+            <div class="cont6">
+                <strong>With NAVER CLOVA</strong>
+                <p>네이버 클로바가 제안하는 AI 솔루션을 통해 비즈니스의 새로운 성장과 발전을 경험하세요.</p>
+                <a href="#">비즈니스 문의</a>
+            </div>
         </div>
     </section>
     <!-- //cont6 -->
 
     <footer id="footer">
         <div class="container">
-            <div class="footer"></div>
+            <div class="footer">
+                <div class="footer_info">
+                    <a class="clova ir_so" href="#">clova</a>
+                    <div class="footer_icon">
+                        <a class="blog ir_so" href="#">blog</a>
+                        <a class="facebook ir_so" href="#">facebook</a>
+                        <a class="instargram ir_so" href="#">instargram</a>
+                        <a class="youtube ir_so" href="#">youtube</a>
+                    </div>
+                </div>
+                <div class="footer_box">
+                    <div class="left">
+                        <span>고객센터 1833-5387</span>
+                        <span>09:00 - 18:00 (주말, 공휴일 휴무)</span>
+                        <span>Powered by NAVER · LINE</span>
+                    </div>
+                    <div class="right">
+                        <span>공지사항</span>
+                        <span>이용약관</span>
+                        <span>CLOVA 채용안내</span>
+                        <span>CLOVA JP</span>
+                    </div>
+                </div>
+            </div>
         </div>
     </footer>
     <!-- //footer -->
