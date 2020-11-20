@@ -84,74 +84,245 @@
     </div>
     <div class="container bs-docs-container">
         <div class="row">
-            <div class="col-md-9" role="main">
-                <!-- 배너 광고 -->
+            <!-- col-md-12 -->
+            <div class="col-md-12" role="main">
+                <!-- 배너 광고 1140 -->
                 <div class="ad">
                     <script src="https://ads-partners.coupang.com/g.js"></script>
                     <script>
-                        new PartnersCoupang.G({ id:347696 });
+                        new PartnersCoupang.G({ id:348403 });
                     </script>
                 </div>
-                <!-- //배너 광고 -->
+                <!-- //배너 광고 1140 -->
 
                 <!-- Intro1 -->
                 <div class="bs-docs-section">
-                    <h2 id="intro1" class="page-header">Parallax - jquery</h2>
-                    <p class="bs-callout bs-callout-info">scrollTop과 OffsetTop을 이용하여 패랠랙스 스크로링 효과를 완성하였습니다.</p>
-                    <p><a class="btn btn-primary btn-lg" href="./parallax01-jquery.html" role="button">확인하기</a></p>
-<pre class="line-numbers language-css"><code> const scrollTop = $(window).scrollTop() + $(window).height()/2;
-$(".scrollTop").text(parseInt(scrollTop));
+                    <h2 id="intro1" class="page-header">Parallax01</h2>
+                    <p class="bs-callout bs-callout-info">패랠랙스 스크롤링 이팩트</p>
+                    <iframe width="100%" height="560px" src="parallax01-jquery.html" frameborder="0"></iframe>
+                    <h3>jQuery</h3>
+<pre class="line-numbers language-css"><code>$(window).scroll(function(){
+    const scrollTop = $(window).scrollTop() + $(window).height()/2;
 
-$(".content-item").each(function(num){
-    //출력
-    $(".s"+(num+1)+"OffsetTop").text( parseInt($("#section"+(num+1)).offset().top ));
+    //출력용
+    $(".scrollTop").text(parseInt(scrollTop));
+    $(".s1OffsetTop").text( parseInt($("#section1").offset().top) );
+    $(".s2OffsetTop").text( parseInt($("#section2").offset().top) );
+    $(".s3OffsetTop").text( parseInt($("#section3").offset().top) );
+    $(".s4OffsetTop").text( parseInt($("#section4").offset().top) );
+    $(".s5OffsetTop").text( parseInt($("#section5").offset().top) );
+    $(".s6OffsetTop").text( parseInt($("#section6").offset().top) );
+    $(".s7OffsetTop").text( parseInt($("#section7").offset().top) );
+    $(".s8OffsetTop").text( parseInt($("#section8").offset().top) );
+    $(".s9OffsetTop").text( parseInt($("#section9").offset().top) );
 
-    //출력 글씨 색 , 나타나기
-    if( scrollTop > $(this).offset().top ) {
-        $(".s"+(num+1)+"OffsetTop").css({color : "red"});
-        $(this).addClass("show");  
+    //출력용 글씨 색
+    if( scrollTop > $("#section1").offset().top ){
+        $(".s1OffsetTop").css("color","red");
     } else {
-        $(".s"+(num+1)+"OffsetTop").css({color : "white"});
-        $(this).removeClass("show");
-    };
+        $(".s1OffsetTop").css("color","white");
+    }
+    if( scrollTop > $("#section2").offset().top ){
+        $(".s2OffsetTop").css("color","red");
+    } else {
+        $(".s2OffsetTop").css("color","white");
+    }
+    if( scrollTop > $("#section3").offset().top ){
+        $(".s3OffsetTop").css("color","red");
+    } else {
+        $(".s3OffsetTop").css("color","white");
+    }
+    if( scrollTop > $("#section4").offset().top ){
+        $(".s4OffsetTop").css("color","red");
+    } else {
+        $(".s4OffsetTop").css("color","white");
+    }
+    if( scrollTop > $("#section5").offset().top ){
+        $(".s5OffsetTop").css("color","red");
+    } else {
+        $(".s5OffsetTop").css("color","white");
+    }
+    if( scrollTop > $("#section6").offset().top ){
+        $(".s6OffsetTop").css("color","red");
+    } else {
+        $(".s6OffsetTop").css("color","white");
+    }
+    if( scrollTop > $("#section7").offset().top ){
+        $(".s7OffsetTop").css("color","red");
+    } else {
+        $(".s7OffsetTop").css("color","white");
+    }
+    if( scrollTop > $("#section8").offset().top ){
+        $(".s8OffsetTop").css("color","red");
+    } else {
+        $(".s8OffsetTop").css("color","white");
+    }
+    if( scrollTop > $("#section9").offset().top ){
+        $(".s9OffsetTop").css("color","red");
+    } else {
+        $(".s9OffsetTop").css("color","white");
+    }
+
+    //나타나기
+    if( scrollTop > $("#section1").offset().top ){
+        $("#section1").addClass("show");
+    } else {
+        $("#section1").removeClass("show");
+    }
+    if( scrollTop > $("#section2").offset().top ){
+        $("#section2").addClass("show");
+    } else {
+        $("#section2").removeClass("show");
+    }
+    if( scrollTop > $("#section3").offset().top ){
+        $("#section3").addClass("show");
+    } else {
+        $("#section3").removeClass("show");
+    }
+    if( scrollTop > $("#section4").offset().top ){
+        $("#section4").addClass("show");
+    } else {
+        $("#section4").removeClass("show");
+    }
+    if( scrollTop > $("#section5").offset().top ){
+        $("#section5").addClass("show");
+    } else {
+        $("#section5").removeClass("show");
+    }
+    if( scrollTop > $("#section6").offset().top ){
+        $("#section6").addClass("show");
+    } else {
+        $("#section6").removeClass("show");
+    }
+    if( scrollTop > $("#section7").offset().top ){
+        $("#section7").addClass("show");
+    } else {
+        $("#section7").removeClass("show");
+    }
+    if( scrollTop > $("#section8").offset().top ){
+        $("#section8").addClass("show");
+    } else {
+        $("#section8").removeClass("show");
+    }
+    if( scrollTop > $("#section9").offset().top ){
+        $("#section9").addClass("show");
+    } else {
+        $("#section9").removeClass("show");
+    }
+});
+
+//for문
+$(window).scroll(function(){
+    const scrollTop = $(window).scrollTop() + $(window).height()/2;
+    $(".scrollTop").text(parseInt(scrollTop));
+    
+    for(let i=1; i<=9; i++){
+        $(".s"+i+"OffsetTop").text( parseInt($("#section"+i).offset().top) );
+        if( scrollTop > $("#section"+i).offset().top ){
+            $(".s"+i+"OffsetTop").css("color","red");
+            $("#section"+i).addClass("show");
+        } else {
+            $(".s"+i+"OffsetTop").css("color","white");
+            $("#section"+i).removeClass("show");
+        }
+    }
+});
+
+//each()
+$(window).scroll(function(){
+    const scrollTop = $(window).scrollTop() + $(window).height()/2;
+    $(".scrollTop").text(parseInt(scrollTop));
+    
+    $(".content-item").each(function(num){
+        $(".s"+(num+1)+"OffsetTop").text( parseInt($("#section"+(num+1)).offset().top) );
+        
+        if( scrollTop > $(this).offset().top ){
+            $(".s"+(num+1)+"OffsetTop").css("color","red");
+            $(this).addClass("show");
+        } else {
+            $(".s"+(num+1)+"OffsetTop").css("color","white");
+            $(this).removeClass("show");
+        }
+    });
+});
+</code></pre>
+<h3>JavaScript</h3>
+<pre class="line-numbers language-css"><code>window.addEventListener("scroll", function(){
+    let pageYOffset = window.pageYOffset;
+
+    //출력용
+    document.querySelector(".pageYOffset").innerText = pageYOffset;
+    document.querySelector(".s1OffsetTop").innerText = document.getElementById("section1").offsetTop;
+    document.querySelector(".s2OffsetTop").innerText = document.getElementById("section2").offsetTop;
+    document.querySelector(".s3OffsetTop").innerText = document.getElementById("section3").offsetTop;
+    document.querySelector(".s4OffsetTop").innerText = document.getElementById("section4").offsetTop;
+    document.querySelector(".s5OffsetTop").innerText = document.getElementById("section5").offsetTop;
+    document.querySelector(".s6OffsetTop").innerText = document.getElementById("section6").offsetTop;
+    document.querySelector(".s7OffsetTop").innerText = document.getElementById("section7").offsetTop;
+    document.querySelector(".s8OffsetTop").innerText = document.getElementById("section8").offsetTop;
+    document.querySelector(".s9OffsetTop").innerText = document.getElementById("section9").offsetTop;
+
+    // 출력용(글씨 색)
+    if(pageYOffset > document.getElementById("section1").offsetTop){
+        document.querySelector(".s1OffsetTop").style.color = "red";
+    } else {
+        document.querySelector(".s1OffsetTop").style.color = "white";
+    }
+    if(pageYOffset > document.getElementById("section2").offsetTop){
+        document.querySelector(".s2OffsetTop").style.color = "red";
+    } else {
+        document.querySelector(".s2OffsetTop").style.color = "white";
+    }
+    if(pageYOffset > document.getElementById("section3").offsetTop){
+        document.querySelector(".s3OffsetTop").style.color = "red";
+    } else {
+        document.querySelector(".s3OffsetTop").style.color = "white";
+    }
+    if(pageYOffset > document.getElementById("section4").offsetTop){
+        document.querySelector(".s4OffsetTop").style.color = "red";
+    } else {
+        document.querySelector(".s4OffsetTop").style.color = "white";
+    }
+    if(pageYOffset > document.getElementById("section5").offsetTop){
+        document.querySelector(".s5OffsetTop").style.color = "red";
+    } else {
+        document.querySelector(".s5OffsetTop").style.color = "white";
+    }
+    if(pageYOffset > document.getElementById("section6").offsetTop){
+        document.querySelector(".s6OffsetTop").style.color = "red";
+    } else {
+        document.querySelector(".s6OffsetTop").style.color = "white";
+    }
+    if(pageYOffset > document.getElementById("section7").offsetTop){
+        document.querySelector(".s7OffsetTop").style.color = "red";
+    } else {
+        document.querySelector(".s7OffsetTop").style.color = "white";
+    }
+    if(pageYOffset > document.getElementById("section8").offsetTop){
+        document.querySelector(".s8OffsetTop").style.color = "red";
+    } else {
+        document.querySelector(".s8OffsetTop").style.color = "white";
+    }
+    if(pageYOffset > document.getElementById("section9").offsetTop){
+        document.querySelector(".s9OffsetTop").style.color = "red";
+    } else {
+        document.querySelector(".s9OffsetTop").style.color = "white";
+    }
+    
 });
 </code></pre>
                 </div>
                 <!-- //Intro1 -->
-
-                 <!-- Intro2 -->
-                 <div class="bs-docs-section">
-                    <h2 id="intro2" class="page-header">Parallax - JavaScript</h2>
-                    <p class="bs-callout bs-callout-info"></p>
-<pre class="line-numbers language-css"><code>
-
-</code></pre>
+                <!-- 배너 광고 1140 -->
+                <div class="ad">
+                    <script src="https://ads-partners.coupang.com/g.js"></script>
+                    <script>
+                        new PartnersCoupang.G({ id:348403 });
+                    </script>
                 </div>
-                <!-- //Intro2 -->
-
-                <!-- figma -->
-                <div class="bs-docs-section">
-                    <h2 id="figma" class="page-header">figma</h2>
-                    <p><a class="btn btn-primary btn-lg" href="https://www.figma.com/file/VBPYeaAJw1KgqOySJYzMjX/Parallax?node-id=0%3A1" role="button">확인하기</a></p>
-                    <div class="iframe">
-                        <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FVBPYeaAJw1KgqOySJYzMjX%2FParallax%3Fnode-id%3D0%253A1" allowfullscreen></iframe>
-                    </div>
-                </div>
-                <!-- //figma -->
+                <!-- //배너 광고 1140 -->
             </div>
-
-            <!-- //col-md-9 -->
-            <!-- col-md-3 -->
-            <div class="col-md-3">
-                <div class="bs-sidebar hidden-print" role="complementary">
-                    <ul class="nav bs-sidenav">
-                        <li><a href="#intro1">Parallax01-jquery01</a></li>
-                        <li><a href="#intro2">Parallax01-JavaScript01</a></li>
-                        <li><a href="#figma">Parallax01-JavaScript01</a></li>
-                    </ul>
-                </div>
-            </div>
-            <!--//col-md-3 -->
+            <!-- //col-md-12 -->
         </div>
         <!-- //row -->
     </div>

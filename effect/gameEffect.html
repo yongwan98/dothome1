@@ -8,7 +8,7 @@
     <meta name="description" content="웹 퍼블리셔를 위한 정보 공유 사이트입니다.">
     <meta name="keywords"
         content="원용완, 웹 퍼블리셔, 웹 표준, 웹 접근성, 화려한 디자인, yong, publisher, css3, html, markup, design, yongwan98, yongwan1998">
-    <title>원용완 | yong | GAME Effect</title>
+    <title>원용완 | yong | QUIZ Effect</title>
     <!-- Bootstrap core CSS -->
     <link href="../assets/css/bootstrap.css" rel="stylesheet">
     <link href="../assets/css/docs.min.css" rel="stylesheet">
@@ -73,7 +73,7 @@
     </header>
     <div class="bs-header bgs5" id="content">
         <div class="container">
-            <h1>GAME Effect Reference v1.0 &lt;/doc&gt;</h1>
+            <h1>QUIZ Effect Reference v1.0 &lt;/doc&gt;</h1>
             <p><a href="http://yongwan1998.dothome.co.kr/" target="_blank">yongwan1998.dothome.co.kr</a></p>
         </div>
     </div>
@@ -94,6 +94,7 @@
                     <h2 id="intro1" class="page-header">Quiz1</h2>
                     <p class="bs-callout bs-callout-info">주관식 1문제 스타일(자바스크립트/제이쿼리)</p>
                     <iframe width="100%" height="560px" src="quizEffect01.jQuery.html" frameborder="0"></iframe>
+                    <h3>jQuery</h3>
 <pre class="line-numbers language-css"><code>//선택자
 const questionAsk = $(".question");
 const questionNum = $(".num");
@@ -124,6 +125,7 @@ questionBtn.click(function(){
     questionEx.show();
 });
 </code></pre>
+<h3>JavaScript</h3>
 <pre class="line-numbers language-css"><code>//선택자
 const questionAsk = document.querySelector(".question");
 const questionNum = document.querySelector(".num");
@@ -170,6 +172,7 @@ questionBtn.addEventListener("click",function(){
                     <h2 id="intro2" class="page-header">Quiz2</h2>
                     <p class="bs-callout bs-callout-info">주관식 3문제 스타일(자바스크립트/제이쿼리)</p>
                     <iframe width="100%" height="560px" src="quizEffect02.jQuery.html" frameborder="0"></iframe>
+                    <h3>jQuery</h3>
 <pre class="line-numbers language-css"><code>//선택자
 const questionAsk = $(".question");
 const questionNum = $(".num");
@@ -224,6 +227,7 @@ questionBtn.click(function(){
     $(this).nextAll().show();
 });
 </code></pre>
+<h3>JavaScript</h3>
 <pre class="line-numbers language-css"><code>//선택자
 const questionQuiz = document.querySelectorAll(".quiz")
 const questionAsk = document.querySelectorAll(".question");
