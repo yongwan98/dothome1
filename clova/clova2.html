@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clova2</title>
+    <style>
+        @font-face {
+            font-family: 'NanumSquareRound';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        /* reset */
+        li {list-style: none;}
+        a {text-decoration: none; color: #000;}
+        body {font-family: 'NanumSquareRound';}
+        /* 텍스트 숨김 */
+        .ir_so {overflow: hidden; position: absolute; width: 0; height: 0; line-height: 0; text-indent: -9999px;}
+        /* 대체 텍스트가 아닌 접근성을 위한 숨김 텍스트를 제공할 때 */ 
+        
+        /* rayout */
+        * {margin: 0; padding: 0;}
+        #header {width: 100%; height: 85px; position: fixed; z-index: 10; background: #fff;}
+        #banner {
+            width: 100%; height: 632px; background-image: url(https://static-clova.pstatic.net/static/70fd2ea/img/platform/bg_cst.png);
+            background-repeat: no-repeat; background-size: cover;
+        }
+        #cont1 {width: 100%; height: 881px;}
+        #cont2 {}
+        #cont3 {}
+        #cont4 {}
+        #footer {}
+
+        .inner {width: 1140px; height: inherit; margin: 0 auto;}
+        .container {width: 1066px; height: inherit; margin: 0 auto; position: relative; padding: 124px 0 220px;}
+
+        /* header */
+        .header {overflow: hidden;}
+        .header .header_logo {
+            float: left;
+            margin-top: 32px;
+        }
+        .header .header_logo a {
+            width: 145px; height: 22px; 
+            background-image: url(https://static-clova.pstatic.net/static/70fd2ea/img/sprite/sp_svg_icon.svg);
+            background-position: -4px -62px;
+            background-repeat: no-repeat;
+            display: block;
+            }
+        .header .header_list {
+            float: left;
+            margin-left: 230px;
+            margin-top: 32px;
+        }
+        .header .header_list li {
+            display: inline-block;
+            padding-left: 60px;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 16px;
+            letter-spacing: -0.25px;
+        }
+        .header .header_btn {
+            margin-top: 27px;
+            float: right;
+        }
+        .header .header_btn:last-child a {
+            margin-left: 5px;
+        }
+        .header .header_btn a {
+            font-size: 12px;
+            border: 1px solid #000;
+            padding: 7px 13px;
+            border-radius: 3px;
+            display: inline-block;
+        }
+
+        /* banner */
+        .banner {
+            position: absolute; top: 230px; left: 50px;
+        }
+        .banner h2 {
+            font-size: 46px; font-weight: 800; line-height: 46px; letter-spacing: -.95px; color: #fff;
+        }
+        .banner p {margin-top: 17px; font-size: 17px; font-weight: 100; line-height: 32px; letter-spacing: -.25px; color: #fff;}
+        .banner .banner_btn {
+            margin-top: 70px;
+        }
+        .banner .banner_btn:last-child a {
+            margin-left: 5px;
+        }
+        .banner .banner_btn a {
+            color: #fff;
+            border: .5px solid #fff;
+            padding: 20px 40px;
+            border-radius: 5px;
+        }
+
+        /* cont1 */
+        .cont1 {padding: 0 61px;}
+        .cont1 h2 {text-align: center; font-size: 42px; font-weight: 800; line-height: 42px; letter-spacing: -1px;}
+        .cont1 h2 span {color: #05D686;}
+        .cont1 p {margin-top: 20px; text-align: center; font-size: 20px; line-height: 30px; letter-spacing: -1px;}
+        .cont1 img {margin-top: 100px;}
+        .cont1 .cont1_btn {margin-top: 40px; display: flex; justify-content: center; align-items: center;}
+        .cont1 .cont1_btn a {
+            text-align: center;
+            display: inline-block;
+            width: 240px;
+            height: 60px;
+            line-height: 60px;
+            border-radius: 4px;
+            background-color: #05d686;
+            font-size: 20px;
+            font-weight: 400;
+            letter-spacing: -.2px;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header id="header">
+        <div class="inner">
+            <div class="header">
+                <h2 class="header_logo"><a class="ir_so" href="#">logo</a></h2>
+                <div class="header_list">
+                    <ul>
+                        <li>기술 · 솔루션</li>
+                        <li>제품</li>
+                        <li>플랫폼</li>
+                        <li>파트너</li>
+                        <li>리서치</li>
+                    </ul>
+                </div>
+                <div class="header_btn">
+                    <a href="#">Biz Start</a>
+                    <a href="#">비즈니스 문의</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- //header -->
+
+    <nav id="banner">
+        <div class="container">
+            <div class="banner">
+                <h2>CLOVA Skill Tools</h2>
+                <p>클로바는 CLOVA Extensions Kit와 Chatbot Builder를 제공하여<br>
+                    새로운 Skill을 쉽고 빠르게 클로바에 추가할 수 있도록 도와드립니다.<br>
+                    클로바에서 제공하는 개발자 도구들을 통해 새로운 음성 기술을 개발하고<br>
+                    특별한 서비스로 더 많은 고객을 만나세요.</p>
+                <div class="banner_btn">
+                    <a href="#">콘솔 바로가기</a>
+                    <a href="#">챗봇 빌더 바로가기</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- //banner -->
+
+    <section id="cont1">
+        <div class="container">
+            <div class="cont1">
+                <h2><span>CLOVA</span> Extensions Kit</h2>
+                <p>CLOVA Extensions Kit는 외부 서비스나 IoT 기기를 제어할 수 있는<br>
+                    ‘CLOVA Skill’을 서비스할 수 있도록 필요한 도구와 인터페이스를 제공합니다.</p>
+                <img src="https://static-clova.pstatic.net/static/70fd2ea/img/platform/diagram_cek.png" alt="이미지">
+                <div class="cont1_btn">
+                    <a href="#">콘솔 바로가기</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //cont1 -->
+
+    <section id="cont2">
+        <div class="container"></div>
+    </section>
+    <!-- //cont2 -->
+
+    <section id="cont3">
+        <div class="container"></div>
+    </section>
+    <!-- //cont3 -->
+
+    <section id="cont4">
+        <div class="container"></div>
+    </section>
+    <!-- //cont4 -->
+
+    <footer id="footer">
+        <div class="container"></div>
+    </footer>
+    <!-- //footer -->
+</body>
+</html>
