@@ -405,6 +405,122 @@ $(window).scroll(function(){
 </code></pre>
                 </div>
                 <!-- //Intro2 -->
+
+                <!-- Intro3 -->
+                <div class="bs-docs-section">
+                    <h2 id="intro3" class="page-header">Parallax03</h2>
+                    <p class="bs-callout bs-callout-info">패랠랙스 이질감 이팩트</p>
+                    <iframe width="100%" height="560px" src="parallax03-jquery.html" frameborder="0"></iframe>
+                    <h3>jQuery</h3>
+<pre class="line-numbers language-css"><code>let scrollTop = $(window).scrollTop();
+
+function scroll(){
+    const newScrollTop = $(window).scrollTop();
+    const different = newScrollTop - scrollTop;
+
+    console.log("scrollTop :" + scrollTop);
+    console.log("newScrollTop :" + newScrollTop);
+    console.log("different :" + different);
+
+    // $(".content-item-imgWrap").css({"transform":"rotate("+different+"deg"});
+    gsap.to(".content-item-imgWrap", {duration: .3, skewY:different * 0.2, ease: Power1.ease})
+    gsap.to(".content-item-num", {duration: .6, x:different * 3, ease: Power1.ease})
+    gsap.to(".content-item-desc", {duration: .6, skewX:different * 0.2, ease: Power4.ease})
+
+
+    scrollTop = newScrollTop;
+    requestAnimationFrame(scroll);
+    
+}
+scroll();
+</code></pre>
+<h3>JavaScript</h3>
+<pre class="line-numbers language-css"><code>let pageYOffset = window.pageXOffset;
+        
+const scroll = () => {
+    const newPageYOffset = window.pageYOffset;
+    const different = newPageYOffset - pageYOffset;
+    console.log("pageYOffset :" + pageYOffset);
+    console.log("newPageYOffset :" + newPageYOffset);
+    console.log("different :" + different);
+    let target = document.querySelectorAll(".content-item-imgWrap");
+    //target.style.transform = "rotate("+different+"deg)";
+    //forEach
+    target.forEach((elem)=>{
+        elem.style.transform = "rotate("+different*+"deg)";
+    });
+    gsap.to(".content-item-imgWrap", {duration: .3, skewY: different*0.2, ease: Power1.out});
+    gsap.to(".content-item-num", {duration: .6, x: different*0.5, ease: Power4.out});
+    gsap.to(".content-item-desc", {duration: .6, skewX: different*0.2, ease: Power3.out});
+    pageYOffset = newPageYOffset
+    requestAnimationFrame(scroll);
+}
+scroll();
+
+// let num = 0;
+// function render(){
+//     document.querySelector(".content-item-num").innerHTML = num;
+//     num++;
+//     //setInterval(render, 100);
+//     requestAnimationFrame(render);
+// }
+// render();
+</code></pre>
+                </div>
+                <!-- //Intro3 -->
+
+                <!-- Intro4 -->
+                <div class="bs-docs-section">
+                    <h2 id="intro3" class="page-header">Parallax04</h2>
+                    <p class="bs-callout bs-callout-info">패랠랙스 이질감 이팩트</p>
+                    <iframe width="100%" height="560px" src="parallax04-jquery.html" frameborder="0"></iframe>
+                    <h3>jQuery</h3>
+<pre class="line-numbers language-css"><code>// let text = $("#section1 .content-item-desc").text();
+// let split = text.split("").join("</span><span>");
+// split = "<span>" + split + "</span>";
+
+//글씨 쪼개기
+$(".content-item-desc").each(function(){
+    let text = $(this).text();
+    let split = text.split("").join("</span><span aria-hidden='true'>");
+    split = "<span aria-hidden='true'>" + split + "</span>";
+    $(this).html(split).attr("aria-label", text);
+});
+
+//나타나기
+$(window).scroll(function(){
+    //한번에 나오게 하기
+    // $(".content-item").each(function(){
+    //     if($(window).scrollTop() > $(this).offset().top){
+    //         $(this).find(".content-item-desc").addClass("show");
+    //     } else {
+    //         $(this).find(".content-item-desc").removeClass("show");
+    //     }
+    // });
+
+    //한글자씩 나오게 하기
+    // if($(window).scrollTop() > $("#section1").offset().top){
+    //     $("#section1 .content-item-desc span").each(function(i){
+    //         setTimeout(() => {
+    //             $("#section1 .content-item-desc span").eq(i).addClass("show")
+    //         }, 50 * (i+1));
+    //     });
+    // }
+
+    //한글자씩 나오게 하기(한번에)
+    $(".content-item").each(function(){
+        if($(window).scrollTop() > $(this).offset().top){
+            gsap.to($(this).find(".content-item-desc span"), {duration: .3, opacity: 1, y:0, stagger: 0.05, ease:Power1.ease});
+        }
+    });
+});
+</code></pre>
+<h3>JavaScript</h3>
+<pre class="line-numbers language-css"><code>
+</code></pre>
+                </div>
+                <!-- //Intro4 -->
+
                 <!-- 배너 광고 1140 -->
                 <div class="ad">
                     <script src="https://ads-partners.coupang.com/g.js"></script>

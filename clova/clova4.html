@@ -68,7 +68,82 @@
             display: inline-block;
         }
 
-        /* banner */
+        /* 배너 */
+        .banner {
+            width: 100%; 
+            height: 500px; 
+            position: absolute; 
+            left: 0px;
+            text-align: left; 
+            }
+        .banner h2 {
+            font-size: 52px;
+            line-height: 54px;
+            letter-spacing: -1px;
+            font-weight: 300;
+            color: #fff;
+            position: absolute;
+            left: 25%;
+            top: 40%;
+            }
+        .banner p {
+            margin-top: 15px;
+            font-size: 18px;
+            line-height: 32px;
+            letter-spacing: -.3px;
+            font-weight: 300;
+            color: #fff;
+            position: absolute;
+            left: 25%;
+            top: 50%;
+            }
+        .banner a {
+            display: inline-block;
+            height: 60px;
+            line-height: 58px;
+            padding: 0 43px 0 65px;
+            margin-top: 70px;
+            border: 1px solid rgba(255,255,255,.3);
+            border-radius: 4px;
+            font-size: 18px;
+            color: #fff;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            position: absolute;
+            left: 25%;
+            top: 75%;
+        }
+        #banner .bg01 {
+            width: 100%; height: 670px;
+            background: url(https://static-clova.pstatic.net/static/70fd2ea/img/research/research_intro_main_1.png) 50% 0 no-repeat; 
+            background-size: cover;
+            position: absolute; left: 0; top: 0; z-index: -1;
+            opacity: 0;
+            animation: change 15s ease-in-out 0s infinite;
+        }
+        #banner .bg02 {
+            width: 100%; height: 670px;
+            background: url(https://static-clova.pstatic.net/static/70fd2ea/img/research/research_intro_main_2.png) 50% 0 no-repeat; 
+            background-size: cover;
+            position: absolute; left: 0; top: 0;  z-index: -1;
+            opacity: 0;
+            animation: change 15s ease-in-out 5s infinite;
+        }
+        #banner .bg03 {
+            width: 100%; height: 670px;
+            background: url(https://static-clova.pstatic.net/static/70fd2ea/img/research/research_intro_main_3.png) 50% 0 no-repeat; 
+            background-size: cover;
+            position: absolute; left: 0; top: 0;  z-index: -1;
+            opacity: 0;
+            animation: change 15s ease-in-out 10s infinite;
+        }
+        @keyframes change {
+            0% {opacity: 0;}
+            15% {opacity: 1;}
+            30% {opacity: 1;}
+            50% {opacity: 1;}
+            100% {opacity: 0;}
+        }
        
     
         /* cont1 */
@@ -78,6 +153,7 @@
             position: relative;
             height: 34px;
             padding-top: 40px;
+            margin-top: 50px;
         }
         .cont1_b1 {
             position: absolute;
@@ -264,11 +340,20 @@
         <!-- //header -->
 
         <nav id="banner">
-            <div class="img1">
-                <img src="" alt="">
+            <div class="banner">
+                <div class="bg03"></div>
+                <div class="bg02"></div>
+                <div class="bg01"></div>
+                <h2 class="title">Research Areas</h2>
+                <p class="txt">
+                    CLOVA AI Research는 네이버와 라인이 함께 만드는
+                    <br>
+                    오감인지 AI플랫폼을 더욱 스마트하게 만들기 위한
+                    <br>
+                    머신러닝/딥러닝 기반의 AI 선행 기술을 연구 개발하는 조직입니다.
+                </p>
+                <a href="#">RESERARCH VIDEO</a>
             </div>
-            <div class="img2"></div>
-            <div class="img3"></div>
         </nav>
         <!-- //banner -->
 
