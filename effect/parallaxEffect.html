@@ -516,10 +516,114 @@ $(window).scroll(function(){
 });
 </code></pre>
 <h3>JavaScript</h3>
-<pre class="line-numbers language-css"><code>
+<pre class="line-numbers language-css"><code>// let text = document.querySelector("#section1 .content-item-desc");
+    // let splitText = text.innerText;
+    // let splitWrap = splitText.split("").join("</span><span aria-hidden:'true'>");
+    //     splitWrap = "<span aria-hidden:'true'>" + splitWrap + "</span>";
+
+    // text.innerHTML = splitWrap;
+    // text.setAttribute('aria-hidden', splitText);
+
+    //글씨 쪼개기(한번에)
+    document.querySelectorAll(".content-item-desc").forEach((elem) => {
+        let splitText = elem.innerText;
+        let splitWrap = splitText.split("").join("</span><span aria-hidden:'true'>");
+            splitWrap = "<span aria-hidden:'true'>" + splitWrap + "</span>";
+        
+            elem.innerHTML = splitWrap;
+            elem.setAttribute('aria-hidden', splitText);
+    });
+    
+
+
+    //한글자씩 나오게 하기
+        // if($(window).scrollTop() > $("#section1").offset().top){
+        //     $("#section1 .content-item-desc span").each(function(i){
+        //         setTimeout(() => {
+        //             $("#section1 .content-item-desc span").eq(i).addClass("show")
+        //         }, 50 * (i+1));
+        //     });
+        // }
+    window.addEventListener("scroll", () => {
+        let pageYOffset = (window.pageXOffset || document.documentElement.scrollTop);
+
+        if(pageYOffset > document.getElementById("section1").offsetTop) {
+            document.querySelectorAll("#section1 .content-item-desc span").forEach((elem, index) => {
+                setTimeout(() => {
+                    elem.classList.add("show");
+                }, 50 * (index + 1));
+            });
+        }
+        if(pageYOffset > document.getElementById("section2").offsetTop) {
+            document.querySelectorAll("#section2 .content-item-desc span").forEach((elem, index) => {
+                setTimeout(() => {
+                    elem.classList.add("show");
+                }, 50 * (index + 1));
+            });
+        }
+        if(pageYOffset > document.getElementById("section3").offsetTop) {
+            document.querySelectorAll("#section3 .content-item-desc span").forEach((elem, index) => {
+                setTimeout(() => {
+                    elem.classList.add("show");
+                }, 50 * (index + 1));
+            });
+        }
+        if(pageYOffset > document.getElementById("section4").offsetTop) {
+            document.querySelectorAll("#section4 .content-item-desc span").forEach((elem, index) => {
+                setTimeout(() => {
+                    elem.classList.add("show");
+                }, 50 * (index + 1));
+            });
+        }
+        if(pageYOffset > document.getElementById("section5").offsetTop) {
+            document.querySelectorAll("#section5 .content-item-desc span").forEach((elem, index) => {
+                setTimeout(() => {
+                    elem.classList.add("show");
+                }, 50 * (index + 1));
+            });
+        }
+        if(pageYOffset > document.getElementById("section6").offsetTop) {
+            document.querySelectorAll("#section6 .content-item-desc span").forEach((elem, index) => {
+                setTimeout(() => {
+                    elem.classList.add("show");
+                }, 50 * (index + 1));
+            });
+        }
+        if(pageYOffset > document.getElementById("section7").offsetTop) {
+            document.querySelectorAll("#section7 .content-item-desc span").forEach((elem, index) => {
+                setTimeout(() => {
+                    elem.classList.add("show");
+                }, 50 * (index + 1));
+            });
+        }
+        if(pageYOffset > document.getElementById("section8").offsetTop) {
+            document.querySelectorAll("#section8 .content-item-desc span").forEach((elem, index) => {
+                setTimeout(() => {
+                    elem.classList.add("show");
+                }, 50 * (index + 1));
+            });
+        }
+        if(pageYOffset > document.getElementById("section9").offsetTop) {
+            document.querySelectorAll("#section9 .content-item-desc span").forEach((elem, index) => {
+                setTimeout(() => {
+                    elem.classList.add("show");
+                }, 50 * (index + 1));
+            });
+        }
+    });
 </code></pre>
                 </div>
                 <!-- //Intro4 -->
+
+                <!-- figma -->
+                <div class="bs-docs-section">
+                    <h2 id="figma" class="page-header">figma</h2>
+                    <p><a class="btn btn-primary btn-lg" href="https://www.figma.com/file/hGgtFNXc2QtBAg1EI8Wnje/Script01?node-id=0%3A1" role="button">확인하기</a></p>
+                    <div class="iframe">
+                        <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FbrFZbmWL7BELHIHQMgS9Wa%2FParallax%3Fnode-id%3D0%253A1" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <!-- //figma -->
 
                 <!-- 배너 광고 1140 -->
                 <div class="ad">
