@@ -46,7 +46,10 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.../assets2/js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
+    <style>
+        .iframe {position: relative; width: 100%; padding-bottom: 56%;}
+        .iframe iframe {position: absolute; left: 0; top: 0; width: 100%; height: 100%;}
+    </style>
 </head>
 
 <body>
@@ -333,6 +336,100 @@ infoLi.forEach(info => {
 </code></pre>
                 </div>
                 <!-- //Intro3 -->
+
+                <!-- Intro4 -->
+                <div class="bs-docs-section">
+                    <h2 id="intro4" class="page-header">Mouse Effect04</h2>
+                    <p class="bs-callout bs-callout-info">GSAP를 이용한 마우스 이펙트입니다.</p>
+                    <iframe width="100%" height="560px" src="mouseEffect04-jquery.html" frameborder="0"></iframe>
+                    <h3>jQuery</h3>
+<pre class="line-numbers language-css"><code>let x = 0,
+    y = 0,
+    mouseX = 0,
+    mouseY = 0,
+    angleX = 0,
+    angleY = 0,
+    fmouseX = 0,
+    fmouseY = 0;
+
+$(window).mousemove(function(e){
+    x = e.pageX;
+    y = e.pageY;
+
+    // mouseX = $(window).width()/2 - x; //마우스의 x축 좌표값을 가운데로 설정(0)
+    // mouseY = $(window).height()/2 - y; //마우스의 y축 좌표값을 가운데로 설정(0)
+
+    //마우스의 x축 y축 최소값 -50 최댓값 50으로 설정
+    mouseX = Math.max(-50, Math.min(50, $(window).width()/2 - x));
+    mouseY = Math.max(-50, Math.min(50, $(window).height()/2 - y));
+
+    angleX = (12 * mouseX) / 100; //deg의 과함을 조절
+    angleY = (12 * mouseY) / 100;
+
+    fmouseX += (angleX - fmouseX) * 0.1;
+    fmouseY += (angleY - fmouseY) * 0.1;
+
+    //커서
+    gsap.to(".cursor",{duration: 0.3, left: x, top: y});
+
+    //움직임
+    $(".move-image").css({"transform": "translate(-50%, -50%) perspective(600px) rotateX("+ fmouseY+"deg) rotateY("+ -fmouseX+"deg)"});
+});
+
+//출력용
+$(window).mousemove(function(e){
+    $(".pageX").text(x);
+    $(".pageY").text(y);
+    $(".mouseX").text(mouseX);
+    $(".mouseY").text(mouseY);
+    $(".angleX").text(angleX);
+    $(".angleY").text(angleY);
+    $(".fmouseX").text(Math.round(fmouseX));
+    $(".fmouseY").text(Math.round(fmouseY));
+});
+</code></pre>
+<h3>JavaScript</h3>
+<pre class="line-numbers language-css"><code>
+</code></pre>
+                </div>
+                <!-- //Intro4 -->
+
+                <!-- Intro5 -->
+                <div class="bs-docs-section">
+                    <h2 id="intro5" class="page-header">Mouse Effect05</h2>
+                    <p class="bs-callout bs-callout-info">GSAP를 이용한 마우스 이펙트입니다.</p>
+                    <iframe width="100%" height="560px" src="mouseEffect05-jquery.html" frameborder="0"></iframe>
+                    <h3>jQuery</h3>
+<pre class="line-numbers language-css"><code>$(".move-image").mousemove(function(e){
+    gsap.to(".cursor", {duration: 0.2, left: e.pageX - 10, top: e.pageY - 10});
+    
+    let x = e.clientX - ($(".move-image").width()/2 + $(".move-image").position().left);
+    let y = e.clientY - ($(".move-image").height()/2 + $(".move-image").position().top);
+
+    $(".img").attr({"style":"transform:translate("+x/20+"px, "+y/20+"px)"});
+});
+
+//출력용
+$(window).mousemove(function(e){
+    $(".clientX").text(e.clientX);
+    $(".clientY").text(e.clientY);
+});
+</code></pre>
+<h3>JavaScript</h3>
+<pre class="line-numbers language-css"><code>
+</code></pre>
+                </div>
+                <!-- //Intro5 -->
+
+                <!-- figma -->
+                <div class="bs-docs-section">
+                    <h2 id="figma" class="page-header">figma</h2>
+                    <p><a class="btn btn-primary btn-lg" href="https://www.figma.com/file/hGgtFNXc2QtBAg1EI8Wnje/Script01?node-id=0%3A1" role="button">확인하기</a></p>
+                    <div class="iframe">
+                        <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F748KM6b3SvuPRIgVjJzc6u%2FMouse-Effect%3Fnode-id%3D0%253A1" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <!-- //figma -->
             </div>
             <!-- //col-md-12 -->
         </div>
