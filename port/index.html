@@ -1,10 +1,198 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yong Portfolio</title>
+
+    <!--CSS Style -->
+    <link rel="stylesheet" href="./assets/css/reset.css">
+
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@900&display=swap');
+        @font-face {
+            font-family: 'ChosunBg';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ChosunBg.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'S-CoreDream-6Bold';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-6Bold.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'S-CoreDream-5Medium';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-5Medium.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        * {
+            padding: 0; margin: 0;
+            background-image: url(./assets/img/background.jpg);
+        }
+        body {
+            padding: 45px 0 45px 0;
+        }
+
+        #wrap {
+            margin: 0 auto;
+            width: 95vw;
+            height: 200vw;
+            border: 4px solid #231F20;
+        }
+
+        /* header */
+        #header {
+            display: flex;
+        }
+        .hLeft {
+            position: relative;
+            width: 16vw;
+            height: 14vw;
+            border-bottom: 4px solid #231F20;
+            border-right: 4px solid #231F20;
+        }
+        .hLeft img {
+            width: 12vw;
+            height: 12vw;
+            position: absolute;
+            top: 50%; left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .hCenter {
+            position: relative;
+            width: 67vw;
+            height: 14vw;
+            border-bottom: 4px solid #231F20;
+        }
+        .hcenter {
+            position: absolute;
+            top: 50%; left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+        .hcenterP {
+            font-family: 'S-CoreDream-5Medium';
+            font-size: 1.2vw;
+            padding-bottom: 1vw;
+        }
+        .hcenterH2 {
+            font-family: 'Gothic A1', sans-serif;
+            font-size: 3.2vw;
+            letter-spacing: 0.5vw;
+        }
+        .hcenterH4 {
+            font-family: 'S-CoreDream-6Bold';
+            font-size: 1.4vw;
+            word-spacing: 0.5vw;
+        }
+        .hRight {
+            position: relative;
+            width: 16vw;
+            height: 14vw;
+            border-bottom: 4px solid #231F20;
+            border-left: 4px solid #231F20;
+        }
+        .hRight p {
+            text-align: center;
+            word-break: keep-all;
+            font-size: 1.7vw;
+            position: absolute;
+            top: 50%; left: 50%;
+            transform: translate(-50%, -50%);
+            font-family: 'ChosunBg';
+        }
+
+        /* banner1 */
+        #banner1 {
+            display: flex;
+        }
+        #banner1 div {
+            width: 25vw;
+            height: 4vw;
+            position: relative;
+            border-right: 4px solid #231F20;
+            border-bottom: 4px solid #231F20;
+        }
+        #banner1 div:nth-child(4) {
+            border-right: 0;
+        }
+        #banner1 div a {
+            position: absolute;
+            top: 50%; left: 50%;
+            transform: translate(-50%, -50%);
+            font-family: 'ChosunBg';
+            font-size: 1.7vw;
+            font-weight: 500;
+        }
+
+        /* banner2 */
+        #banner2 {
+            overflow: hidden;
+            border-bottom: 4px solid #231F20;
+        }
+        #banner2 img {
+            width: 95vw;
+        }
+        #banner2 div:nth-child(2) {
+            margin: 0 auto;
+            font-family: 'S-CoreDream-5Medium';
+            width: 89vw;
+            font-size: 1.03vw;
+            margin-top: 9vw;
+            margin-bottom: 7vw ;
+            line-height: 2vw;
+        }
+
+    </style>
 </head>
 <body>
-    
+    <div id="wrap">
+        <header id="header">
+            <div class="hLeft">
+                <img src="./assets/img/hLeft.svg" alt="헤더 이미지">
+            </div>
+            <div class="hCenter">
+                <div class="hcenter">
+                    <div class="hcenterP">
+                        <p>SUNDAY,  DECEMBER 6,  2020</p>
+                    </div>
+                    <div class="hcenterH2">
+                        <h2>YONG WAN</h2>
+                    </div>
+                    <div class="hcenterH4">
+                        <h4>WEB  PUBLISHER  PORTFOLIO</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="hRight">
+                <p>CONTACT ME</p>
+            </div>
+        </header>
+        <!-- //header -->
+
+        <nav id="banner1">
+            <div><a href="#">ABOUT ME</a></div>
+            <div><a href="#">SITE</a></div>
+            <div><a href="#">EFFECT</a></div>
+            <div><a href="#">ANIMATION</a></div>
+        </nav>
+        <!-- //banner1 -->
+
+        <nav id="banner2">
+            <div>
+                <img src="./assets/img/banBgImg.svg" alt="배너 이미지">
+            </div>
+            <div>
+                <p>어릴적 문득 그런 생각을 하였습니다. 살아간다는 것은 무엇인가? 이런 주제에 대해서 고민에 빠졌던 적이 있었는데 그 당시에는 그 어떠한 결론도 내리지 못한 채 어영부영 지나간 기억이 있습니다. 그 이후의 시간들은 저의 방황으로 채워갔고 한때는 깊은 무력감에 빠졌던 적 또한 있었습니다. 하지만 이런 무력감을 극복하고 싶은 저의 마음이 스스로를 행동하게 만들었고 나아가게 만들었습니다. 그렇게 점점 지금의 저를 만들어 갔고 지금은 살아간다는 것이란 항상 현재에 최선을 다하는 것이라 생각하고 있습니다.    </p>
+            </div>
+        </nav>
+
+    </div>
 </body>
 </html>
