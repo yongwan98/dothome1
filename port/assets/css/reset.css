@@ -1,2 +1,5 @@
 /* 링크 초기화 */
 a {color: #222; text-decoration: none;}
+
+/* 블릿 기호 초기화 */
+ul, ol, dl, menu {list-style: none;}
