@@ -3,3 +3,11 @@ a {color: #222; text-decoration: none;}
 
 /* 블릿 기호 초기화 */
 ul, ol, dl, menu {list-style: none;}
+
+/* 폰트 초기화 */
+input, textarea, select, button, table {
+    font-family: 'Nanum Gothic', AppleSDGothicNeo-Regular, 'Malgun Gothic', '맑은 고딕', dotum, '돋움', sans-serif; 
+    color: #222; 
+    font-size: 13px; 
+    line-height: 1.5;
+}

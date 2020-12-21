@@ -7,371 +7,13 @@
 
     <!--CSS Style -->
     <link rel="stylesheet" href="./assets/css/reset.css">
-
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/fonts.css">
 
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@900&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Chonburi&display=swap');
-        @font-face {
-            font-family: 'ChosunBg';
-            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ChosunBg.woff') format('woff');
-            font-weight: normal;
-            font-style: normal;
-        }
-        @font-face {
-            font-family: 'Cafe24Danjunghae';
-            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Danjunghae.woff') format('woff');
-            font-weight: normal;
-            font-style: normal;
-        }
-        @font-face {
-            font-family: 'Cafe24Dangdanghae';
-            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.2/Cafe24Dangdanghae.woff') format('woff');
-            font-weight: normal;
-            font-style: normal;
-        }
-        @font-face {
-            font-family: 'S-CoreDream-5Medium';
-            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-5Medium.woff') format('woff');
-            font-weight: normal;
-            font-style: normal;
-        }
-        @font-face {
-            font-family: 'S-CoreDream-6Bold';
-            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-6Bold.woff') format('woff');
-            font-weight: normal;
-            font-style: normal;
-        }
-        @font-face {
-            font-family: 'S-CoreDream-7ExtraBold';
-            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-7ExtraBold.woff') format('woff');
-            font-weight: normal;
-            font-style: normal;
-        }
-        
         * {
             padding: 0; margin: 0;
             background-image: url(./assets/img/background.jpg);
-        }
-        body {
-            padding: 45px 0 45px 0;
-        }
-
-        #wrap {
-            margin: 0 auto;
-            width: 95vw;
-            border: 4px solid #231F20;
-        }
-
-        /* header */
-        #header {
-            display: flex;
-        }
-        .hLeft {
-            position: relative;
-            width: 16vw;
-            height: 13vw;
-            border-bottom: 4px solid #231F20;
-            border-right: 4px solid #231F20;
-        }
-        .hLeft img {
-            width: 12vw;
-            height: 12vw;
-            position: absolute;
-            top: 50%; left: 50%;
-            transform: translate(-50%, -50%);
-        }
-
-        .hCenter {
-            position: relative;
-            width: 67vw;
-            height: 13vw;
-            border-bottom: 4px solid #231F20;
-        }
-        .hcenter {
-            position: absolute;
-            top: 50%; left: 50%;
-            transform: translate(-50%, -50%);
-            text-align: center;
-        }
-        .hcenterP {
-            font-family: 'S-CoreDream-5Medium';
-            font-size: 1.2vw;
-            padding-bottom: 1vw;
-        }
-        .hcenterH2 {
-            font-family: 'Gothic A1', sans-serif;
-            font-size: 3.2vw;
-            letter-spacing: 0.5vw;
-        }
-        .hcenterH4 {
-            font-family: 'S-CoreDream-6Bold';
-            font-size: 1.4vw;
-            word-spacing: 0.5vw;
-        }
-        .hRight {
-            position: relative;
-            width: 16vw;
-            height: 13vw;
-            border-bottom: 4px solid #231F20;
-            border-left: 4px solid #231F20;
-        }
-        .hRight p {
-            text-align: center;
-            word-break: keep-all;
-            font-size: 1.7vw;
-            position: absolute;
-            top: 50%; left: 50%;
-            transform: translate(-50%, -50%);
-            font-family: 'ChosunBg';
-        }
-
-        /* banner1 */
-        #banner1 {
-            display: flex;
-        }
-        #banner1 div {
-            width: 25vw;
-            height: 4vw;
-            position: relative;
-            border-right: 4px solid #231F20;
-            border-bottom: 4px solid #231F20;
-        }
-        #banner1 div:nth-child(4) {
-            border-right: 0;
-        }
-        #banner1 div a {
-            position: absolute;
-            top: 50%; left: 50%;
-            transform: translate(-50%, -50%);
-            font-family: 'ChosunBg';
-            font-size: 1.7vw;
-            font-weight: 500;
-        }
-
-        /* banner2 */
-        #banner2 {
-            overflow: hidden;
-            border-bottom: 4px solid #231F20;
-        }
-        #banner2 img {
-            width: 95vw;
-        }
-        #banner2 div:nth-child(2) {
-            margin: 0 auto;
-            font-family: 'S-CoreDream-5Medium';
-            width: 89vw;
-            font-size: 1.03vw;
-            margin-top: 7vw;
-            margin-bottom: 5vw ;
-            line-height: 2vw;
-        }
-
-        /* step1 */
-        #step1 {
-            display: flex;
-            height: 3vw;
-            padding: 1.5vw 2vw 1.5vw 3vw;
-            border-bottom: 4px solid #231F20;
-        }
-        #step1 p {
-            font-family: 'S-CoreDream-7ExtraBold';
-            font-size: 1vw;
-        }
-        #step1 h3 {
-            font-family: 'ChosunBg';
-            font-size: 3.5vw;
-            font-weight: 400;
-            word-spacing: 0.5vw;
-        }
-
-        /* aboutMe1 */
-        #aboutMe1 {
-            height: 57vw;
-            display: flex;
-            border-bottom: 4px solid #231F20;
-        }
-        .ab1Left {
-            position: relative;
-            width: 65%;
-            border-right: 4px solid #231F20;
-            padding: 3vw;
-            
-        }
-        .ab1Left h3 {
-            font-family: 'Cafe24Danjunghae';
-            font-size: 3.7vw;
-            font-weight: 400;
-            margin-bottom: 3vw;
-            line-height: 4.5vw;
-        }
-        .ab1Left img {
-            width: 100%;
-        }
-        .ab1Left p {
-            font-family: 'S-CoreDream-5Medium';
-        }
-        .ab1Left .amP1 {
-            font-size: 0.94vw;
-            margin-top: 1.5vw;
-        }
-        .ab1Left .amP2 {
-            position: absolute;
-            font-size: 0.94vw;
-            right: 3vw; bottom: 2.5vw;
-        }
-        .ab1Right {
-            width: 35%;
-            padding: 3vw;
-        }
-        .ab1Right .ab1RtBorder {
-            padding: 3vw;
-            height: 88%;
-            border: 4px dashed #231F20;
-            /* dashed border */
-            /* background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='black' stroke-width='7' stroke-dasharray='20%2c20' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e"); */
-        }
-        .ab1Right .ab1RtBorder h3 {
-            font-family: 'Chonburi', cursive;
-            font-size: 3.9vw;
-            text-align: center;
-            font-weight: 300;
-        }
-        .ab1Right .ab1RtBorder ul {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-top: 2.5vw;
-        }
-        .ab1Right .ab1RtBorder ul li a {
-            border: 4px solid #000;
-            width: 10vw;
-            height: 3.3vw;
-            justify-content: center;
-            align-items: center;
-            display: flex;
-            font-family: 'Cafe24Dangdanghae';
-        }
-        .ab1Right .ab1RtBorder ul li:nth-child(1) a {
-            border-right: 2px solid #000;
-            background: #000;
-            color: #F7F3F2;
-        }
-        .ab1Right .ab1RtBorder ul li:nth-child(2) a {
-            border-left: 2px solid #000;
-        }
-        .ab1Right .ab1RtBorder .skillBox {
-            margin-top: 2vw;
-        }
-        .ab1Right .ab1RtBorder h5 {
-            margin: 0 0.8vw;
-            font-family: 'Chonburi', cursive;
-            font-size: 1.2vw;
-            font-weight: 400;
-        }
-        .ab1Right .ab1RtBorder .skillGauge {
-            display: flex;
-            margin: 0 0.8vw;
-        }
-        .ab1Right .ab1RtBorder .skillGauge div {
-            border-top: 2px solid #000;
-            border-bottom: 2px solid #000;
-            border-right: 2px solid #000;
-            width: 3.32vw;
-            height: 0.7vw;
-            justify-content: center;
-            align-items: center;
-            margin: 1vw 0 1.8VW 0;
-            background: #646363;
-        }
-        .ab1Right .ab1RtBorder .skillGauge div:nth-child(1) {
-            border-left: 2px solid #000;
-        }
-
-        /* aboutMe2 */
-        #aboutMe2 {
-            padding: 3vw 3vw 4.5vw 3vw;
-            position: relative;
-            border-bottom: 4px solid #231F20;
-            z-index: 1;
-        }
-        #aboutMe2 h3 {
-            font-family: 'Cafe24Danjunghae';
-            font-size: 3.7vw;
-            font-weight: 400;
-            margin-bottom: 3vw;
-            line-height: 4.5vw;
-            margin-bottom: 0;
-            z-index: 1000;
-        }
-        .aboutMe2 {
-            display: flex;
-        }
-        .aboutMe2 div {
-            margin-top: 3.5vw;
-            width: 38.5%;
-            text-align: justify;
-        }
-        .aboutMe2 div:nth-child(2) {
-            width: 53%;
-        }
-        .aboutMe2 div p {
-            font-family: 'S-CoreDream-5Medium';
-            margin-right: 3vw;
-            font-size: 1.05vw;
-            line-height: 1.8vw;
-        }
-        .aboutMe2 div:nth-child(2) p {
-            margin-right: 16vw;
-        }
-        #aboutMe2 img {
-            width: 22%;
-            position: absolute;
-            right: -8%; top: 53%;
-            transform: translate(-50% ,-50%);
-            z-index: auto;
-        }
-
-        /* step2 */
-        #step2 {
-            display: flex;
-            height: 3vw;
-            padding: 1.5vw 2vw 1.5vw 3vw;
-            border-bottom: 4px solid #231F20;
-        }
-        #step2 p {
-            font-family: 'S-CoreDream-7ExtraBold';
-            font-size: 1vw;
-        }
-        #step2 h3 {
-            font-family: 'ChosunBg'; margin-left: 0.3vw;
-            font-size: 3.5vw;
-            font-weight: 400;
-            word-spacing: 0.5vw;
-        }
-
-        /* site1 */
-        #site1 {
-            display: flex;
-        }
-        #site1 .site1Left {
-            padding: 4vw 3vw;
-            width: 66%;
-            border-right: 4px solid #231F20;
-        }
-        .site1Left img {
-            width: 100%;
-        }
-        .site1Left h4 {}
-        .site1Left p {}
-
-        #site1 .site1Right {
-            width: 34%;
-        }
-        .site1Right .s1RBorder {
-            padding: 3vw;
-            height: 88%;
-            border: 4px dashed #231F20;
         }
     </style>
 </head>
@@ -512,22 +154,339 @@
         </div>
         <!-- //step2 -->
 
-        <div id="site1">
-            <div class="site1Left">
+        <div id="site">
+            <div class="siteLeft">
                 <img src="./assets/img/site1.jpg" alt="웹표준사이트">
                 <h4>웹표준 사이트 제작</h4>
                 <p>웹표준을 가장 준수하며 만든 사이트입니다. IR효과로 웹 접근성을 높이고 공지사항은 탭메뉴로 구성되어있으며 form과 input을 사용하여 로그인을 할 수있는 영역을 만들었습니다. 아래 탭메뉴를 누르면 다양한 스크립트를 보실 수 있습니다.</p>
             </div>
-            <div class="site1Right">
-                <div class="s1RBorder">
-                    <h3>MY RESUM</h3>
+            <div class="siteRight">
+                <div class="sRBorder">
+                    <h3>CODE REVIEW</h3>
                     <ul>
-                        <li><a href="#">SKILL</a></li>
-                        <li><a href="#">LIFE</a></li>
+                        <li><a href="#">사이트보기</a></li>
+                        <li><a href="#">피그마보기</a></li>
                     </ul>
+                    <div><a href="#">IR 효과</a></div>
+                    <div><a href="#">게시판 탭 메뉴</a></div>
+                    <div><a href="#">라이트 갤러리</a></div>
+                    <div><a href="#">슬라이드 메뉴</a></div>
+                    <div><a href="#">마우스오버 효과</a></div>
+                    <div><a href="#">마우스오버 효과</a></div>
                 </div>
             </div>
         </div>
+        <!-- //site1 -->
+
+        <div id="site">
+            <div class="siteLeft">
+                <img src="./assets/img/site2.jpg" alt="반응형사이트">
+                <h4>반응형 사이트 제작</h4>
+                <p>미디어 쿼리를 이용하여 작업한 반응형 사이트입니다. 디바이스 종류에 따라 유연하게 화면을 변경할수 있으며, 메뉴 슬라이드, 탭, 동영상, 마우스 오버등을 동적인 효과를 주었습니다.</p>
+            </div>
+            <div class="siteRight">
+                <div class="sRBorder">
+                    <h3>CODE REVIEW</h3>
+                    <ul>
+                        <li><a href="#">사이트보기</a></li>
+                        <li><a href="#">피그마보기</a></li>
+                    </ul>
+                    <div><a href="#">IR 효과</a></div>
+                    <div><a href="#">게시판 탭 메뉴</a></div>
+                    <div><a href="#">라이트 갤러리</a></div>
+                    <div><a href="#">슬라이드 메뉴</a></div>
+                    <div><a href="#">마우스오버 효과</a></div>
+                    <div><a href="#">마우스오버 효과</a></div>
+                </div>
+            </div>
+        </div>
+        <!-- //site2 -->
+
+        <div id="site">
+            <div class="siteLeft">
+                <img src="./assets/img/site3.jpg" alt="메가박스사이트">
+                <h4>메가박스 사이트 제작</h4>
+                <p>웹표준을 가장 준수하며 만든 사이트입니다. IR효과로 웹 접근성을 높이고 공지사항은 탭메뉴로 구성되어있으며 form과 input을 사용하여 로그인을 할 수있는 영역을 만들었습니다. 아래 탭메뉴를 누르면 다양한 스크립트를 보실 수 있습니다.</p>
+            </div>
+            <div class="siteRight">
+                <div class="sRBorder">
+                    <h3>CODE REVIEW</h3>
+                    <ul>
+                        <li><a href="#">사이트보기</a></li>
+                        <li><a href="#">피그마보기</a></li>
+                    </ul>
+                    <div><a href="#">IR 효과</a></div>
+                    <div><a href="#">게시판 탭 메뉴</a></div>
+                    <div><a href="#">라이트 갤러리</a></div>
+                    <div><a href="#">슬라이드 메뉴</a></div>
+                    <div><a href="#">마우스오버 효과</a></div>
+                    <div><a href="#">마우스오버 효과</a></div>
+                </div>
+            </div>
+        </div>
+        <!-- //site3 -->
+
+        <div id="site">
+            <div class="siteLeft">
+                <img src="./assets/img/site3.jpg" alt="네이버클로바사이트">
+                <h4>네이버 클로바 사이트 제작</h4>
+                <p>웹표준을 가장 준수하며 만든 사이트입니다. IR효과로 웹 접근성을 높이고 공지사항은 탭메뉴로 구성되어있으며 form과 input을 사용하여 로그인을 할 수있는 영역을 만들었습니다. 아래 탭메뉴를 누르면 다양한 스크립트를 보실 수 있습니다.</p>
+            </div>
+            <div class="siteRight">
+                <div class="sRBorder">
+                    <h3>CODE REVIEW</h3>
+                    <ul>
+                        <li><a href="#">사이트보기</a></li>
+                        <li><a href="#">피그마보기</a></li>
+                    </ul>
+                    <div><a href="#">IR 효과</a></div>
+                    <div><a href="#">게시판 탭 메뉴</a></div>
+                    <div><a href="#">라이트 갤러리</a></div>
+                    <div><a href="#">슬라이드 메뉴</a></div>
+                    <div><a href="#">마우스오버 효과</a></div>
+                    <div><a href="#">마우스오버 효과</a></div>
+                </div>
+            </div>
+        </div>
+        <!-- //site4 -->
+
+        <div id="step3">
+            <p>STEP 3</p>
+            <h3>REACT</h3>
+        </div>
+        <!-- //step3 -->
+
+        <div id="siteRV">
+            <img src="./assets/img/react.jpg" alt="리액트사이트">
+            <div>
+                <h3>CODE REVIEW</h3>
+                <ul class="RVul1">
+                    <li><a href="#">사이트보기</a></li>
+                    <li><a href="#">피그마보기</a></li>
+                </ul>
+                <ul class="RVul2">
+                    <li><a href="#">슬라이드 메뉴</a></li>
+                    <li><a href="#">라이트 갤러리</a></li>
+                    <li><a href="#">마우스오버 효과</a></li>
+                </ul>
+            </div>
+            <p>웹표준을 가장 준수하며 만든 사이트입니다. IR효과로 웹 접근성을 높이고 공지사항은 탭메뉴로 구성되어있으며 form과 input을 사용하여 로그인을 할 수있는 영역을 만들었습니다. 아래 탭메뉴를 누르면 다양한 스크립트를 보실 수 있습니다.</p>
+        </div>
+        <!-- //siteRV -->
+
+        <div id="step4">
+            <p>STEP 4</p>
+            <h3>VUE</h3>
+        </div>
+        <!-- //step4 -->
+
+        <div id="siteRV">
+            <img src="./assets/img/react.jpg" alt="뷰사이트">
+            <div>
+                <h3>CODE REVIEW</h3>
+                <ul class="RVul1">
+                    <li><a href="#">사이트보기</a></li>
+                    <li><a href="#">피그마보기</a></li>
+                </ul>
+                <ul class="RVul2">
+                    <li><a href="#">슬라이드 메뉴</a></li>
+                    <li><a href="#">라이트 갤러리</a></li>
+                    <li><a href="#">마우스오버 효과</a></li>
+                </ul>
+            </div>
+            <p>웹표준을 가장 준수하며 만든 사이트입니다. IR효과로 웹 접근성을 높이고 공지사항은 탭메뉴로 구성되어있으며 form과 input을 사용하여 로그인을 할 수있는 영역을 만들었습니다. 아래 탭메뉴를 누르면 다양한 스크립트를 보실 수 있습니다.</p>
+        </div>
+        <!-- //siteRV -->
+
+        <div id="step5">
+            <p>STEP 5</p>
+            <h3>EFFECT</h3>
+        </div>
+        <!-- //step5 -->
+
+        <div id="effectTeb">
+            <div><a href="#">PARALLAX</a></div>
+            <div><a href="#">SLIDER</a></div>
+            <div><a href="#">MOUSE</a></div>
+            <div><a href="#">GAME</a></div>
+        </div>
+        <!-- //effectTeb -->
+
+        <div id="effect">
+            <div id="effect1">
+                <div>
+                    <h3>PARALLAX01</h3>
+                    <a href="#"></a>
+                </div>
+                <div>
+                    <h3>PARALLAX02</h3>
+                    <a href="#"></a>
+                </div>
+                <div>
+                    <h3>PARALLAX03</h3>
+                    <a href="#"></a>
+                </div>
+            </div>
+            <div id="effect2">
+                <div>
+                    <h3>PARALLAX04</h3>
+                    <a href="#"></a>
+                </div>
+                <div>
+                    <h3>PARALLAX05</h3>
+                    <a href="#"></a>
+                </div>
+                <div>
+                    <h3>PARALLAX06</h3>
+                    <a href="#"></a>
+                </div>
+            </div>
+            <div id="effect3">
+                <div>
+                    <h3>PARALLAX07</h3>
+                    <a href="#"></a>
+                </div>
+                <div>
+                    <h3>PARALLAX08</h3>
+                    <a href="#"></a>
+                </div>
+                <div>
+                    <h3>PARALLAX09</h3>
+                    <a href="#"></a>
+                </div>
+            </div>
+        </div>
+        <!-- //effect -->
+
+        <div id="step6">
+            <p>STEP 6</p>
+            <h3>ANIMATION</h3>
+        </div>
+        <!-- //step6 -->
+
+        <div id="ani1">
+            <div class="ani1Left">
+                <div class="a1LBox">
+                    <div class="a1LBox1">
+                        <div class="ani1Img">
+                            <img src="./assets/img/call1.svg" alt="전화주세요">
+                        </div>
+                        <h4>GET IN TOUCH</h4>
+                        <div>
+                            <div>
+                                <h6>My Name</h6>
+                                <p>Won yong wan</p>
+                            </div>
+                            <div>
+                                <h6>My Email</h6>
+                                <p>yongwan1998...</p>
+                            </div>
+                            <div>
+                                <h6>Phone</h6>
+                                <p>010 3394 2325</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="a1LBox2">WELL COME</div>
+                </div>
+            </div>
+            <div class="ani1Right">
+                <h3>LODING ANIMATION</h3>
+                <img src="./assets/img/ani1.jpg" alt="애니메이션1">
+                <div><a href="#">SEE MY CODE</a></div>
+                <p>transform과 animation을 이용하여 만든 움직이는 로딩 애니메이션입니다.</p>
+            </div>
+        </div>
+        <!-- //animation1 -->
+
+        <div id="ani2">
+            <h3>TENTACLE ANIMATION</h3>
+            <img src="./assets/img/ani2.jpg" alt="애니메이션2">
+            <div><a href="#">SEE MY CODE</a></div>
+            <p>transform과 animation을 이용하여 만든 움직이는 로딩 애니메이션입니다.</p>
+        </div>
+        <!-- //animation2 -->
+
+        <div id="ani3">
+            <div class="ani3Left">
+                <h3>LODING ANIMATION</h3>
+                <img src="./assets/img/ani3.jpg" alt="애니메이션3">
+                <div><a href="#">SEE MY CODE</a></div>
+                <p>transform과 animation을 이용하여 만든 움직이는 로딩 애니메이션입니다.</p>
+            </div>
+            <div class="ani3Right">
+                <p>transform과 animation을 이용하여 만든 움직이는 로딩 애니메이션입니다.</p>
+                <div><a href="#">SEE MY CODE</a></div>
+                <img src="./assets/img/ani4.jpg" alt="애니메이션4">
+                <h3>GSAP ANIMATION</h3>
+            </div>
+        </div>
+        <!-- //animation3 -->
+
+        <div id="ani4">
+            <h3>TALL ANIMATION</h3>
+            <img src="./assets/img/ani5.jpg" alt="애니메이션5">
+            <div><a href="#">SEE MY CODE</a></div>
+            <p>transform과 animation을 이용하여 만든 움직이는 로딩 애니메이션입니다.</p>
+        </div>
+        <!-- //animation2 -->
+
+        <div id="step7">
+            <p>STEP 7</p>
+            <h3>CONTACT</h3>
+        </div>
+        <!-- //step7 -->
+
+        <div id="contact">
+            <div class="contactLeft">
+                <div class="contLTop">
+                    <div class="ContImg">
+                        <img src="./assets/img/call2.svg" alt="전화주새요">
+                    </div>
+                    <div class="tuch0">
+                        <h4>GET IN TOUCH</h4>
+                        <div class="tuch1">
+                            <div>
+                                <h6>My Name</h6>
+                                <p>Won yong wan</p>
+                            </div>
+                            <div>
+                                <h6>My Email</h6>
+                                <p>yongwan1998@gmail.com</p>
+                            </div>
+                            <div>
+                                <h6>Phone Number</h6>
+                                <p>010 3394 2325</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contLBottom">
+                    <div class="contLBL">
+                        <div>
+                            <input type="text" value="Your Name" />
+                        </div>
+                        <div>
+                            <input type="text" value="Your Email" />
+                        </div>
+                        <div class="inputH">
+                            <input type="text" value="Message" />
+                        </div>
+                    </div>
+                    <div class="contLBR"><a href="#">SEND</a></div>
+                </div>
+            </div>
+            <div class="contactRight">
+                <div class="contRBox">
+                    <h4>WELL COME</h4>
+                    <p>Contact me</p>
+                    <img src="./assets/img/contact.jpg" alt="원용완 사진">
+                    <div><a href="#"><< CONTACT</a></div>
+                </div>
+            </div>
+        </div>
+        <!-- //contact -->
+        
     </div>
 </body>
 </html>
