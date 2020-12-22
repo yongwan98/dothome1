@@ -99,6 +99,9 @@ body {
     .hcenterP {
         display: none;
     }
+    .hcenterH2 {
+        font-size: 5vw;
+    }
 }
 
 /* banner1 */
@@ -130,12 +133,13 @@ body {
     }
 }
 @media (max-width: 600px) {
-   
-    #banner1 div a {
+    #banner1 {display: none;}
+    /* #banner1 div a {
         font-size: 2vw;
         font-weight: 500;
-    }
+    } */
 }
+
 
 /* banner2 */
 #banner2 {
@@ -173,11 +177,12 @@ body {
 }
 @media (max-width: 600px) {
     #banner2 div:nth-child(1) {
-        display: none;
+        display: block;
     }
     #banner2 div:nth-child(2) {
         display: block;
-        line-height: 3vw;
+        font-size: 2.5vw;
+        line-height: 4.5vw;
         margin-top: 5vw;
         margin-bottom: 5vw ;
     }
@@ -210,12 +215,14 @@ body {
 @media (max-width: 600px) {
     #step1 {
         position: relative;
+        height: 6vw;
     }
     #step1 p {
         display: none;
     }
     #step1 h3 {
         display: block;
+        font-size: 6vw;
         position: absolute;
         left: 50%; top: 50%;
         transform: translate(-50%, -50%);
@@ -345,13 +352,14 @@ body {
 @media (max-width: 600px) {
     #aboutMe1 {
         display: inline-block;
-        height: 65vh;
-        width: 100%;
-        overflow: hidden;
+        height: unset;
+        width: unset;
+        overflow: unset;
+        border-bottom: 0;
     }
     .ab1Left {
         margin-top: 4vw;
-        margin-bottom: 4vw;
+        margin-bottom: 1vw;
         position: relative;
         width: 100%;
         padding: 0;
@@ -359,7 +367,10 @@ body {
         text-align: center;
     }
     .ab1Left h3 {
-        font-size: 4.6vw;
+        padding: 0 4vw;
+        text-align: justify;
+        font-size: 7.6vw;
+        line-height: 8.9vw;
         margin-bottom: 8vw;
     }
     .ab1Left img {
@@ -377,9 +388,7 @@ body {
         padding: 0 5vw;
     }
     .ab1Left .amP1 {
-        font-size: 0.94vw;
-        margin-top: 4vw;
-        text-align: left;
+        display: none;
     }
     .ab1Left .amP2 {
         display: none;
@@ -438,6 +447,11 @@ body {
         border-bottom: 2px solid #231F20;
     }
 }
+@media (max-width: 768px) {
+    .aboutMe2 div p {
+        line-height: 2vw;
+    }
+}
 @media (max-width: 600px) {
     #aboutMe2 {
         padding: 6vw 4vw 7vw 4vw;
@@ -449,14 +463,19 @@ body {
 
     #aboutMe2 h3 {
         font-size: 4.3vw;
-        line-height: 5.5vw;
+        line-height: 2.5vw;
+        color: #555;
+        text-align: center;
+    }
+    #aboutMe2 h3:nth-child(1) {
+        display: none;
     }
     .aboutMe2 {
         display: block;
         margin-top: 4.5vw;
     }
     .aboutMe2 div {
-        margin-top: 1.5vw;
+        margin-top: 5.5vw;
         width: 100%;
         text-align: justify;
     }
@@ -464,8 +483,8 @@ body {
         width: 100%;
     }
     .aboutMe2 div p {
-        font-size: 1.4vw;
-        line-height: 2.5vw;
+        font-size: 2.5vw;
+        line-height: 4.5vw;
         font-weight: 100;
         margin-right: 0;
     }
@@ -500,12 +519,14 @@ body {
 @media (max-width: 600px) {
     #step2 {
         position: relative;
+        height: 6vw;
     }
     #step2 p {
         display: none;
     }
     #step2 h3 {
         display: block;
+        font-size: 6vw;
         position: absolute;
         left: 50%; top: 50%;
         transform: translate(-50%, -50%);
@@ -633,6 +654,7 @@ body {
     .siteLeft p {
         font-size: 0.5vw;
         text-align: justify;
+        line-height: 2vw;
     }
 }
 @media (max-width: 600px) {
@@ -647,15 +669,18 @@ body {
         border-right: 0;
         text-align: center;
     }
+    .siteLeft h4 {
+        font-size: 6vw;
+        margin-top: 3.5vw;
+    }
     .siteLeft img {
         margin: 0 auto;
-        width: 90%;
     }
     .siteLeft p {
         margin: 0 auto;
         width: 90%;
-        font-size: 1.2vw;
-        line-height: 2.5vw;
+        font-size: 2.5vw;
+        line-height: 3.5vw;
         margin-top: 3vw;
     }
 
@@ -683,8 +708,9 @@ body {
     }
     .siteRight .sRBorder li a {
         border: 1px solid #000;
-        width: 20.6vw;
-        height: 4.7vw;
+        width: 25.6vw;
+        height: 6.7vw;
+        font-size: 4vw;
     }
     .siteRight .sRBorder div {
         margin: 0 auto;
@@ -692,6 +718,7 @@ body {
         border: 1px solid #231F20;
         margin-top: 1vw;
         padding: 1.5vw 0;
+        font-size: 3vw;
     }
 }
 
@@ -721,12 +748,14 @@ body {
 @media (max-width: 600px) {
     #step3 {
         position: relative;
+        height: 6vw;
     }
     #step3 p {
         display: none;
     }
     #step3 h3 {
         display: block;
+        font-size: 6vw;
         position: absolute;
         left: 50%; top: 50%;
         transform: translate(-50%, -50%);
@@ -831,7 +860,7 @@ body {
 @media (max-width: 768px) {
     #siteRV p {
         font-size: 0.5vw;
-        line-height: 1.7vw;
+        line-height: 2vw;
     }
 }
 @media (max-width: 600px) {
@@ -840,7 +869,7 @@ body {
     }
     #siteRV div {
         display: block;
-        padding: 2vw 2.5vw;
+        padding: 4vw 2.5vw;
     }
     #siteRV div .RVul1 {
         margin-top: 2vw;
@@ -849,6 +878,8 @@ body {
     #siteRV div .RVul1 li a {
         width: 40vw;
         padding: 1vw 0;
+        height: 5.3vw;
+        font-size: 4vw;
     }
     #siteRV div .RVul2 {
         margin-left: 0;
@@ -860,6 +891,7 @@ body {
     }
     #siteRV div .RVul2 li a {
         width: 100%;
+        font-size: 3vw;
         padding: 2vw 0;
         border: 1px solid #231F20;
     }
@@ -870,10 +902,10 @@ body {
         margin-bottom: -0.8vw;
     }
     #siteRV p {
-        font-size: 1.5vw;
-        line-height: 2.6vw;
+        font-size: 2.5vw;
+        line-height: 3.5vw;
         text-align: justify;
-
+        margin-top: 3.5vw;
     }
 }
 
@@ -903,12 +935,14 @@ body {
 @media (max-width: 600px) {
     #step4 {
         position: relative;
+        height: 6vw;
     }
     #step4 p {
         display: none;
     }
     #step4 h3 {
         display: block;
+        font-size: 6vw;
         position: absolute;
         left: 50%; top: 50%;
         transform: translate(-50%, -50%);
@@ -941,12 +975,14 @@ body {
 @media (max-width: 600px) {
     #step5 {
         position: relative;
+        height: 6vw;
     }
     #step5 p {
         display: none;
     }
     #step5 h3 {
         display: block;
+        font-size: 6vw;
         position: absolute;
         left: 50%; top: 50%;
         transform: translate(-50%, -50%);
@@ -980,6 +1016,19 @@ body {
     #effectTeb div {
         border-right: 2px solid #231F20;
         border-bottom: 2px solid #231F20;
+    }
+}
+@media (max-width: 600px) {
+    #effectTeb div {
+        height: 5.6vw;
+    }
+    #effectTeb div a {
+        font-size: 2.7vw;
+    }
+    #effect div a {
+        width: 1vw;
+        height: 1vw;
+        border: 15px solid #231F20;
     }
 }
 
@@ -1069,6 +1118,13 @@ body {
         border-right: 2px solid #231F20;
     }
 }
+@media (max-width: 600px) {
+    #effect div a {
+        width: 1vw;
+        height: 1vw;
+        border: 15px solid #231F20;
+    }
+}
 
 /* step6 */
 #step6 {
@@ -1096,12 +1152,14 @@ body {
 @media (max-width: 600px) {
     #step6 {
         position: relative;
+        height: 6vw;
     }
     #step6 p {
         display: none;
     }
     #step6 h3 {
         display: block;
+        font-size: 6vw;
         position: absolute;
         left: 50%; top: 50%;
         transform: translate(-50%, -50%);
@@ -1175,19 +1233,35 @@ body {
     font-family: "Chonburi";
     font-size: 5.5vw;
     font-weight: 400;
+    width: 50%;
 }
-.ani1Right img {
+/* .ani1Right img {
     width: 100%;
     margin-top: 1.5vw;
     margin-bottom: -0.4vw;
+} */
+/* new */
+.ani1Right iframe {
+    width: 100%;
+    height: 58vh;
 }
-.ani1Right div {
+.ani1Right > div {
+    text-align: center;
+    font-family: 'S-CoreDream-7ExtraBold';
+    font-size: 1.3vw;
+    border: 1px solid #231F20;
+    margin-top: 1.5vw;
+}
+.ani1Right div > div {
+    padding: 0.7vw 0;
+}
+/* .ani1Right div {
     text-align: center;
     border: 1px solid #231F20;
     padding: 0.7vw 0;
     font-family: 'S-CoreDream-7ExtraBold';
     font-size: 1.3vw;
-}
+} */
 .ani1Right p {
     font-size: 1vw;
     font-weight: 600;
@@ -1237,6 +1311,20 @@ body {
         margin-bottom: -0.8vw;
     }
 }
+@media (max-width: 600px){
+    .ani1Left {display: none;}
+    .ani1Right {
+        width: 100%;
+    }
+    .ani1Right h3 {
+        text-align: right;
+        width: 60%;
+        float: right;
+    }
+    .ani1Right img {
+        margin-bottom: -1vw;
+    }
+}
 
 /* Animation 2 */
 #ani2 {
@@ -1249,18 +1337,32 @@ body {
     font-size: 5.5vw;
     font-weight: 400;
 }
-#ani2 img {
+/* #ani2 img {
     width: 100%;
     margin-top: 1.5vw;
     margin-bottom: -0.4vw;
+} */
+#ani2  iframe {
+    width: 100%;
+    height: 85vh;
 }
-#ani2 div {
+#ani2 > div {
+    text-align: center;
+    font-family: 'S-CoreDream-7ExtraBold';
+    font-size: 1.3vw;
+    border: 1px solid #231F20;
+    margin-top: 1.5vw;
+}
+#ani2 > div > div {
+    padding: 0.7vw 0;
+}
+/* #ani2 div {
     text-align: center;
     border: 1px solid #231F20;
     padding: 0.7vw 0;
     font-family: 'S-CoreDream-7ExtraBold';
     font-size: 1.3vw;
-}
+} */
 #ani2 p {
     font-size: 1vw;
     font-weight: 600;
@@ -1284,6 +1386,11 @@ body {
         display: none;
     }
 }
+@media (max-width: 600px) {
+    #ani2 img {
+        margin-bottom: -1vw;
+    }
+}
 
 /* Animation 3 */
 #ani3 {
@@ -1301,18 +1408,32 @@ body {
     font-size: 5.5vw;
     font-weight: 400;
 }
-.ani3Left img {
+/* .ani3Left img {
     width: 100%;
     margin-top: 1.5vw;
     margin-bottom: -0.4vw;
+} */
+.ani3Left iframe {
+    width: 100%;
+    height: 140vh;
 }
-.ani3Left div {
+.ani3Left > div {
+    text-align: center;
+    font-family: 'S-CoreDream-7ExtraBold';
+    font-size: 1.3vw;
+    border: 1px solid #231F20;
+    margin-top: 1.5vw;
+}
+.ani3Left div > div {
+    padding: 0.7vw 0;
+}
+/* .ani3Left div {
     text-align: center;
     border: 1px solid #231F20;
     padding: 0.7vw 0;
     font-family: 'S-CoreDream-7ExtraBold';
     font-size: 1.3vw;
-}
+} */
 .ani3Left p {
     font-size: 1vw;
     font-weight: 600;
@@ -1332,18 +1453,33 @@ body {
     text-align: right;
     font-family: 'S-CoreDream-5ExtraBold';
 }
-.ani3Right div {
+/* .ani3Right div {
     text-align: center;
     border: 1px solid #231F20;
     padding: 0.7vw 0;
     font-family: 'S-CoreDream-7ExtraBold';
     font-size: 1.3vw;
+} */
+.ani3Right iframe {
+    width: 100%;
+    height: 110vh;
 }
-.ani3Right img {
+.ani3Right > div {
+    text-align: center;
+    font-family: 'S-CoreDream-7ExtraBold';
+    font-size: 1.3vw;
+    border: 1px solid #231F20;
+    margin-top: 1.5vw;
+    margin-bottom: 1.5vw;
+}
+.ani3Right div > div {
+    padding: 0.7vw 0;
+}
+/* .ani3Right img {
     width: 100%;
     margin-bottom: 1.5vw;
     margin-top: -0.4vw;
-}
+} */
 .ani3Right h3 {
     font-family: "Chonburi";
     font-size: 5.5vw;
@@ -1374,6 +1510,11 @@ body {
         margin-bottom: -0.8vw;
     }
 }
+@media (max-width: 600px) {
+    .ani3Left img {
+        margin-bottom: -1vw;
+    }
+}
 
 /* Animation 4 */
 #ani4 {
@@ -1386,18 +1527,32 @@ body {
     font-size: 5.5vw;
     font-weight: 400;
 }
-#ani4 img {
+/* #ani4 img {
     width: 100%;
     margin-top: 1.5vw;
     margin-bottom: -0.4vw;
+} */
+#ani4  iframe {
+    width: 100%;
+    height: 85vh;
 }
-#ani4 div {
+#ani4 > div {
+    text-align: center;
+    font-family: 'S-CoreDream-7ExtraBold';
+    font-size: 1.3vw;
+    border: 1px solid #231F20;
+    margin-top: 1.5vw;
+}
+#ani4 > div > div {
+    padding: 0.7vw 0;
+}
+/* #ani4 div {
     text-align: center;
     border: 1px solid #231F20;
     padding: 0.7vw 0;
     font-family: 'S-CoreDream-7ExtraBold';
     font-size: 1.3vw;
-}
+} */
 #ani4 p {
     font-size: 1vw;
     font-weight: 600;
@@ -1419,6 +1574,11 @@ body {
     }
     #ani4 img {
         margin-bottom: -0.8vw;
+    }
+}
+@media (max-width: 600px) {
+    #ani4 img {
+        margin-bottom: -1vw;
     }
 }
 
@@ -1448,12 +1608,14 @@ body {
 @media (max-width: 600px) {
     #step7 {
         position: relative;
+        height: 6vw;
     }
     #step7 p {
         display: none;
     }
     #step7 h3 {
         display: block;
+        font-size: 6vw;
         position: absolute;
         left: 50%; top: 50%;
         transform: translate(-50%, -50%);
@@ -1622,11 +1784,31 @@ body {
     .contactLeft .contLBottom .contLBL input {
         width: 72vw;
         margin-bottom: 0.8vw;
+        height: 6.5vw;
     }
     .contactLeft .contLTop div .tuch1 {
         margin-top: 2.5vw;
     }
     .contactLeft .contLBottom {
         padding: 4vw 3vw;
+    }
+    .contactLeft .contLTop div .tuch1 div:nth-child(1) {
+        display: none;
+    }
+    .contactLeft .contLTop div .tuch1 div:nth-child(2) {
+        display: none;
+    }
+    .contactLeft .contLTop div h4 {
+        font-size: 6.3vw;
+    }
+    .contactLeft .contLTop div .tuch1 h6 {
+        font-size: 3vw;
+    }
+    .contactLeft .contLTop div .tuch1 p {
+        font-size: 2.5vw;
+    }
+    .contactLeft .contLBottom .contLBL .inputH input {
+        height: 18vw;
+        margin-bottom: 0;
     }
 }

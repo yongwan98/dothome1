@@ -11,3 +11,8 @@ input, textarea, select, button, table {
     font-size: 13px; 
     line-height: 1.5;
 }
+
+/* iframe */
+iframe {
+    border: 0;
+}
