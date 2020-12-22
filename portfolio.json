@@ -9,7 +9,7 @@
           "id": 1,
           "link": "https://webstoryboy.github.io/portfolio/port2/",
           "image": "../img/port01.jpg",
-          "title": "PORTFOLIO HWANG1",
+          "title": "WEBSTANDARD SITE",
           "category": "PORTFOLIO1",
           "rating": 5
         },
@@ -17,7 +17,7 @@
           "id": 2,
           "link": "https://webstoryboy.github.io/portfolio/port1/",
           "image": "../img/port02.jpg",
-          "title": "PORTFOLIO HWANG2",
+          "title": "RESPONSIVE SITE",
           "category": "PORTFOLIO2",
           "rating": 4.9
         },
@@ -25,7 +25,7 @@
           "id": 3,
           "link": "https://webstoryboy.github.io/portfolio/port3/pf03.html",
           "image": "../img/port03.jpg",
-          "title": "PORTFOLIO HWANG3",
+          "title": "MEGABOX SITE",
           "category": "PORTFOLIO3",
           "rating": 5
         },
