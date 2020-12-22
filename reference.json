@@ -96,7 +96,7 @@
         },
         {
           "type": "html",
-          "id": "",
+          "id": 6,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "<dd>",
@@ -117,7 +117,7 @@
         },
         {
           "type": "html",
-          "id": "",
+          "id": 7,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "<dt>",
@@ -138,7 +138,7 @@
         },
         {
           "type": "html",
-          "id": "E",
+          "id": 8,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "<em>",
@@ -159,7 +159,7 @@
         },
         {
           "type": "html",
-          "id": "F",
+          "id": 9,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "<form>",
@@ -180,7 +180,7 @@
         },
         {
           "type": "html",
-          "id": "",
+          "id": 10,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "<fieldset>",
@@ -201,7 +201,7 @@
         },
         {
           "type": "html",
-          "id": "",
+          "id": 11,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "<figure>",
@@ -222,7 +222,7 @@
         },
         {
           "type": "html",
-          "id": "",
+          "id": 12,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "<figcaption>",
@@ -243,7 +243,7 @@
         },
         {
           "type": "html",
-          "id": "H",
+          "id": 13,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "<h1>~<h6>",
@@ -264,7 +264,7 @@
         },
         {
           "type": "html",
-          "id": "I",
+          "id": 14,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "<i>",
@@ -285,7 +285,7 @@
         },
         {
           "type": "html",
-          "id": "",
+          "id": 15,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "<img>",
@@ -306,7 +306,7 @@
         },
         {
           "type": "html",
-          "id": "",
+          "id": 16,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "<input>",
@@ -327,7 +327,7 @@
         },
         {
           "type": "html",
-          "id": "L",
+          "id": 17,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "<li>",
@@ -348,7 +348,7 @@
         },
         {
           "type": "html",
-          "id": "",
+          "id": 18,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "<legend>",
@@ -369,7 +369,7 @@
         },
         {
           "type": "html",
-          "id": "",
+          "id": 19,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "<label>",
@@ -390,7 +390,7 @@
         },
         {
           "type": "html",
-          "id": "M",
+          "id": 20,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "<meta>",
@@ -411,7 +411,7 @@
         },
         {
           "type": "html",
-          "id": "N",
+          "id": 21,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "<nav>",
@@ -432,7 +432,7 @@
         },
         {
           "type": "html",
-          "id": "O",
+          "id": 22,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "<ol>",
@@ -453,7 +453,7 @@
         },
         {
           "type": "html",
-          "id": "P",
+          "id": 23,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "<p>",
@@ -474,7 +474,7 @@
         },
         {
           "type": "html",
-          "id": "",
+          "id": 24,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "<pre>",
@@ -495,7 +495,7 @@
         },
         {
           "type": "html",
-          "id": "",
+          "id": 25,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "<pre>",
@@ -516,7 +516,7 @@
         },
         {
           "type": "html",
-          "id": "",
+          "id": 26,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "<picture>",
@@ -537,7 +537,7 @@
         },
         {
           "type": "html",
-          "id": "S",
+          "id": 27,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "<span>",
@@ -558,7 +558,7 @@
         },
         {
           "type": "html",
-          "id": "",
+          "id": 28,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "<section>",
@@ -579,7 +579,7 @@
         },
         {
           "type": "html",
-          "id": "",
+          "id": 29,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "<source>",
@@ -600,7 +600,7 @@
         },
         {
           "type": "html",
-          "id": "T",
+          "id": 30,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "<table>",
@@ -621,7 +621,7 @@
         },
         {
           "type": "html",
-          "id": "U",
+          "id": 31,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "<ul>",
@@ -642,7 +642,7 @@
         },
         {
           "type": "html",
-          "id": "ETC",
+          "id": 32,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "aria",
@@ -663,7 +663,7 @@
         },
         {
           "type": "html",
-          "id": "",
+          "id": 33,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "Semantic",
@@ -684,7 +684,7 @@
         },
         {
           "type": "css",
-          "id": "B",
+          "id": 34,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "block",
@@ -700,7 +700,7 @@
         },
         {
           "type": "css",
-          "id": "",
+          "id": 35,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "background",
@@ -716,7 +716,7 @@
         },
         {
           "type": "css",
-          "id": "",
+          "id": 36,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "background image",
@@ -732,7 +732,7 @@
         },
         {
           "type": "css",
-          "id": "",
+          "id": 37,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "backface visibility",
@@ -748,7 +748,7 @@
         },
         {
           "type": "css",
-          "id": "",
+          "id": 38,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "border",
@@ -764,7 +764,7 @@
         },
         {
           "type": "css",
-          "id": "",
+          "id": 39,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "border-radius",
@@ -780,7 +780,7 @@
         },
         {
           "type": "css",
-          "id": "",
+          "id": 40,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "box-shadow",
@@ -796,7 +796,7 @@
         },
         {
           "type": "css",
-          "id": "",
+          "id": 41,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "box-sizing",
@@ -812,7 +812,7 @@
         },
         {
           "type": "css",
-          "id": "C",
+          "id": 42,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "cursor",
@@ -828,7 +828,7 @@
         },
         {
           "type": "css",
-          "id": "",
+          "id": 43,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "calc",
@@ -844,7 +844,7 @@
         },
         {
           "type": "css",
-          "id": "",
+          "id": 44,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "clear",
@@ -860,7 +860,7 @@
         },
         {
           "type": "css",
-          "id": "E",
+          "id": 45,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "em / rem",
@@ -876,7 +876,7 @@
         },
         {
           "type": "css",
-          "id": "F",
+          "id": 46,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "font",
@@ -892,7 +892,7 @@
         },
         {
           "type": "css",
-          "id": "",
+          "id": 47,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "float",
@@ -908,7 +908,7 @@
         },
         {
           "type": "css",
-          "id": "G",
+          "id": 48,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "grid system",
@@ -924,7 +924,7 @@
         },
         {
           "type": "css",
-          "id": "I",
+          "id": 49,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "Inline",
@@ -940,7 +940,7 @@
         },
         {
           "type": "css",
-          "id": "L",
+          "id": 50,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "line-height",
@@ -956,7 +956,7 @@
         },
         {
           "type": "css",
-          "id": "",
+          "id": 51,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "letter spacing",
@@ -972,7 +972,7 @@
         },
         {
           "type": "css",
-          "id": "M",
+          "id": 52,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "Margin",
@@ -988,7 +988,7 @@
         },
         {
           "type": "css",
-          "id": "O",
+          "id": 53,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "overflow",
@@ -1004,7 +1004,7 @@
         },
         {
           "type": "css",
-          "id": "P",
+          "id": 54,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "perspective",
@@ -1020,7 +1020,7 @@
         },
         {
           "type": "css",
-          "id": "",
+          "id": 55,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "pointer events",
@@ -1036,7 +1036,7 @@
         },
         {
           "type": "css",
-          "id": "",
+          "id": 56,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "position",
@@ -1052,7 +1052,7 @@
         },
         {
           "type": "css",
-          "id": "T",
+          "id": 57,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "text-shadow ",
@@ -1068,7 +1068,7 @@
         },
         {
           "type": "css",
-          "id": "",
+          "id": 58,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "transform",
@@ -1084,7 +1084,7 @@
         },
         {
           "type": "css",
-          "id": "",
+          "id": 59,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "text-overflow",
@@ -1100,7 +1100,7 @@
         },
         {
           "type": "css",
-          "id": "",
+          "id": 60,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "text-indent",
@@ -1116,7 +1116,7 @@
         },
         {
           "type": "css",
-          "id": "",
+          "id": 61,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "text-align",
@@ -1132,7 +1132,7 @@
         },
         {
           "type": "css",
-          "id": "",
+          "id": 62,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "text-transfrom",
@@ -1148,7 +1148,7 @@
         },
         {
           "type": "css",
-          "id": "U",
+          "id": 63,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "user-select",
@@ -1164,7 +1164,7 @@
         },
         {
           "type": "css",
-          "id": "W",
+          "id": 64,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "Width / Height",
@@ -1180,7 +1180,7 @@
         },
         {
           "type": "css",
-          "id": "",
+          "id": 65,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "white-space",
@@ -1196,7 +1196,7 @@
         },
         {
           "type": "css",
-          "id": "",
+          "id": 66,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "word-break",
@@ -1212,7 +1212,7 @@
         },
         {
           "type": "css",
-          "id": "Z",
+          "id": 67,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "z-index",
@@ -1228,7 +1228,7 @@
         },
         {
           "type": "css",
-          "id": "ETC",
+          "id": 68,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "CSS선택자",
@@ -1244,7 +1244,7 @@
         },
         {
           "type": "css",
-          "id": "",
+          "id": 69,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "CSS 선언 방법",
@@ -1260,7 +1260,7 @@
         },
         {
           "type": "css",
-          "id": "",
+          "id": 70,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "색상표현 방법",
@@ -1276,7 +1276,7 @@
         },
         {
           "type": "css",
-          "id": "",
+          "id": 71,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "이미지 표현 방법",
@@ -1292,7 +1292,7 @@
         },
         {
           "type": "css",
-          "id": "",
+          "id": 72,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "이미지 스프라이트",
@@ -1308,7 +1308,7 @@
         },
         {
           "type": "css",
-          "id": "",
+          "id": 73,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "IR 효과",
@@ -1324,7 +1324,7 @@
         },
         {
           "type": "css",
-          "id": "",
+          "id": 74,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "가상요소",
@@ -1340,7 +1340,7 @@
         },
         {
           "type": "css",
-          "id": "",
+          "id": 75,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "@media",
@@ -1356,7 +1356,7 @@
         },
         {
           "type": "css",
-          "id": "",
+          "id": 76,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "!important",
@@ -1372,7 +1372,7 @@
         },
         {
           "type": "javascript",
-          "id": "변수",
+          "id": 77,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "변수",
@@ -1388,7 +1388,7 @@
         },
         {
           "type": "javascript",
-          "id": "",
+          "id": 78,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "문자형",
@@ -1404,7 +1404,7 @@
         },
         {
           "type": "javascript",
-          "id": "",
+          "id": 79,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "숫자형",
@@ -1420,7 +1420,7 @@
         },
         {
           "type": "javascript",
-          "id": "",
+          "id": 80,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "typeof ",
@@ -1436,7 +1436,7 @@
         },
         {
           "type": "javascript",
-          "id": "연산자",
+          "id": 81,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "산술 연산자",
@@ -1452,7 +1452,7 @@
         },
         {
           "type": "javascript",
-          "id": "",
+          "id": 82,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "대입 연산자",
@@ -1468,7 +1468,7 @@
         },
         {
           "type": "javascript",
-          "id": "",
+          "id": 83,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "비교 연산자",
@@ -1484,7 +1484,7 @@
         },
         {
           "type": "javascript",
-          "id": "",
+          "id": 84,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "증감 연산자",
@@ -1500,7 +1500,7 @@
         },
         {
           "type": "javascript",
-          "id": "",
+          "id": 85,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "논리 연산자",
@@ -1516,7 +1516,7 @@
         },
         {
           "type": "javascript",
-          "id": "조건문",
+          "id": 86,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "if",
@@ -1532,7 +1532,7 @@
         },
         {
           "type": "javascript",
-          "id": "",
+          "id": 87,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "else",
@@ -1548,7 +1548,7 @@
         },
         {
           "type": "javascript",
-          "id": "",
+          "id": 88,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "다중 if",
@@ -1564,7 +1564,7 @@
         },
         {
           "type": "javascript",
-          "id": "",
+          "id": 89,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "switch",
@@ -1580,7 +1580,7 @@
         },
         {
           "type": "javascript",
-          "id": "",
+          "id": 90,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "삼항연산자 ",
@@ -1596,7 +1596,7 @@
         },
         {
           "type": "javascript",
-          "id": "반복문",
+          "id": 91,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "while",
@@ -1612,7 +1612,7 @@
         },
         {
           "type": "javascript",
-          "id": "",
+          "id": 92,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "do while",
@@ -1628,7 +1628,7 @@
         },
         {
           "type": "javascript",
-          "id": "",
+          "id": 93,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "for",
@@ -1644,7 +1644,7 @@
         },
         {
           "type": "javascript",
-          "id": "",
+          "id": 94,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "중첩 for",
@@ -1660,7 +1660,7 @@
         },
         {
           "type": "javascript",
-          "id": "",
+          "id": 95,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "break",
@@ -1676,7 +1676,7 @@
         },
         {
           "type": "javascript",
-          "id": "",
+          "id": 96,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "continue",
@@ -1692,7 +1692,7 @@
         },
         {
           "type": "javascript",
-          "id": "함수",
+          "id": 97,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "선언적 함수",
@@ -1708,7 +1708,7 @@
         },
         {
           "type": "javascript",
-          "id": "",
+          "id": 98,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "익명 함수",
@@ -1724,7 +1724,7 @@
         },
         {
           "type": "javascript",
-          "id": "",
+          "id": 99,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "매개변수가 있는 함수",
@@ -1740,7 +1740,7 @@
         },
         {
           "type": "javascript",
-          "id": "",
+          "id": 100,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "Arguments 함수",
@@ -1756,7 +1756,7 @@
         },
         {
           "type": "javascript",
-          "id": "",
+          "id": 101,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "리턴값이 있는 함수",
@@ -1772,7 +1772,7 @@
         },
         {
           "type": "javascript",
-          "id": "",
+          "id": 102,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "재귀함수",
@@ -1788,7 +1788,7 @@
         },
         {
           "type": "javascript",
-          "id": "",
+          "id": 103,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "콜백 함수",
@@ -1804,7 +1804,7 @@
         },
         {
           "type": "javascript",
-          "id": "",
+          "id": 104,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "내부 함수",
@@ -1820,7 +1820,7 @@
         },
         {
           "type": "javascript",
-          "id": "",
+          "id": 105,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "객체 생성자 함수",
@@ -1836,7 +1836,7 @@
         },
         {
           "type": "javascript",
-          "id": "",
+          "id": 106,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "프로토타입 함수",
@@ -1852,7 +1852,7 @@
         },
         {
           "type": "javascript",
-          "id": "",
+          "id": 107,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "화살표 함수",
@@ -1868,7 +1868,7 @@
         },
         {
           "type": "javascript",
-          "id": "A",
+          "id": 108,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "addEventListener",
@@ -1884,7 +1884,7 @@
         },
         {
           "type": "javascript",
-          "id": "C",
+          "id": 109,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "classList",
@@ -1900,7 +1900,7 @@
         },
         {
           "type": "javascript",
-          "id": "F",
+          "id": 110,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "forEach",
@@ -1916,7 +1916,7 @@
         },
         {
           "type": "javascript",
-          "id": "",
+          "id": 111,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "for in (for of) ",
@@ -1932,7 +1932,7 @@
         },
         {
           "type": "javascript",
-          "id": "G",
+          "id": 112,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "getElementById",
@@ -1948,7 +1948,7 @@
         },
         {
           "type": "javascript",
-          "id": "I",
+          "id": 113,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "innerText innerHTML",
@@ -1964,7 +1964,7 @@
         },
         {
           "type": "javascript",
-          "id": "M",
+          "id": 114,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "Math.round()",
@@ -1980,7 +1980,7 @@
         },
         {
           "type": "javascript",
-          "id": "",
+          "id": 115,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "Math.random()",
@@ -1996,7 +1996,7 @@
         },
         {
           "type": "javascript",
-          "id": "O",
+          "id": 116,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "object",
@@ -2012,7 +2012,7 @@
         },
         {
           "type": "javascript",
-          "id": "",
+          "id": 117,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "offsfetX / offsetY",
@@ -2028,7 +2028,7 @@
         },
         {
           "type": "javascript",
-          "id": "",
+          "id": 118,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "offsetTop",
@@ -2044,7 +2044,7 @@
         },
         {
           "type": "javascript",
-          "id": "",
+          "id": 119,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "preventDefault()",
@@ -2060,7 +2060,7 @@
         },
         {
           "type": "javascript",
-          "id": "",
+          "id": 120,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "pageX,YOffset",
@@ -2076,7 +2076,7 @@
         },
         {
           "type": "javascript",
-          "id": "",
+          "id": 121,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "parseInt",
@@ -2092,7 +2092,7 @@
         },
         {
           "type": "javascript",
-          "id": "Q",
+          "id": 122,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "querySelector",
@@ -2108,7 +2108,7 @@
         },
         {
           "type": "javascript",
-          "id": "R",
+          "id": 123,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "requestAnimationFrame",
@@ -2124,7 +2124,7 @@
         },
         {
           "type": "javascript",
-          "id": "S",
+          "id": 124,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "setInterval",
@@ -2140,7 +2140,7 @@
         },
         {
           "type": "javascript",
-          "id": "",
+          "id": 125,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "setTimeout",
@@ -2156,7 +2156,7 @@
         },
         {
           "type": "javascript",
-          "id": "",
+          "id": 126,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "setAttribute",
@@ -2172,7 +2172,7 @@
         },
         {
           "type": "javascript",
-          "id": "",
+          "id": 127,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "split",
@@ -2188,7 +2188,7 @@
         },
         {
           "type": "javascript",
-          "id": "",
+          "id": 128,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "screenX/screenY",
@@ -2204,7 +2204,7 @@
         },
         {
           "type": "javascript",
-          "id": "T",
+          "id": 129,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "toString",
@@ -2220,7 +2220,7 @@
         },
         {
           "type": "javascript",
-          "id": "",
+          "id": 130,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "textContent",
@@ -2236,7 +2236,7 @@
         },
         {
           "type": "jQuery",
-          "id": "A",
+          "id": 131,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "addClass()",
@@ -2252,7 +2252,7 @@
         },
         {
           "type": "jQuery",
-          "id": "",
+          "id": 132,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "attr()",
@@ -2268,7 +2268,7 @@
         },
         {
           "type": "jQuery",
-          "id": "E",
+          "id": 133,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "each()",
@@ -2284,7 +2284,7 @@
         },
         {
           "type": "jQuery",
-          "id": "F",
+          "id": 134,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "find()",
@@ -2300,7 +2300,7 @@
         },
         {
           "type": "jQuery",
-          "id": "",
+          "id": 135,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "filter()",
@@ -2316,7 +2316,7 @@
         },
         {
           "type": "jQuery",
-          "id": "",
+          "id": 136,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "fadeIn()",
@@ -2332,7 +2332,7 @@
         },
         {
           "type": "jQuery",
-          "id": "",
+          "id": 137,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "fadeOut()",
@@ -2348,7 +2348,7 @@
         },
         {
           "type": "jQuery",
-          "id": "H",
+          "id": 138,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "hasClass()",
@@ -2364,7 +2364,7 @@
         },
         {
           "type": "jQuery",
-          "id": "",
+          "id": 139,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "hide()",
@@ -2380,7 +2380,7 @@
         },
         {
           "type": "jQuery",
-          "id": "",
+          "id": 140,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "html()",
@@ -2396,7 +2396,7 @@
         },
         {
           "type": "jQuery",
-          "id": "I",
+          "id": 141,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "index()",
@@ -2412,7 +2412,7 @@
         },
         {
           "type": "jQuery",
-          "id": "N",
+          "id": 142,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "next()",
@@ -2428,7 +2428,7 @@
         },
         {
           "type": "jQuery",
-          "id": "",
+          "id": 143,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "nextAll()",
@@ -2444,7 +2444,7 @@
         },
         {
           "type": "jQuery",
-          "id": "",
+          "id": 144,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "nextUntil()",
@@ -2460,7 +2460,7 @@
         },
         {
           "type": "jQuery",
-          "id": "O",
+          "id": 145,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "offset()",
@@ -2476,7 +2476,7 @@
         },
         {
           "type": "jQuery",
-          "id": "P",
+          "id": 146,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "position()",
@@ -2492,7 +2492,7 @@
         },
         {
           "type": "jQuery",
-          "id": "R",
+          "id": 147,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "removeClass()",
@@ -2508,7 +2508,7 @@
         },
         {
           "type": "jQuery",
-          "id": "",
+          "id": 148,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "removeAttr()",
@@ -2524,7 +2524,7 @@
         },
         {
           "type": "jQuery",
-          "id": "S",
+          "id": 149,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "show()",
@@ -2540,7 +2540,7 @@
         },
         {
           "type": "jQuery",
-          "id": "",
+          "id": 150,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "slideUp()",
@@ -2556,7 +2556,7 @@
         },
         {
           "type": "jQuery",
-          "id": "",
+          "id": 151,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "slideDown()",
@@ -2572,7 +2572,7 @@
         },
         {
           "type": "jQuery",
-          "id": "",
+          "id": 152,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "scrollTop()",
@@ -2588,7 +2588,7 @@
         },
         {
           "type": "jQuery",
-          "id": "",
+          "id": 153,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "scrollLeft()",
@@ -2604,7 +2604,7 @@
         },
         {
           "type": "jQuery",
-          "id": "T",
+          "id": 154,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "text()",
@@ -2620,7 +2620,7 @@
         },
         {
           "type": "jQuery",
-          "id": "",
+          "id": 155,
           "link": "https://webzz.tistory.com/229",
           "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
           "title": "toggleClass()",
