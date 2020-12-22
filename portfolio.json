@@ -30,14 +30,6 @@
           "rating": 5
         },
         {
-          "id": 4,
-          "link": "https://webstoryboy.github.io/portfolio/port4/index4.html",
-          "image": "../img/port04.jpg",
-          "title": "PORTFOLIO HWANG4",
-          "category": "PORTFOLIO4",
-          "rating": 5
-        },
-        {
           "id": 5,
           "link": "https://webstoryboy.github.io/portfolio/port5/indexs/main.html",
           "image": "../img/port01.jpg",
@@ -59,14 +51,6 @@
           "image": "../img/port03.jpg",
           "title": "PORTFOLIO HWANG7",
           "category": "PORTFOLIO7",
-          "rating": 4.9
-        },
-        {
-          "id": 8,
-          "link": "https://webstoryboy.github.io/portfolio/port6/port05.html",
-          "image": "../img/port04.jpg",
-          "title": "PORTFOLIO HWANG8",
-          "category": "PORTFOLIO8",
           "rating": 4.9
         },
         {
@@ -94,14 +78,6 @@
           "rating": 4.9
         },
         {
-          "id": 12,
-          "link": "https://webstoryboy.github.io/portfolio/port6/port05.html",
-          "image": "../img/port04.jpg",
-          "title": "PORTFOLIO HWANG12",
-          "category": "PORTFOLIO12",
-          "rating": 4.9
-        },
-        {
           "id": 13,
           "link": "https://webstoryboy.github.io/portfolio/port6/port05.html",
           "image": "../img/port01.jpg",
@@ -126,14 +102,6 @@
           "rating": 4.9
         },
         {
-          "id": 16,
-          "link": "https://webstoryboy.github.io/portfolio/port6/port05.html",
-          "image": "../img/port04.jpg",
-          "title": "PORTFOLIO HWANG16",
-          "category": "PORTFOLIO16",
-          "rating": 4.9
-        },
-        {
           "id": 17,
           "link": "https://webstoryboy.github.io/portfolio/port6/port05.html",
           "image": "../img/port01.jpg",
@@ -155,14 +123,6 @@
           "image": "../img/port03.jpg",
           "title": "PORTFOLIO HWANG19",
           "category": "PORTFOLIO19",
-          "rating": 4.9
-        },
-        {
-          "id": 20,
-          "link": "https://webstoryboy.github.io/portfolio/port6/port05.html",
-          "image": "../img/port04.jpg",
-          "title": "PORTFOLIO HWANG20",
-          "category": "PORTFOLIO20",
           "rating": 4.9
         }
       ]
