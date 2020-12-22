@@ -1268,7 +1268,22 @@ body {
     margin-top: 1.3vw;
     font-family: 'S-CoreDream-5ExtraBold';
 }
-
+@media (max-width: 1280px) {
+    .ani1Right iframe {
+        height: 47vh;
+    }
+    .a1LBox .a1LBox1 {
+        padding: 7vw 5vw;
+    }
+    .a1LBox .a1LBox2 {
+        display: none;
+    }
+}
+@media (max-width: 1024px) {
+    .ani1Right iframe {
+        height: 41vh;
+    }
+}
 @media (max-width: 960px) {
     #ani1 {
         border-bottom: 2px solid #231F20;
@@ -1296,8 +1311,8 @@ body {
     .a1LBox .a1LBox2 {
         border-top: 2px solid #231F20;
     }
-    .ani1Right img {
-        margin-bottom: -0.6vw;
+    .ani1Right iframe {
+        height: 39vh;
     }
 }
 @media (max-width: 768px) {
@@ -1307,8 +1322,11 @@ body {
     .ani1Right p {
         display: none;
     }
-    .ani1Right img {
-        margin-bottom: -0.8vw;
+    .ani1Right iframe {
+        height: 31vh;
+    }
+    .a1LBox .a1LBox1 {
+        padding: 10vw 5vw;
     }
 }
 @media (max-width: 600px){
@@ -1321,8 +1339,13 @@ body {
         width: 60%;
         float: right;
     }
-    .ani1Right img {
-        margin-bottom: -1vw;
+    .ani1Right iframe {
+        height: 42vh;
+    }
+    .ani1Right h3 {
+        text-align: left;
+        width: 40%;
+        float: unset;
     }
 }
 
@@ -1369,26 +1392,40 @@ body {
     margin-top: 1.3vw;
     font-family: 'S-CoreDream-5ExtraBold';
 }
-
+@media (max-width: 1280px) {
+    #ani2  iframe {
+        height: 80vh;
+    }
+}
+@media (max-width: 1024px) {
+    #ani2  iframe {
+        height: 75vh;
+    }
+}
 @media (max-width: 960px) {
     #ani2 {
         border-bottom: 2px solid #231F20;
     }
-    #ani2 img {
-        margin-bottom: -0.6vw;
+    #ani2  iframe {
+        height: 70vh;
     }
 }
 @media (max-width: 768px) {
-    #ani2 img {
-        margin-bottom: -0.8vw;
-    }
     #ani2 p {
         display: none;
     }
+    #ani2  iframe {
+        height: 65vh;
+    }
 }
 @media (max-width: 600px) {
-    #ani2 img {
-        margin-bottom: -1vw;
+    #ani2  iframe {
+        height: 50vh;
+    }
+}
+@media (max-width: 320px) {
+    #ani2  iframe {
+        height: 45vh;
     }
 }
 
@@ -1486,13 +1523,31 @@ body {
     font-weight: 400;
     text-align: right;
 }
-
+@media (max-width: 1280px) {
+    .ani3Left iframe {
+        height: 100vh;
+    }
+    .ani3Right iframe {
+        height: 95vh;
+    }
+}
+@media (max-width: 1024px) {
+    .ani3Left iframe {
+        height: 90vh;
+    }
+    .ani3Right iframe {
+        height: 85vh;
+    }
+}
 @media (max-width: 960px) {
     #ani3 {
         border-bottom: 2px solid #231F20;
     }
-    .ani3Left img {
-        margin-bottom: -0.6vw;
+    .ani3Left iframe {
+        height: 85vh;
+    }
+    .ani3Right iframe {
+        height: 77vh;
     }
     .ani3Left {
         border-right: 2px solid #231F20;
@@ -1506,13 +1561,22 @@ body {
     .ani3Right p {
         display: none;
     }
-    .ani3Left img {
-        margin-bottom: -0.8vw;
+    .ani3Left iframe {
+        height: 65vh;
+    }
+    .ani3Right iframe {
+        height: 57vh;
     }
 }
 @media (max-width: 600px) {
     .ani3Left img {
         margin-bottom: -1vw;
+    }
+    .ani3Left iframe {
+        height: 45vh;
+    }
+    .ani3Right iframe {
+        height: 37vh;
     }
 }
 
@@ -1559,26 +1623,40 @@ body {
     margin-top: 1.3vw;
     font-family: 'S-CoreDream-5ExtraBold';
 }
-
+@media (max-width: 1280px) {
+    #ani4  iframe {
+        height: 70vh;
+    }
+}
+@media (max-width: 1024px) {
+    #ani4  iframe {
+        height: 65vh;
+    }
+}
 @media (max-width: 960px) {
     #ani4 {
         border-bottom: 2px solid #231F20;
     }
-    #ani4 img {
-        margin-bottom: -0.6vw;
+    #ani4  iframe {
+        height: 60vh;
     }
 }
 @media (max-width: 768px) {
     #ani4 p {
         display: none;
     }
-    #ani4 img {
-        margin-bottom: -0.8vw;
+    #ani4  iframe {
+        height: 55vh;
     }
 }
 @media (max-width: 600px) {
-    #ani4 img {
-        margin-bottom: -1vw;
+    #ani4  iframe {
+        height: 40vh;
+    }
+}
+@media (max-width: 320px) {
+    #ani4  iframe {
+        height: 35vh;
     }
 }
 
