@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yong Portfolio</title>
+
+    <!--CSS Style -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style2.css">
+
+</head>
+<body>
+    
+    <div id="contents">
+        <section id="section1">
+            <div class="sec1">
+                <div class="header">
+                    <div class="logo">
+                        <svg width="216" height="103" viewBox="0 0 216 103" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path class="fish1" d="M57 67.5132C36.2 41.5132 13.6667 35.6799 5 36.0132V97.5132C27.8 97.5132 49.1667 77.5132 57 67.5132ZM57 67.5132C72.8333 90.0133 115.2 121.513 158 67.5132C144.667 48.5132 108.8 18.6132 72 51.0132" stroke="#2C2C2C" stroke-width="9"></path>
+                            <circle class="fish1" cx="140.5" cy="67.5" r="3.5" fill="#2C2C2C"></circle>
+                            <path class="fish2" d="M159 34.9984C179.8 60.9971 202.333 66.8301 211 66.4968V5.00001C188.2 5.00001 166.833 24.999 159 34.9984ZM159 34.9984C143.167 12.4996 100.8 -18.9987 58 34.9984C71.3333 53.9974 107.2 83.8958 144 51.4976" stroke="#2C2C2C" stroke-width="9"></path>
+                            <ellipse class="fish2" cx="77.5" cy="32.4997" rx="3.5" ry="3.49982" fill="#2C2C2C"></ellipse>
+                        </svg>
+                    </div>
+                    <div class="tit">
+                        <div>
+                            <p>SUNDAY, DECEMBER6, 2020</p>
+                            <h1>YONGWAN</h1>
+                            <p>WEBPUBLISHER PORTFOLIO</p>
+                        </div>
+                    </div>
+                    <div class="me">33</div>
+                </div>
+                <div class="menu"></div>
+                <div class="slider"></div>
+                <div class="title"></div>
+            </div>
+        </section>
+        <!-- //section1 -->
+        
+        <section id="section2"></section><!-- //section2 -->
+        <section id="section3"></section><!-- //section3 -->
+        <section id="section4"></section><!-- //section4 -->
+        <section id="section5"></section><!-- //section5 -->
+        <section id="section6"></section><!-- //section6 -->
+    </div>
+ 
+
+
+    <!-- script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script>
+        
+        setTimeout(function(){
+            tlInfo = new TimelineMax();
+            tlInfo.to(".header", {duration:0.5, y: 0, ease: Power4.easeOut });
+            tlInfo.to(".header", {duration:0.5, width: "100%", ease: Power4.easeOut });
+            tlInfo.to(".sec1 .header div.logo", {duration:0.5, y:0, ease: Power4.easeOut });
+            tlInfo.to(".sec1 .header div.tit", {duration:0.5, y:0, ease: Power4.easeOut });
+            tlInfo.to(".sec1 .header div.me", {duration:0.5, y:0, ease: Power4.easeOut });
+            
+            tlInfo.to(".menu", {duration:0.5, y: 0, ease: Power4.easeOut });
+            tlInfo.to(".menu", {duration:0.5, width: "100%", ease: Power4.easeOut });
+            tlInfo.to(".slider", {duration:0.5, y: 0, ease: Power4.easeOut });
+            tlInfo.to(".slider", {duration:0.5, width: "100%", ease: Power4.easeOut });
+            tlInfo.to(".title", {duration:0.5, y: 0, ease: Power4.easeOut });
+            tlInfo.to(".title", {duration:0.5, width: "100%", ease: Power4.easeOut });
+        },1000);
+        
+    </script>
+</body>
+</html>

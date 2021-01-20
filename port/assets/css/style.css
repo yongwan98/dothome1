@@ -62,13 +62,19 @@ body {
     border-bottom: 4px solid #231F20;
     border-left: 4px solid #231F20;
 }
+.hRight p:hover {
+    font-size: 2.3vw;
+    transition: font-size 0.25s ease-in-out;
+}
 .hRight p {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     word-break: keep-all;
     font-size: 1.7vw;
-    position: absolute;
-    top: 50%; left: 50%;
-    transform: translate(-50%, -50%);
     font-family: 'ChosunBg';
 }
 @media (max-width: 960px) {
@@ -119,12 +125,19 @@ body {
     border-right: 0;
 }
 #banner1 div a {
-    position: absolute;
-    top: 50%; left: 50%;
-    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-family: 'ChosunBg';
     font-size: 1.7vw;
     font-weight: 500;
+}
+#banner1 div a:hover {
+    background: #000;
+    color: #F7F3F2;
+    transition: all 0.25s ease-in-out;
 }
 @media (max-width: 960px) {
     #banner1 div {
@@ -271,6 +284,7 @@ body {
     padding: 3vw;
     height: 88%;
     border: 4px dashed #231F20;
+    position: relative;
     /* dashed border */
     /* background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='black' stroke-width='7' stroke-dasharray='20%2c20' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e"); */
 }
@@ -297,18 +311,20 @@ body {
 }
 .ab1Right .ab1RtBorder ul li:nth-child(1) a {
     border-right: 2px solid #000;
-    background: #000;
-    color: #F7F3F2;
 }
 .ab1Right .ab1RtBorder ul li:nth-child(2) a {
     border-left: 2px solid #000;
 }
 .ab1Right .ab1RtBorder .skillBox {
     margin-top: 2vw;
+
+    position: absolute;
+    top: 65%; left: 50%;
+    transform: translate(-50%, -50%);
 }
 .ab1Right .ab1RtBorder h5 {
     margin: 0 0.8vw;
-    font-family: 'Chonburi', cursive;
+    font-family: 'Cafe24Dangdanghae';
     font-size: 1.2vw;
     font-weight: 400;
 }
@@ -327,9 +343,17 @@ body {
     margin: 1vw 0 1.8VW 0;
     background: #646363;
 }
+
 .ab1Right .ab1RtBorder .skillGauge div:nth-child(1) {
     border-left: 2px solid #000;
+
 }
+.active1 {
+    background: #000;
+    color: #F7F3F2;
+    transition: 0.45s ease-out;
+}
+
 
 @media (max-width: 960px) {
     #aboutMe1 {
@@ -575,6 +599,7 @@ body {
     font-size: 2.2vw;
     text-align: center;
     font-weight: 300;
+    cursor: pointer;
 }
 .siteRight .sRBorder ul {
     display: flex;
@@ -592,15 +617,24 @@ body {
     display: flex;
     font-family: 'Cafe24Dangdanghae';
 }
-.siteRight .sRBorder ul li:nth-child(1) a {
-    border-right: 1px solid #000;
+.siteRight .sRBorder ul li a:hover {
     background: #000;
     color: #F7F3F2;
+    transition: all 0.25s ease-in-out;
+}
+.siteRight .sRBorder ul li:nth-child(1) a {
+    border-right: 1px solid #000;
 }
 .siteRight .sRBorder ul li:nth-child(2) a {
     border-left: 1px solid #000;
 }
-.siteRight .sRBorder div {
+.siteRight .sRBorder div a:hover {
+    background: #000;
+    color: #F7F3F2;
+    transition: all 0.25s ease-in-out;
+}
+.siteRight .sRBorder div a {
+    font-family: 'Cafe24Dangdanghae';
     border: 2px solid #231F20;
     justify-content: center;
     align-items: center;
@@ -608,10 +642,45 @@ body {
     margin-top: 1vw;
     padding: 1.2vw 0;
 }
-.siteRight .sRBorder div a {
+.active2 {
+    background: #000;
+    color: #F7F3F2;
+    transition: 0.25s ease-out;
+}
+/* 2020.12.26 스크립트 */
+.siteLeft_sub {
+    transition: transform 0.25s ease-in-out;
+    background: rgba(0,0,0,0.5);
+    padding: 4vw 3vw;
+    width: 76%;
+    border-right: 4px solid #231F20;
+    position: relative;
+}
+.siteLeft_sub > h4 {
+    font-family: 'Cafe24Dangdanghae';
+    font-size: 2vw;
+    font-weight: 400;
+    margin-top: 4vw;
+    color: #000;
+    text-align: center;
+}
+.siteLeft_subB {
+    width: 80%; height: 80%;
+    position: absolute;
+    left: 50%; top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2vw 4vw;
+    overflow: hidden;
+}
+.siteLeft_subB > h4 {
+    font-size: 3vw;
+    margin-bottom: 2vw;
+}
+.siteLeft_subB p {
+    font-size: 1.3vw;
+    line-height: 1.8;
     font-family: 'Cafe24Dangdanghae';
 }
-
 @media (max-width: 960px) {
     #site {
         border-bottom: 2px solid #231F20;

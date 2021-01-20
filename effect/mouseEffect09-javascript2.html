@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mouse Effect08 - Javascript</title>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap" rel="stylesheet">
+    <style>
+        @font-face {
+            font-family: 'Cafe24Simplehae';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Simplehae.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        *, *::before, *::after {box-sizing: border-box; margin: 0; padding: 0; color: #fff;}
+        a {text-decoration: none; color: #fff; transition: all 0.2s;}
+        a:hover {border-bottom: 1px dashed #fff;}
+        img {width: 100%; vertical-align: top;}
+        li {list-style: none;}
+        body {
+            background: url(img/images06@2.jpg) no-repeat center center;
+            background-size: cover;
+            background-color: #4f515e; 
+            background-blend-mode:luminosity;
+            height: 100vh;
+            overflow: hidden;
+            font-size: 16px;
+            line-height: 1.5;
+            font-family: 'Cafe24Simplehae';
+            /* cursor: none; */
+            position: relative;
+        }
+        body::before {
+            content: '';
+            position: absolute; left: 0; top: 0;
+            width: 100%; height: 100vh;
+            /* background: rgba(10, 126, 119, 0.7); */
+        }
+        /* info */
+        .info {
+            position: fixed; z-index: 1000;
+        }
+        .info.left {
+            left: 20px; top: 20px;
+        }
+        .info.right {
+            right: 20px; top: 20px;
+        }
+        .info.bottom {
+            right: 20px; bottom: 20px;
+        }
+        .info h1 {
+            font-size: 2rem;
+            line-height: 1.4;
+        }
+        .info p {
+            font-size: 1rem;
+        }
+        .info li {
+            font-size: 1rem;
+            line-height: 1.4;
+        }
+        .info.bottom li.active,
+        .info.bottom li:hover {
+            color: #3DFFC1;
+        }
+        .info li a {
+            color:#fff;
+            width: 25px; height: 25px;
+            border: 1px dashed #fff;
+            display: inline-block;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 25px;
+            font-size: 0.8rem;
+            margin: 3px;
+        }
+        .info li a.active {
+            background: #fff;
+            color: #000;
+        }
+        @media (max-width: 800px){
+            .info h1 {display: none;}
+        }
+        /* main */
+        body {
+            overflow: hidden;
+            font-family: 'Titillium Web', sans-serif;
+            font-size: 150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            user-select: none;
+        }
+
+        .menu-item {
+            white-space: nowrap;
+            display: flex;
+            flex-wrap: nowrap;
+            cursor: pointer;
+            text-shadow: 5px 5px rgb(194, 102, 4), 5px 5px rgba(0,0,0,.1), 10px 10px rgba(0,0,0,0.1);
+
+        }
+    </style>
+</head>
+<body>
+    <!-- info -->
+    <div class="info left">
+        <h1>Mouse Effect08 - Javascript</h1>
+        <p>마우스 방향에 따라 움직이기</p>
+    </div>
+    <div class="info right">
+        <ul>
+            <li><a href="mouseEffect01-jquery.html">1</a><a href="mouseEffect01-javascript.html">1</a></li>
+            <li><a href="mouseEffect02-jquery.html">2</a><a href="mouseEffect02-javascript.html">2</a></li>
+            <li><a href="mouseEffect03-jquery.html">3</a><a href="mouseEffect03-javascript.html">3</a></li>
+            <li><a href="mouseEffect04-jquery.html">4</a><a href="mouseEffect04-javascript.html">4</a></li>
+            <li><a href="mouseEffect05-jquery.html">5</a><a href="mouseEffect05-javascript.html">5</a></li>
+            <li><a href="mouseEffect06-jquery.html">6</a><a href="mouseEffect06-javascript.html">6</a></li>
+            <li><a href="mouseEffect07-jquery.html">7</a><a href="mouseEffect07-javascript.html">7</a></li>
+            <li><a href="mouseEffect08-jquery.html">8</a><a href="mouseEffect08-javascript.html" class="active">8</a></li>
+            <li><a href="mouseEffect09-jquery.html">9</a><a href="mouseEffect09-javascript.html">9</a></li>
+        </ul>
+    </div>
+    <div class="info bottom">
+    </div>
+    <!-- info -->
+    <main>
+        <div class="contents">
+            <div class="menu-item">
+                <div class="menu-word">YongWan -&nbsp;</div>
+            </div>
+        </div>
+    </main>
+    <!-- script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <!-- script -->
+    <script>
+        //변수 설정
+        let wordWidth = 0;
+        let width = 0;
+        let cloned = [];
+
+        let hover = false;
+
+        let speed = 0;
+        let acc = 0;
+
+        const item = document.querySelector(".menu-item");
+        const word = item.querySelector(".menu-word");
+
+        //계산하기
+        const calculate = () => {
+            cloned.forEach(i => {
+                i.parentNode.removeChild(i);
+            })
+            cloned = []
+
+            wordWidth = Math.ceil(word.clientWidth);
+            width = Math.ceil(window.innerWidth / wordWidth);
+
+            for(let i = 0; i < width+1; i++){
+                const clone = word.cloneNode(true);
+                word.parentNode.appendChild(clone);
+                cloned.push(clone);
+            }
+        }
+
+        //이벤트 리스너
+        const handleMouse = function(bool){
+            hover = bool;
+        }
+
+        item.addEventListener("mouseenter", () => {handleMouse(true)});
+        item.addEventListener("touchstart", () => {handleMouse(true)});
+        item.addEventListener("mouseleave", () => {handleMouse(false)});
+        item.addEventListener("touchend", () => {handleMouse(false)});
+
+        window.addEventListener("resize", calculate);
+        window.addEventListener("load", calculate);
+
+        //애니메이션
+        const animate = () => {
+            //가속
+            acc += 0.1;
+            if(hover){
+                acc -= 0.35;
+            }
+
+            //최대값 제한걸기
+            acc = Math.min(13, Math.max(0, acc));
+
+            //가속도 주기
+            speed += acc;
+
+            if(speed >= wordWidth){
+                speed = 0;
+            }
+
+            //텍스트 효과
+            item.style.transform = `translateX(${-speed}px) skewX(${-2 * acc}deg)`
+
+            //ReF
+            requestAnimationFrame(animate)
+        }
+        animate();
+    </script>
+</body>
+</html>

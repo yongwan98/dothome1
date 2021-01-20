@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul, li, a {
+            list-style: none;
+            text-decoration: none;
+            color: unset;
+            padding: 0;
+        }
+        .ab1RtBorder {
+            padding: 3vw;
+            height: 88%;
+            border: 4px dashed #231F20;
+            /* dashed border */
+            /* background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='black' stroke-width='7' stroke-dasharray='20%2c20' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e"); */
+        }
+       .ab1RtBorder h3 {
+            font-family: 'Chonburi', cursive;
+            font-size: 3.9vw;
+            text-align: center;
+            font-weight: 300;
+        }
+        ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 2.5vw;
+        }
+        ul li a {
+            border: 4px solid #000;
+            width: 10vw;
+            height: 3.3vw;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            font-family: 'Cafe24Dangdanghae';
+        }
+        
+
+        * {
+            background-image: url(./assets/img/background.jpg);
+            position: relative;
+        }
+        .skillBox {
+            margin-top: 2vw;
+            position: absolute;
+            top: 50%; left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        h5 {
+            margin: 0 0.8vw;
+            font-family: 'Chonburi', cursive;
+            font-size: 1.2vw;
+            font-weight: 400;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .skillBox {
+            background-color: #fff;
+            box-sizing:border-box;
+            width: 100%;
+            padding: 50px;   
+            min-height:200px;
+        } */
+        /* .active {
+            background: #000;
+            color: #F7F3F2;
+            transition: 0.25s ease-out;
+        } */
+
+       
+
+        input[id=radio-1]:checked ~ .glider {
+        transform: translateX(0);
+        }
+
+        input[id=radio-2]:checked ~ .glider {
+        transform: translateX(100%);
+        }
+
+        .glider {
+            position: absolute;
+            display: flex;
+            height: 54px;
+            width: 200px;
+            background-image: none;
+            z-index: 1;
+            transition: 0.25s ease-out;
+            border-radius: 5%;
+            background: #000;
+        }
+        .tab {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 54px;
+            width: 200px;
+            font-size: 1.25rem;
+            font-weight: 500;
+            border-radius: 99px;
+            cursor: pointer;
+            transition: color 0.15s ease-in;
+            background-image: none;
+            z-index: 2;
+        }
+        .tabs {
+            display: flex;
+            position: relative;
+            border: 2px solid #000;
+        }
+        input[type=radio] {
+            display: none;
+        }
+        input[type=radio]:checked + label {
+            color: #F7F3F2;
+        }
+        .skillBox .chart{
+            position:relative;
+            display: block;
+            padding: .5vw;
+            margin: 0 0 1vw 0;
+            text-align: center;
+            position: relative;
+            border: 4px double rgba(0,0,0,0.1);
+            background:rgba(255,255,255,0.5);
+        }
+        .skillBox .chart:after{
+            content: "";
+            position:absolute;
+            left:0;
+            right:0;
+            top:0;
+            bottom:0;
+            box-shadow: inset 0 3px 5px 2.5px rgba(0, 0, 0, 0.5);
+            -moz-box-shadow: inset 0 3px 5px 2.5px rgba(0, 0, 0, 0.5);
+            -webkit-box-shadow: inset 0 3px 5px 2.5px rgba(0, 0, 0, 0.5);
+        }
+        .skillBox .chart span{
+            position: absolute;
+            left: 0;
+            top:0;
+            background: url("http://www.kriesi.at/themes/flashlight/wp-content/themes/flashlight/images/patterns/light-diagonal-wide-left-to-right.png") repeat rgba(100, 99, 99, 0.8);
+            z-index:0;
+            height:100%;
+            width:0vw;
+            -webkit-transition: all ease-in-out 1s;
+            -moz-transition: all ease-in-out 1s;
+            -ms-transition: all ease-in-out 1s;
+            -o-transition: all ease-in-out 1s;
+            transition: all ease-in-out 1s;
+        }
+        .skillBox .chart p{
+            position: relative;
+            z-index: 100;
+            margin: 0;
+            color:#333;
+            font-size: 0.9em;
+            line-height:1.2em;
+        }
+    </style>
+</head>
+<body>
+    <div class="tabs">
+        <input type="radio" id="radio-1" name="tabs" checked />
+        <label class="tab" for="radio-1">SKILL</label>
+        <input type="radio" id="radio-2" name="tabs" />
+        <label class="tab" for="radio-2">MIND</label>
+        <span class="glider"></span>
+    </div>
+    <ul class="wrap1">
+        <li>
+            <div class="skillBox">
+                <div><h5>HTML</h5></div>
+                <div data-level="90" class="chart"><span></span><p></p></div>
+                <div><h5>CSS</h5></div>
+                <div data-level="90" class="chart"><span></span><p></p></div>
+                <div><h5>JAVASCRIPT</h5></div>
+                <div data-level="80" class="chart"><span></span><p></p></div>
+                <div><h5>JQUERY</h5></div>
+                <div data-level="80" class="chart"><span></span><p></p></div>
+                <div><h5>REACT</h5></div>
+                <div data-level="70" class="chart"><span></span><p></p></div>
+            </div> 
+        </li>
+        <li>
+            <div class="skillBox">
+                <div><h5>열정!!</h5></div>
+                <div data-level="100" class="chart"><span></span><p></p></div>
+                <div><h5>성실함</h5></div>
+                <div data-level="90" class="chart"><span></span><p></p></div>
+                <div><h5>긍정에너지</h5></div>
+                <div data-level="90" class="chart"><span></span><p></p></div>
+                <div><h5>커뮤니케이션</h5></div>
+                <div data-level="85" class="chart"><span></span><p></p></div>
+                <div><h5>예의</h5></div>
+                <div data-level="90" class="chart"><span></span><p></p></div>
+            </div> 
+        </li>
+    </ul>
+
+    <!-- script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>
+
+        // ab1RtBorder Btn
+        let tebMenu = $(".wrap1 > li");
+        let tabCont = $(".wrap1 > li");
+
+        tabCont.find(".skillBox").hide().eq(0).show();
+        $('input').each(function(index){
+            $(this).click(function(){
+                console.log(index)
+                $(tabCont).find(".skillBox").hide();
+                $(tabCont).eq(index).find(".skillBox").show();
+            });
+        });
+
+        // skillBox
+        var gage = {
+        init: function(){
+            // restart used for demo purposes - change to $('.gage').each(function(i){
+            $('.chart span').css({"width" : "0"}).parent().each(function(i){
+            // Set p html value to the data-label attr set in the element
+            var timeout = parseInt(i) * 60 + 1100;
+            // Set a timeout based on the iteration multiplied by 60 (will affect delay between animations) 
+            $('span', this).delay(timeout).animate({"opacity" : "1"}, 0, function(){
+                //Delay  
+                $(this).css({"width" : $(this).parent().attr("data-level") + "%"});
+            });
+            });
+        }
+        }
+        $(document).ready(function(){
+        // Call gage init function
+        gage.init();
+        // Interval used for demo purposes - remove if using  
+        setInterval(function() {
+            gage.init();
+        }, 5000);
+        });
+
+
+    </script>
+</body>
+</html>

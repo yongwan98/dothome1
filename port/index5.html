@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yong Portfolio</title>
+
+    <!--CSS Style -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style5.css">
+    <link rel="stylesheet" href="./assets/css/fonts.css">
+</head>
+<body>
+    <div id="contents">
+        <section id="section1">
+            <div class="sec1">
+                <div class="header">
+                    <div class="logo">
+                        <svg width="216" height="103" viewBox="0 0 216 103" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path class="fish1" d="M57 67.5132C36.2 41.5132 13.6667 35.6799 5 36.0132V97.5132C27.8 97.5132 49.1667 77.5132 57 67.5132ZM57 67.5132C72.8333 90.0133 115.2 121.513 158 67.5132C144.667 48.5132 108.8 18.6132 72 51.0132" stroke="#2C2C2C" stroke-width="9"/>
+                            <circle class="fish1" cx="140.5" cy="67.5" r="3.5" fill="#2C2C2C"/>
+                            <path class="fish2" d="M159 34.9984C179.8 60.9971 202.333 66.8301 211 66.4968V5.00001C188.2 5.00001 166.833 24.999 159 34.9984ZM159 34.9984C143.167 12.4996 100.8 -18.9987 58 34.9984C71.3333 53.9974 107.2 83.8958 144 51.4976" stroke="#2C2C2C" stroke-width="9"/>
+                            <ellipse class="fish2" cx="77.5" cy="32.4997" rx="3.5" ry="3.49982" fill="#2C2C2C"/>
+                        </svg>
+                    </div>
+                    <div class="tit">
+                        <div>
+                            <p>SUNDAY, DECEMBER6, 2020</p>
+                            <h1>YONGWAN</h1>
+                            <h4>WEB PUBLISHER PORTFOLIO</h4>
+                        </div>
+                    </div>
+                    <div class="me"><p>CONTACT ME</p></div>
+                </div>
+                <div class="menu">
+                    <div><p>ABOUT ME</p></div>
+                    <div><p>SITE</p></div>
+                    <div><p>EFFECT</p></div>
+                    <div><p>ANIMATION</p></div>
+                </div>
+                <div class="slider">
+                    <div>
+                        <!-- <img src="./assets/img/tom.svg" alt="배너 이미지"> -->
+                    </div>
+                    <div>
+                        <p class="split">어릴적 문득 그런 생각을 하였습니다. 살아간다는 것은 무엇인가? 이런 주제에 대해서 고민에 빠졌던 적이 있었는데 그 당시에는 그 어떠한 결론도 내리지 못한 채 어영부영 지나간 기억이 있습니다. 그 이후의 시간들은 저의</p>
+                        <p class="split">방황으로 채워갔고 한때는 깊은 무력감에 빠졌던 적 또한 있었습니다. 하지만 이런 무력감을 극복하고 싶은 저의 마음이 스스로를 행동하게 만들었고 나아가게 만들었습니다. 그렇게 점점 지금의 저를 만들어 갔고 지금은 살</p>
+                        <p class="split">아간다는 것이란 항상 현재에 최선을 다하는 것이라 생각하고 있습니다.    </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- //section1 -->
+        
+        <section id="section2">
+            <div class="sec2">
+                <div class="title"></div>
+            </div>
+        </section>
+        <!-- //section2 -->
+
+        <section id="section3">
+
+        </section>
+        <!-- //section3 -->
+        <section id="section4">
+
+        </section>
+        <!-- //section4 -->
+
+        <section id="section5">
+
+        </section>
+        <!-- //section5 -->
+
+        <section id="section6">
+
+        </section>
+        <!-- //section6 -->
+
+    </div>
+    <!-- //contents -->
+ 
+
+    <!-- script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script>
+        // window.addEventListener("scroll", function(){
+            setTimeout(function(){
+                tlInfo = new TimelineMax();
+                var tlInfo1 = gsap.timeline({ delay: 1.5});
+                var tlInfo2 = gsap.timeline({ delay: 3.2});
+                //section1
+                tlInfo.to(".header", {duration:0.5, y: 0, ease: Power4.easeOut }, "-=2.5");
+                tlInfo.to(".header", {duration:0.5, width: "100%", ease: Power4.easeOut }, "-=4.5");
+                tlInfo.to(".sec1 .header div.tit", {duration:0.8, y:0, ease: Power4.easeOut });
+                // tlInfo.to(".sec1 .header .tit div h4",{duration:0.5, y:0, ease: Power4.easeInOut });
+                // tlInfo.to(".sec1 .header .tit div h1",{duration:0.5, y:0, ease: Power4.easeInOut });
+                // tlInfo.to(".sec1 .header .tit div p",{duration:0.5, y:0, ease: Power4.easeInOut });
+                tlInfo.to(".sec1 .header div.logo", {duration:0.5, x:0, ease: Power4.easeOut });
+                tlInfo.to(".sec1 .header div.me", {duration:0.5, x:0, ease: Power4.easeOut });
+                // tlInfo.to(".sec1 .header div.logo svg", {duration:0.5, x:0, ease: Power4.easeInOut});
+                // tlInfo.to(".sec1 .header div.me p", {duration:0.5, x:0, ease: Power4.easeInOut });
+                tlInfo1.to(".menu", {duration:0.5, y: 0, ease: Power4.easeOut });
+                tlInfo1.to(".menu", {duration:0.5, width: "100%", ease: Power4.easeOut });
+                tlInfo.to(".menu div:nth-child(1)", {duration:0.3, y: 0, ease: Power4.easeOut });
+                tlInfo.to(".menu div:nth-child(2)", {duration:0.3, y: 0, ease: Power4.easeOut });
+                tlInfo.to(".menu div:nth-child(3)", {duration:0.3, y: 0, ease: Power4.easeOut });
+                tlInfo.to(".menu div:nth-child(4)", {duration:0.3, y: 0, ease: Power4.easeOut });
+                // tlInfo.to(".menu div:nth-child(1) p", {duration:0.3, y: 0, ease: Power4.easeOut });
+                // tlInfo.to(".menu div:nth-child(2) p", {duration:0.3, y: 0, ease: Power4.easeOut });
+                // tlInfo.to(".menu div:nth-child(3) p", {duration:0.3, y: 0, ease: Power4.easeOut });
+                // tlInfo.to(".menu div:nth-child(4) p", {duration:0.3, y: 0, ease: Power4.easeOut });
+                tlInfo2.to(".slider", {duration:0.5, y: 0, ease: Power4.easeOut });
+                tlInfo2.to(".slider", {duration:0.5, width: "100%", ease: Power4.easeOut });
+                tlInfo2.to(".slider div:nth-child(1) img", {duration:1.5, y:0, ease: Power4.easeOut });
+                tlInfo11.to(".slider div p:nth-child(1) span", {duration:0.5, stagger: .01, y:0, ease: Power4.easeOut });
+                tlInfo11.to(".slider div p:nth-child(2) span", {duration:0.5, stagger: .01, y:0, ease: Power4.easeOut });
+                tlInfo11.to(".slider div p:nth-child(3) span", {duration:0.5, stagger: .01, y:0, ease: Power4.easeOut });
+                //section2
+                tlInfo.to(".title", {duration:0.5, y: 0, ease: Power4.easeOut });
+                tlInfo.to(".title", {duration:0.5, width: "100%", ease: Power4.easeOut });
+            },1000);
+            
+            var sw = window.innerWidth;
+            var sh = window.innerHeight;
+            var tlInfo, tlglobalAnimation;
+
+            window.addEventListener("resize", onScreenResize);
+
+            function onScreenResize(){
+                sw = window.innerWidth;
+                sh = window.innerHeight;
+            }
+            
+            function showInfos(cls, delay){
+                var targetClass = cls;
+                var targetLabels = cls + " .label";
+                var targetInfoFields = cls + " .info-field";
+                tlInfo = new TimelineMax({delay:delay});
+                tlInfo.set(targetLabels, {y:40});
+                tlInfo.add("start");
+                tlInfo.from(targetInfoFields, 1, { y:300, ease:Power4.easeOut}, "start");
+                tlInfo.staggerFrom(targetInfoFields, 1, {x:0, width:0, paddingRight:0, paddingLeft:0, ease:Power4.easeInOut},.1, "start+=1");
+                tlInfo.staggerTo(targetLabels, 1, {y:0, ease:Power4.easeInOut},.1, "start+=1.1");
+            }
+            showInfos(".move", 1);
+
+            // split
+            document.querySelectorAll(".split").forEach(elem => {
+                let splitText = elem.innerText;
+                let splitWrap = splitText.split("").join("</span><span aria-hidden:'true'>");
+                    splitWrap = "<span aria-hidden:'true'>" + splitWrap + "</span>";
+                
+                elem.innerHTML = splitWrap;
+                elem.setAttribute("aria-label", splitText);
+            });
+        // });
+    </script>
+</body>
+</html>
